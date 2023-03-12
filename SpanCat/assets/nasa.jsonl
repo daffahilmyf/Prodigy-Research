@@ -1,0 +1,235 @@
+{"text": "The DPU-BOOT CSC shall execute when power is applied to the DPU."}
+{"text": "The DPU-BOOT CSC shall include a DRAM BIT consisting of two write/read/compare tests. The first test shall write the address of each memory location to that location. The second test shall write the complement of each memory location to that location."}
+{"text": "The DPU-BOOT CSC shall create a record of failed DRAM blocks, BIT_DRAM, in the SYSTEM_BLOCK."}
+{"text": "The DPU-BOOT CSC shall provide a monitor which accepts commands over the RS-232 interface."}
+{"text": "The Bootstrap Monitor of DPU-BOOT CSC shall be activated if the Clear-To-Send (CTS) signal is active on the RS-232 interface. If no activity is detected on the RS-232 interface within 30 seconds, the Bootstrap shall load a configuration of DPU-RTOS according to BC_INDEX in the SYSTEM_BLOCK."}
+{"text": "The DPU-BOOT CSC shall increment the BOOT_CNT parameter in the EEPROM each time the DPU-RTOS is copied from EEPROM to DRAM and executed."}
+{"text": "The Bootstrap Monitor of the DPU-BOOT CSC shall provide the capability to read from Dynamic Random Access Memory (DRAM), the VME bus, and the Input/Output Channel Controller (IOCC) on command."}
+{"text": "The Bootstrap Monitor of the DPU-BOOT CSC shall provide the capability to write to Dynamic Random Access Memory (DRAM), the VME bus, and the Input/Output Channel Controller (IOCC) on command."}
+{"text": "The Bootstrap Monitor of the DPU-BOOT CSC shall provide the capability to download configurations of the DPU-RTOS from the RS-232 interface to EEPROM on command."}
+{"text": "The Bootstrap Monitor of the DPU-BOOT CSC shall provide the capability to load a configuration of the DPU-RTOS from EEPROM to DRAM and start its execution on command."}
+{"text": "The DPU-BOOT CSC shall test and clear DRAM on power-on using the COLD_MEM_SIZE obtained from the SYSTEM_BLOCK."}
+{"text": "The DPU-BOOT CSC shall set the processor speed to MHz."}
+{"text": "The DPU-BOOT CSC shall boot the primary or alternate configuration of DPU-RTOS according to the BC_INDEX in the SYSTEM_BLOCK."}
+{"text": "The DPU-BOOT CSC shall toggle the BC_INDEX (selecting the opposite configuration) after reading it during the boot process."}
+{"text": "The DPU-BOOT CSC shall provide the capability to automatically load a configuration of DPU-RTOS from EEPROM to DRAM and start its execution."}
+{"text": "The DPU-BOOT CSC shall include a CPU BIT consisting of a branch test, a fixed point test, a floating point test, an interrupt test, a timer test, and a register test."}
+{"text": "The DPU-BOOT CSC shall create a record of the CPU BIT in the SYSTEM_BLOCK."}
+{"text": "The DPU-BOOT CSC shall complete Stage 1 BIT, and load DPU-RTOS in less than A seconds following a hardware reset if CTS is not asserted."}
+{"text": "The DPU-BOOT CSC shall attempt to complete its normal execution sequence following detection of any failure."}
+{"text": "The DPU-BOOT CSC shall enable power to the EEPROM on the SCM."}
+{"text": "The DPU-BOOT CSC shall disable write-protection of the EEPROM on the SCM."}
+{"text": "The DPU-BOOT CSC shall enable EDAC on the SCM."}
+{"text": "The DPU-BOOT CSC shall log detected BIT failures to the SYSTEM_BLOCK."}
+{"text": "The DPU-BOOT CSC shall display a message via RS-232 on detection of a BIT failure."}
+{"text": "The DPU-BOOT CSC shall initialize the BIT_DATA in the SYSTEM_BLOCK to the incomplete/failure state prior to executing Stage 1 BIT."}
+{"text": "The Bootstrap Monitor of the DPU-BOOT CSC shall validate commands entered for syntax and number of arguments."}
+{"text": "The Bootstrap Monitor of the DPU-BOOT CSC shall output an error message to the RS-232 interface if an invalid command argument option is entered."}
+{"text": "The Bootstrap Monitor of the DPU-BOOT CSC shall output an error message to the RS-232 interface if an incorrect number of command arguments are entered."}
+{"text": "At the end of a download, the Bootstrap Monitor of the DPU-BOOT CSC shall compute a CHKS_32 on the X stored in EEPROM and compare it against the CHKS_32 sent with the X during the transfer. The Bootstrap Monitor shall output to to the RS-232 interface both CHKS_32s and a message indicating whether the download was successful."}
+{"text": "The DPU-BOOT CSC shall put the processor into diagnostic mode."}
+{"text": "The Bootstrap Monitor of the DPU-BOOT CSC shall follow the protocol specified in BSPS-01, Bootstrap Monitor Protocol Specification, with the following noted exceptions."}
+{"text": "The Bootstrap CSC shall address hardware modules as defined in document 1400, Company X Specification for the Company X Communication/Memory Module."}
+{"text": "The DPU-BOOT CSC shall initialize Error Detection and Correction (EDAC) on the RSC by clearing DRAM."}
+{"text": "The DPU-BOOT CSC X shall occupy no more than 32 KB of PROM."}
+{"text": "The DPU-BOOT CSC shall periodically strobe the PSM Watchdog Timer at B second intervals (+/- 1/2 second) by writing 0xEB90 to the Watchdog Clear Register, SCM_WDR. The Bootstrap CSC shall continue the strobe during transition of control from the Bootstrap to the Operating System."}
+{"text": "The DPU-BOOT CSC shall perform successive writes to a word page of EEPROM within C msecs, or wait a minimum of D usecs between successive writes."}
+{"text": "The DPU-BOOT CSC shall wait a minimum of C msecs after a write to EEPROM before performing a read from EEPROM."}
+{"text": "The DPU-BOOT CSC shall write to EEPROM in 32-bit words only."}
+{"text": "The DPU-BOOT CSC shall read from EEPROM in 32-bit words only."}
+{"text": "The DPU-1553 CSC shall address hardware modules as defined in document 1400, Company X Specification for the Company X Communication/Memory Module."}
+{"text": "Tthe DPU-CCM shall create DPU_HK_START and forward it to DPU-SCUI at bootup."}
+{"text": "The DPU-CCM shall include the capability to write data to DRAM, the VME Bus, and the Input/Output Channel Controller (IOCC) on ground command."}
+{"text": "The DPU-CCM shall include the capability to read data from DRAM, the VME Bus, and the IOCC on ground command."}
+{"text": "The DPU-CCM shall have the capability of calculating a CHKS_32 for a particular address range on command."}
+{"text": "The DPU-CCM shall forward the DPU_HBEAT message to DPU-ICUI for transmission to the ICU at an interval of A seconds."}
+{"text": "The DPU-CCM shall strobe the Watchdog timer by writing to the SCM_WDR at an interval of 1 second."}
+{"text": "The DPU-CCM shall interpret and execute/dispatch real-time DPU_CMDs."}
+{"text": "The DPU-CCM shall provide the capability to echo to the spacecraft each received command from the spacecraft or the ICU."}
+{"text": "The DPU-CCM shall provide a command to reboot the DPU."}
+{"text": "The DPU-CCM shall support a NOOP command that does nothing but serve as a valid command."}
+{"text": "The DPU-CCM shall forward CLK_MSGs to the DPU-TIS for processing immediately upon receipt (I.e. shall not enqueue the message to the command dispatcher queue)."}
+{"text": "The DPU-CCM shall utilize bootup default values stored in the SYSTEM_CONFIG_AREA in EEPROM when initializing the FSW"}
+{"text": "The DPU-CCM shall forward ACS_MSGs to the DPU-DPA for processing immediately upon receipt (I.e. shall not enqueue the message to the command dispatcher queue)."}
+{"text": "The DPU-CCM shall quietly discard any unrecognized observatory messages (I.e. messages which do not have a DPU command APID)."}
+{"text": "The DPU-CCM shall notify the ICU upon completion of boot and flight software initialization."}
+{"text": "The DPU-CCM shall spawn tasks for DPU-CCM, DPU-DPA, DPU-DCX, DPU-SCUI, and DPU-TMALI at bootup."}
+{"text": "The DPU-CCM shall collect DPU_HK and forward it to the DPU-SCUI."}
+{"text": "On boot, the DPU-CCM shall toggle the BC_INDEX if the boot is successful. A boot is successful if command and telemetry communications have been established with the spacecraft."}
+{"text": "The DPU-CCM shall provide a command to resend DPU_HK_START."}
+{"text": "The DPU-CCM shall produce DPU_HK at a commandable rate, with a default of 10 seconds."}
+{"text": "The DPU-CCM shall monitor the status of DPU-SCUI, DPU-CCM, DPU-DCX, DPU-TMALI, and DPU-DPA by examining their TASK_INFO and report this information in DPU_HK."}
+{"text": "The DPU-CCM shall implement a mechanism whereby large memory loads and dumps can be accomplished incrementally."}
+{"text": "The DPU-CCM shall process real-time non-deferred commands within B ms of receipt from the ICU or the SCU."}
+{"text": "The DPU-CCM shall record an error to the LAST_BOOT_IVEC location in EEPROM and discontinue strobing the Watchdog Timer should an unrecoverable software error occur. An unrecoverable software error is defined as an error that causes a loss of commandability or ground communication."}
+{"text": "The DPU-CCM shall provide a mechanism for other CSCs to report errors for inclusion in the DPU_HK."}
+{"text": "The DPU-CCM shall collect a TASK_HBEAT from DPU-SCUI, DPU-CCM, DPU-DCX, DPU-TMALI, and DPU-DPA . Non-responsive tasks will be reported in DPU_HK."}
+{"text": "The DPU-CCM shall be able to count a consecutively reported error. When the the count for a particular error ID, exceeds 250 for a particular reporting period, the error code will be replaced with a error code sequence which shall include the original error code and the number of times the error was reported."}
+{"text": "The DPU-CCM shall check the length of a received DPU_CMD against an expected value from a lookup table indexed by FUNCTION code. If the received value does not match the expected, then the command will be discarded, and an error will be enqueued."}
+{"text": "The DPU-CCM shall, in rejecting a command, report an error in DPU_HK indicating the byte-code of the command being rejected in the LSB of the errno as described in 03691-DPUSDP-01."}
+{"text": "The DPU-CCM shall maintain counts of both the number of commands successfully received and rejected and report the parameters in DPU_HK."}
+{"text": "The DPU-CCM shall use DPU-EEPRM to access the EEPROM."}
+{"text": "The DPU-CCM shall use DPU-ICUI to communicate with the ICU."}
+{"text": "The DPU-TMALI shall install callbacks for handling all DPU-DCI interrupts including Error interrupt, Ping-Pong Timeout interrupt, and Ping-Pong Complete Flag interrupt."}
+{"text": "The DPU-TMALI shall be capable of making data available from the DCI to DPU-DPA. DPU-TMALI will populate a ring buffer with frames of data for application task retrieval."}
+{"text": "The DPU-TMALI shall provide a function which sets the current event bit ordering mode in the DCI driver."}
+{"text": "The DPU-TMALI shall provide TMALI_HK to the DPU-CCM on request."}
+{"text": "The DPU-TMALI shall allocate a ring buffer of size specified by TMALI_BUFFER_SIZE provided during initialization for storing incoming frames of data. The default buffer size shall be 15 MB."}
+{"text": "The DPU-TMALI shall configure the ping-pong frame limit at startup as specified by TMALI_PP_LIMIT provided during initialization. The default value shall be M frames and shall be capable of being modified dynamically."}
+{"text": "The DPU-TMALI shall configure the DCI interface data timeout at startup as specified by TMALI_TIMEOUT provided during initialization. The default value shall be N milliseconds and shall be capable of being modified dynamically."}
+{"text": "The DPU-TMALI shall utilize SCM_DCI_SR, along with ERRNO provided by DPU-DCI to decode errors and place them on an error queue for DPU-CCM."}
+{"text": "The DPU-TMALI shall install a callback routine to respond to the DCI Error Interrupt."}
+{"text": "The DPU-TMALI shall place the starting address of the event ring buffer in TMALI_HK."}
+{"text": "The DPU-TMALI shall use DPU-DCI to communicate with the DCI Interface."}
+{"text": "The DPU-SCUI shall construct CCSDS Source Packets from Data Packages as defined by CCSDS-102.0-B-4, and in accordance with interface control document 1143-EI-S19121."}
+{"text": "The DPU-SCUI shall time stamp the secondary header of the Source Packets with the current SC_TIME retrieved from the DPU-TIS module."}
+{"text": "The DPU-SCUI shall be capable of packing created CCSDS Source Packets into STPDUs using segmented (grouped) packets for transfer to the SCU as defined by CCSDS-102.0-B-4 and in accordance with interface control document 1143-EI-S19121."}
+{"text": "The DPU-SCUI shall notify the SCU of new data by using the Transfer Request Counter in accordance with interface control document 1143-EI-S19121."}
+{"text": "The DPU-SCUI shall receive command messages in the form of Telecommand Packets from the SCU and make them available to the DPU-CCM."}
+{"text": "The DPU-SCUI shall provide SCUI_HK to the DPU-CCM on request."}
+{"text": "The DPU-SCUI shall provide the capability for data producing applications to specify whether or not queued data may be segmented."}
+{"text": "The DPU-SCUI shall provide the capability to handle high priority data. High priority data shall be processed before low priority data. In the condition that low priority data is being processed when new high priority data arrives, DPU-SCUI shall finish processing the low priority data and then immediately shift all resources to processing the high priority data."}
+{"text": "The DPU-SCUI shall buffer an amount of data specified by the SCU_BUFFER_SIZE parameter provided during initialization. The default buffer size will be set to X MB of data."}
+{"text": "The DPU-SCUI shall be capable of receiving a telecommand from the SCU every N ms and forward it to DPU-CCM for processing."}
+{"text": "The DPU-SCUI shall rate-buffer the delivery of STPDUs to the SCU according to the SCU_BUFFER_RATE parameter provided during initialization. The default value shall provide data to the SCU at a rate of X Kbps and shall be capable of being modified dynamically."}
+{"text": "The DPU-SCUI shall be capable of preparing one STPDU for delivery to the SCU every M milliseconds, or shall indicate a No Data condition to the SCU by maintaining an un-incremented ST_PDU Transfer Request Counter field."}
+{"text": "The DPU-SCUI, in the event of a buffer full condition, shall discard new data, return an error to the caller, and report an error condition to the DPU-CCM."}
+{"text": "The DPU-SCUI shall detect the condition in which the SCU fails to read one or more MIL-STD-1553B subaddresses during the transmission of a STPDU, shall cancel the write on those subaddresses, record new data to those subaddresses, and report an error to the DPU-CCM."}
+{"text": "The DPU-SCUI shall cancel the write to each subaddress if the SCU fails to read a pending STPDU after a timeout specified by a value calculated based on the SCU_POLL_RATE parameter provided during initialization, shall record new data to those subaddresses, and report an error to the DPU-CCM. The SCU_POLL RATE parameter shall have a default setting of J ms and shall be capable of being modified dynamically."}
+{"text": "The DPU-SCUI shall report errors to the DPU-CCM for inclusion in the DPU Housekeeping information."}
+{"text": "The DPU-SCUI shall compute a CHKS16 for telecommands received from the SCU. If the CHKS16 does not match the value included in the telecommand, an error will be reported to DPU-CCM. If the checksum computes correctly, the command will be forwarded to DPU-CCM for execution."}
+{"text": "The DPU-SCUI shall use DPU-1553 to communicate with the MIL-STD-1553B Interface."}
+{"text": "The DPU-SCUI shall communicate with the SCU according to the protocol defined in document 1143-EI-S19121."}
+{"text": "The DPU compression software shall produce compressed Data Packages from uncompressed Data Packages."}
+{"text": "The DPU compression software shall forward compressed data to DPU-SCUI."}
+{"text": "The DPU compression software shall report errors to the DPU-CCM for inclusion in the DPU Housekeeping information."}
+{"text": "The DPU-TIS shall provide the capability for application programs to access the SC_TIME from the SCM."}
+{"text": "The DPU-TIS shall provide the capability for application programs to access the current UT_DELTA."}
+{"text": "The DPU-TIS shall provide the capability for an application program to set the value of the SC_TIME register(s) on the SCM and enable the 1PPS clock jam register, if automatic time synchronization is enabled."}
+{"text": "The DPU-TIS shall provide the capability for an application program to jam the value of the SC_TIME into the hardware, if automatic time synchronization is disabled."}
+{"text": "The DPU-TIS shall provide TIS_HK to the DPU-CCM on request."}
+{"text": "This DPU-TIS shall provide the capability for an application program to enable and disable automatic time synchronization."}
+{"text": "The DPU-TIS shall provide the capability for an application program to select the active 1PPS signal."}
+{"text": "The DPU-TIS shall report errors to an application program by setting the ERRNO task variable and returning ERROR."}
+{"text": "The DPU-1553 CSC shall address hardware modules as defined in document 1400-01, Company X Specification for the Company X Communication/Memory Module."}
+{"text": "The DPU-TIS shall read from the SCM registers in B-bit words only."}
+{"text": "The DPU-TIS shall write to the SCM registers in B-bit words only."}
+{"text": "The DPU-ICUI shall receive real-time DPU_CMDs from the ICU via SSI and forward them to DPU-CCM."}
+{"text": "The DPU-ICUI shall provide an API for other CSCs to transmit messages to the ICU."}
+{"text": "The DPU-ICUI shall provide ICUI_HK to the DPU-CCM on request."}
+{"text": "The DPU-ICUI shall forward real-time commands to DPU-CCM within 500 milliseconds of receipt from the ICU."}
+{"text": "The DPU-ICUI shall report errors to DPU-CCM for inclusion in the DPU_HK."}
+{"text": "The DPU-ICUI shall compute a CHKS_16 for DPU_CMDs received from the ICU. If the expected checksum is not computed, the command will be discarded, an error will be enqueued to DPU-CCM, and a NAK message transmitted to the ICU within a second."}
+{"text": "The DPU-ICUI shall check the length of a received DPU_CMD against the message length determined by the Inter-Block Gap. If the received value does not match, then the command will be discarded, and an error will be enqueued to DPU-CCM, and a NAK message transmitted to the ICU within a second."}
+{"text": "The DPU-ICUI shall use DPU-SSI to communicate with the SSI Interface."}
+{"text": "The DPU-ICUI shall install an ISR to be invoked on the SSI receiver interblock gap interrupt, for the receiving and processing of commands from the ICU."}
+{"text": "The DPU-ICUI shall format messages according to DPUICD-01, Section 3.1"}
+{"text": "The DPU-DPA shall be able to perform tracking based on data collected from the detector by calculating the spacecraft drift using successive tracking frames using the algorithm described in Appendix C."}
+{"text": "If commanded, during the collection of event data, the DPU-DPA shall produce PROD_ACS_MSG."}
+{"text": "The DPU-DPA shall provide a event mode window per exposure. The size of the window shall be commandable. The event mode exposure time shall be commandable."}
+{"text": "There shall be four engineering modes associated with the detector: raw event list mode, channel boundary mode, centroid confirmation mode, and intensifier characteristics mode."}
+{"text": "In Image Mode, the DPU-DPA shall be capable of binning images at different levels."}
+{"text": "The raw event list engineering mode shall collect events for transmission to the ground."}
+{"text": "The channel boundary engineering mode shall create an array of look-up table (LUT) channel boundaries, PROD_CHAN_BOUND, from a flat field, and PROD_MN_DATA, using the algorithm described in Appendix C."}
+{"text": "The centroid confirmation engineering mode shall produce a PROD_CENTROID_CONF. This mode shall divide a full frame image into a certain regions. Each region shall be processed to form an 8x8 confirmation image. The certain confirmation images shall be sent to the solid state recorder as one data product."}
+{"text": "The Intensifier Characteristics Engineering mode shall produce a pulse-height histogram, PROD_INTENSE_CHAR."}
+{"text": "When observing a new GRB, and the XRT_POS becomes available from the ICU, the DPU-DPA shall shift and resize the image and event windows appropriately."}
+{"text": "The DPU-DPA shall command DPU-TMALI to reorder EVENT data bits as a function of the Detector Electronics Output Format (Science Mode 3, Full-Frame High Res), and the commanded DPU science or engineering mode."}
+{"text": "The DPU-DPA will obtain the initial tracking frame time from the ICU."}
+{"text": "When tracking is enabled, the DPU-DPA will produce a PROD_TRACKING_REC at the commanded rate."}
+{"text": "The DPU-DPA shall provide a task heartbeat to DPU-CCM."}
+{"text": "The DPU-DPA shall be capable of providing DPA_HK on request."}
+{"text": "The DPU-DPA will complete the exposure in the time specified by the MODE command - even if its required to truncate the final tracking frame."}
+{"text": "The DPU-DPA shall collect event mode data, preserving the time and spatial resolution in the specified event window."}
+{"text": "The DPU-DPA shall perform bounds checking before accessing memory."}
+{"text": "The DPU-DPA shall be capable of collecting detector events over the full FOV."}
+{"text": "The DPU-DPA shall transition MODE based on the protocol specified in document DPUICD-01, section 2.2"}
+{"text": "There DPU-DPA shall have three science modes, X, Y mode, and X/Y mode."}
+{"text": "The DPU-DPA shall use the first tracking image accumulated after entering Image mode to locate guide stars using the algorithm described in Appendix C."}
+{"text": "In image mode, the DPU-DPA shall calculate the memory location to increment for each valid detector event received. The memory location shall be incremented for each valid event. Each memory location shall be able to count so many events. An Image mode exposure shall produce a PROD_IMAGE."}
+{"text": "The image mode shall consist of a science window."}
+{"text": "The image mode shall shift successive frames according to the calculated spacecraft drift and co-add the frame into an accumulated image."}
+{"text": "Image mode shall have the ability to produce a Parameterized Finding Chart, PROD_FINDING_CHART, of the image if commanded, using the algorithm described in Appendix C. The Parameterized Finding Chart shall consist of the brightest sources. Each source shall be parameterized by its position [X,Y] and Intensity/brightness."}
+{"text": "The DPU-DPA shall produce a Parameterized Finding Chart, PROD_FINDING_CHART, that is so many bytes."}
+{"text": "When commanded to event mode by the ICU, the DPU-DPA shall be capable of collecting time-tagged photon events and producing a PROD_EVENT."}
+{"text": "The DPU-DPA shall calculate drift with respect to the reference frame based on the established guide stars then perform a shift-and-add of the image mode data."}
+{"text": "The DPU-DPA shall initiate reaction/response to a command from the DPU-CCM with a latency of no greater than 10 ms."}
+{"text": "On failure to obtain an acceptable tracking solution, the DPU-DPA shall apply the most recent tracking solution and report an error to DPU-CCM."}
+{"text": "The DPU-DPA shall report errors to DPU-CCM."}
+{"text": "If the DPU-SCUI FIFO is full when DPU-DPA attempts to enqueue its data product, DPU-DPA shall suspend event processing until room is available on the respective FIFO for the current data product. Incoming data may be dropped while suspended. An error shall be reported DPU-CCM."}
+{"text": "The DPU-RTOS shall be a real-time, multi-tasking operating system."}
+{"text": "The DPU-RTOS shall schedule tasks based on priority, and shall time-slice tasks with the same priority."}
+{"text": "The DPU-RTOS shall provide the capability to invoke user-installed Interrupt Service Routines (ISRs) in response to internal and external (VME) interrupts."}
+{"text": "At startup, the DPU-RTOS shall execute the BIT device RAM tests (cold boot only), install device drivers, execute the BIT driver loopback tests (cold boot only), and then spawn the application flight software."}
+{"text": "The DPU-RTOS shall include the capability to dynamically load object modules from the EEPROM."}
+{"text": "The DPU-RTOS shall provide a function to allow an application program to write to the Real-Time Clock registers on the RAD6000SC CPU Module."}
+{"text": "The DPU-RTOS shall provide a function to allow an application program to read from the Real-Time Clock registers on the RAD6000SC CPU Module."}
+{"text": "The DPU-RTOS shall exclude failed DRAM from the system memory pool based on the contents of the BIT_DRAM results in the SYSTEM_BLOCK. The system memory table does not include the Interrupt Vector Table (IVT), nor the text and data segment."}
+{"text": "The text segment and IVT of the DPU-RTOS shall be write-protected."}
+{"text": "The DPU-RTOS shall install an hook routine which is invoked on system exception which shall attempt to record the interrupt vector to the LAST_BOOT_IVEC location in EEPROM prior to reboot."}
+{"text": "The DPU-BIT shall perform two write/read/compare tests on the RAM for the MIL-STD-1553B. The first test shall construct and write half-word (16-bit) values obtained by adding the upper and lower half-words of each each memory address. The second test shall construct and write the one\u2019s complement of the half-word values used in the first test."}
+{"text": "The DPU-BIT shall perform MIL-STD-1553B internal BIT."}
+{"text": "The DPU-BIT shall test the Error Detection and Correction (EDAC) on the Company X Communication/Memory Module by reading preprogrammed error locations in PROM."}
+{"text": "The DPU-BIT shall test the Programmable Read Only Memory (PROM) by computing a checksum and comparing it to a checksum stored in PROM."}
+{"text": "The DPU-BIT shall perform two write/read/compare tests on the RAM for the DCI Data Buffers. The first test shall write the address of each location to that location. The second test shall write the one\u2019s complement of the values used in the first test."}
+{"text": "The DPU-BIT shall complete the BIT within A seconds."}
+{"text": "The DPU-BIT shall report errors that occur during tests as failures in the test results."}
+{"text": "The DPU-EDAC shall address hardware modules as defined in document 1400, Company X Specification for the Company X Communication/Memory Module, and document IBM-FAULT-MGMT, RSC System: Fault Handling and Storage Management."}
+{"text": "The DPU-BIT shall use the EEPROM Driver CSC when reading from and writing to the EEPROM."}
+{"text": "The DPU-BIT shall use the 1553 Driver CSC to perform MIL-STD-1553B internal BIT."}
+{"text": "The DPU-EDAC shall contain a background task which walks DRAM to trip single-bit errors (SBEs)."}
+{"text": "The DPU-EDAC shall record the number of SBEs that have been detected in DRAM since boot and the address of the last two SBEs."}
+{"text": "The DPU-EDAC shall record the number of MBEs that have been detected in DRAM since boot and the address of the last two MBEs."}
+{"text": "The DPU-EDAC shall record the number of SBEs that have been detected in PROM and EEPROM since boot and the address of the last two SBEs."}
+{"text": "The DPU-EDAC shall record the number of MBEs that have been detected in PROM and EEPROM since boot and the address of the last two MBEs."}
+{"text": "The DPU-BIT shall report BIT_HK on request."}
+{"text": "The DPU-EDAC shall install an ISR to be invoked when an SBE occurs and scrub the location containing the SBE."}
+{"text": "The DPU-EDAC shall record the current contents of EDAC_HK to EEPROM and force a DPU watchdog in the event an MBE in DRAM is detected."}
+{"text": "The DPU-EDAC shall report EDAC_HK on request."}
+{"text": "The DPU-1553 CSC shall address hardware modules as defined in document 1400, Company X Specification for the Company X Communication/Memory Module."}
+{"text": "The DPU-ADC shall create a fixed analog conversion scan list containing the A DPU analog values (active values plus one ground reference value)."}
+{"text": "The DPU-ADC shall provide an application program with the capability to read the most recent A/D results in the scan list."}
+{"text": "The DPU-ADC shall provide an application program with a function to perform an alternating read/setup-start sequence which will read the A/D result setup on the last call store the result into the scan list, and setup the conversion for the next item in the scan list; then on the next call start the conversion which was setup during the last call."}
+{"text": "The DPU-ADC shall provide an application program with the capability to read the current values of the SCM_ADC_MUX and SCM_ADC_DAT registers."}
+{"text": "The DPU-ADC shall report errors to an application program by setting the ERRNO task variable and returning ERROR."}
+{"text": "The DPU-ADC CSC shall address hardware modules as defined in document 1400, Company X Specification for the Company X Communication/Memory Module."}
+{"text": "The DPU-ADC shall read from the SCM registers in B-bit words only."}
+{"text": "The DPU-ADC shall write to the SCM registers in B-bit words only."}
+{"text": "The DPU-SSI shall provide the capability for an application program to set the Inter-Block Gap (IBG) Timeout for transmitted and received messages."}
+{"text": "The DPU-SSI shall provide the capability for an application program to install a callback routine to respond to the receive IBG Interrupt."}
+{"text": "The DPU-SSI shall provide the capability for an application program to install a callback routine to respond to the transmit IBG Interrupt."}
+{"text": "The DPU-SSI shall provide the capability for an application program to enable/disable the VME Slave Interrupt on the SCM for the SSI Interface."}
+{"text": "The DPU-SSI shall provide the capability for an application program to independently mask/unmask each of the SSI Interrupt Conditions using the SCM_SSI_CSR."}
+{"text": "The DPU-SSI shall provide the capability for an application to determine the number of bytes in a message received from the ICU."}
+{"text": "The DPU-SSI shall provide an operational mode (Tx MESSAGE MODE) for transmitting blocks in which consecutive words in a block are transmitted, and the transmitter is disabled until a transmit IBG interrupt is received. At this point the transmitter is re-enabled, and the next message can be transmitted."}
+{"text": "The DPU-SSI shall provide the capability for an application program to install a callback routine to respond to the SSI Error Interrupt."}
+{"text": "The DPU-SSI shall provide an application program with the capability to read the SSI status register."}
+{"text": "The DPU-SSI shall report errors to an application program by setting the ERRNO task variable and returning ERROR."}
+{"text": "The DPU-SSI shall provide the capability for an application program to reset the SSI by writing to the SSI Reset Register."}
+{"text": "The DPU-SSI shall address hardware modules as defined in document 1400, Company X Specification for the Company X Communication/Memory Module."}
+{"text": "The DPU-SSI shall read from the SSI registers in 16-bit words only."}
+{"text": "The DPU-SSI shall write to the SSI registers in 16-bit words only."}
+{"text": "The DPU-DCI shall provide the capability for an application program to set the Address Limit at which the hardware will swap ping-pong buffers."}
+{"text": "The DPU-DCI shall provide an application program with the ability to read and write the hardware ping-pong buffers when in Test Mode."}
+{"text": "The DPU-DCI shall provide an application program with the ability to force a ping-pong buffer swap when the interface is in Test Mode."}
+{"text": "The DPU-DCI shall provide an application program with the ability to read the current hardware status, including the Data Level Trigger, the Data Timeout Trigger, the DCI Event Mode, and the Normal/Test Mode."}
+{"text": "The DPU-DCI shall provide an application program with a function to read the contents of the ping/pong buffer."}
+{"text": "The DPU-DCI shall provide an application program with the ability to configure the SCM_DCI_WIN parameters."}
+{"text": "The DPU-DCI shall provide the capability for an application program to set a timeout in milliseconds that specifies a period during which no new events have been received by the hardware, after which the hardware will swap ping-pong buffers and interrupt the software."}
+{"text": "The DPU-DCI shall provide the capability for an application program to arm the ping-pong buffer for swap."}
+{"text": "The DPU-DCI shall provide the capability for an application program to install a callback routine to respond to the Timeout Interrupt Condition (INTTO_EN)."}
+{"text": "The DPU-DCI shall provide the capability for an application program to install a callback routine to respond to the DCI Address Limit Interrupt Condition (INTADR_EN)."}
+{"text": "The DPU-DCI shall provide the capability for an application program to enable/disable the VME Slave Interrupt on the SCM for the DCI Interface."}
+{"text": "The DPU-DCI shall provide the capability for an application program to mask/unmask each of the DCI Interrupt Conditions using the SCM_DCI_CSR."}
+{"text": "The DPU-DCI shall provide an application program with the capability to command the DCI hardware to reorder the bit sequence of each events original Detector Electronics Output Format as it is received."}
+{"text": "The DPU-DCI shall provide an application program with the ability to toggle the hardware interface between Normal mode and Test mode."}
+{"text": "The DPU-DCI shall provide the capability for an application program to receive data at a rate of A bytes per second over the DCI interface."}
+{"text": "The DPU-DCI shall provide the capability for an application program to install a callback routine to respond to the DCI Error Interrupt (INTERR_EN)."}
+{"text": "The DPU-DCI shall provide access to the DCI status register so that an application program can determine error type."}
+{"text": "The DPU-DCI shall report errors to an application program by setting the ERRNO task variable and returning ERROR."}
+{"text": "The DPU-DCI shall address hardware modules as defined in document 1400, Company X Specification for the Company X Communication/Memory Module."}
+{"text": "The DPU-DCI shall read from the DCI Memory in B-bit words only, using the load multiple/store multiple instructions."}
+{"text": "The DPU-DCI shall write to the DCI Registers in C-bit words only"}
+{"text": "The DPU-DCI shall read from the DCI Registers in C-bit words only"}
+{"text": "The DPU-DCI shall write to the DCI Memory in B-bit words only."}
+{"text": "The DPU-DCI shall provide the capability for an application program to reset the DCI by writing to the DCI Reset Register."}

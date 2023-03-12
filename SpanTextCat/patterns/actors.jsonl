@@ -1,0 +1,350 @@
+{"pattern": [{"TEXT": {"regex": "(?i)A CEP card"}}], "label": "ACTOR"}
+{"pattern": [{"TEXT": {"regex": "(?i)The CNG"}}], "label": "ACTOR"}
+{"pattern": [{"TEXT": {"regex": "(?i)The CPN"}}], "label": "ACTOR"}
+{"pattern": [{"TEXT": {"regex": "(?i)The Cab"}}], "label": "ACTOR"}
+{"pattern": [{"TEXT": {"regex": "(?i)The product"}}], "label": "ACTOR"}
+{"pattern": [{"TEXT": {"regex": "(?i)untrained realtors"}}], "label": "ACTOR"}
+{"pattern": [{"TEXT": {"regex": "(?i)the user workstations"}}], "label": "ACTOR"}
+{"pattern": [{"TEXT": {"regex": "(?i)A CND"}}], "label": "ACTOR"}
+{"pattern": [{"TEXT": {"regex": "(?i)A CPN user"}}], "label": "ACTOR"}
+{"pattern": [{"TEXT": {"regex": "(?i)A CPN-user"}}], "label": "ACTOR"}
+{"pattern": [{"TEXT": {"regex": "(?i)A Controlling Authority"}}], "label": "ACTOR"}
+{"pattern": [{"TEXT": {"regex": "(?i)A Global Services Application"}}], "label": "ACTOR"}
+{"pattern": [{"TEXT": {"regex": "(?i)merchant services representatives"}}], "label": "ACTOR"}
+{"pattern": [{"TEXT": {"regex": "(?i)card member services representatives"}}], "label": "ACTOR"}
+{"pattern": [{"TEXT": {"regex": "(?i)saved user preferences"}}], "label": "ACTOR"}
+{"pattern": [{"TEXT": {"regex": "(?i)the card member"}}], "label": "ACTOR"}
+{"pattern": [{"TEXT": {"regex": "(?i)Program Administrators/Nursing Staff Members"}}], "label": "ACTOR"}
+{"pattern": [{"TEXT": {"regex": "(?i)A GlobalPlatform card"}}], "label": "ACTOR"}
+{"pattern": [{"TEXT": {"regex": "(?i)A Program of Study"}}], "label": "ACTOR"}
+{"pattern": [{"TEXT": {"regex": "(?i)A Railway emergency call"}}], "label": "ACTOR"}
+{"pattern": [{"TEXT": {"regex": "(?i)Issuer Security Domain"}}], "label": "ACTOR"}
+{"pattern": [{"TEXT": {"regex": "(?i)A Security Domain"}}], "label": "ACTOR"}
+{"pattern": [{"TEXT": {"regex": "(?i)A VCD system"}}], "label": "ACTOR"}
+{"pattern": [{"TEXT": {"regex": "(?i)A VCD"}}], "label": "ACTOR"}
+{"pattern": [{"TEXT": {"regex": "(?i)A change procedure"}}], "label": "ACTOR"}
+{"pattern": [{"TEXT": {"regex": "(?i)A class"}}], "label": "ACTOR"}
+{"pattern": [{"TEXT": {"regex": "(?i)A clinical class"}}], "label": "ACTOR"}
+{"pattern": [{"TEXT": {"regex": "(?i)A clinical lab section"}}], "label": "ACTOR"}
+{"pattern": [{"TEXT": {"regex": "(?i)A cohort"}}], "label": "ACTOR"}
+{"pattern": [{"TEXT": {"regex": "(?i)A connection of Railway emergency priority"}}], "label": "ACTOR"}
+{"pattern": [{"TEXT": {"regex": "(?i)A continuous short audible indication"}}], "label": "ACTOR"}
+{"pattern": [{"TEXT": {"regex": "(?i)A continuous visual indication"}}], "label": "ACTOR"}
+{"pattern": [{"TEXT": {"regex": "(?i)A credit command"}}], "label": "ACTOR"}
+{"pattern": [{"TEXT": {"regex": "(?i)A customer"}}], "label": "ACTOR"}
+{"pattern": [{"TEXT": {"regex": "(?i)A database management system"}}], "label": "ACTOR"}
+{"pattern": [{"TEXT": {"regex": "(?i)A driver safety device"}}], "label": "ACTOR"}
+{"pattern": [{"TEXT": {"regex": "(?i)A driver"}}], "label": "ACTOR"}
+{"pattern": [{"TEXT": {"regex": "(?i)A new user"}}], "label": "ACTOR"}
+{"pattern": [{"TEXT": {"regex": "(?i)A non-clinical class"}}], "label": "ACTOR"}
+{"pattern": [{"TEXT": {"regex": "(?i)A primary database"}}], "label": "ACTOR"}
+{"pattern": [{"TEXT": {"regex": "(?i)A purchase transaction"}}], "label": "ACTOR"}
+{"pattern": [{"TEXT": {"regex": "(?i)A secondary database"}}], "label": "ACTOR"}
+{"pattern": [{"TEXT": {"regex": "(?i)A short audible and visual indication"}}], "label": "ACTOR"}
+{"pattern": [{"TEXT": {"regex": "(?i)The CEP card"}}], "label": "ACTOR"}
+{"pattern": [{"TEXT": {"regex": "(?i)A special MMI action"}}], "label": "ACTOR"}
+{"pattern": [{"TEXT": {"regex": "(?i)A visual confirmation of the new network identity"}}], "label": "ACTOR"}
+{"pattern": [{"TEXT": {"regex": "(?i)A visual and audible alarm"}}], "label": "ACTOR"}
+{"pattern": [{"TEXT": {"regex": "(?i)A visual and audible indication"}}], "label": "ACTOR"}
+{"pattern": [{"TEXT": {"regex": "(?i)the merchant acquirer"}}], "label": "ACTOR"}
+{"pattern": [{"TEXT": {"regex": "(?i)ETCS"}}], "label": "ACTOR"}
+{"pattern": [{"TEXT": {"regex": "(?i)the POS device"}}], "label": "ACTOR"}
+{"pattern": [{"TEXT": {"regex": "(?i)the system"}}], "label": "ACTOR"}
+{"pattern": [{"TEXT": {"regex": "(?i)All EIRENE mobile equipment"}}], "label": "ACTOR"}
+{"pattern": [{"TEXT": {"regex": "(?i)the train"}}], "label": "ACTOR"}
+{"pattern": [{"TEXT": {"regex": "(?i)the driver"}}], "label": "ACTOR"}
+{"pattern": [{"TEXT": {"regex": "(?i)All authorized users"}}], "label": "ACTOR"}
+{"pattern": [{"TEXT": {"regex": "(?i)the GlobalPlatform"}}], "label": "ACTOR"}
+{"pattern": [{"TEXT": {"regex": "(?i)The Card Issuer"}}], "label": "ACTOR"}
+{"pattern": [{"TEXT": {"regex": "(?i)The Citizen"}}], "label": "ACTOR"}
+{"pattern": [{"TEXT": {"regex": "(?i)The DPU compression software"}}], "label": "ACTOR"}
+{"pattern": [{"TEXT": {"regex": "(?i)The DPU-1553 CSC"}}], "label": "ACTOR"}
+{"pattern": [{"TEXT": {"regex": "(?i)The DPU-ADC CSC"}}], "label": "ACTOR"}
+{"pattern": [{"TEXT": {"regex": "(?i)The DPU-ADC"}}], "label": "ACTOR"}
+{"pattern": [{"TEXT": {"regex": "(?i)The DPU-BIT"}}], "label": "ACTOR"}
+{"pattern": [{"TEXT": {"regex": "(?i)The DPU-BOOT CSC"}}], "label": "ACTOR"}
+{"pattern": [{"TEXT": {"regex": "(?i)The DPU-CCM"}}], "label": "ACTOR"}
+{"pattern": [{"TEXT": {"regex": "(?i)The DPU-DCI"}}], "label": "ACTOR"}
+{"pattern": [{"TEXT": {"regex": "(?i)The DPU-DPA"}}], "label": "ACTOR"}
+{"pattern": [{"TEXT": {"regex": "(?i)The DPU-EDAC"}}], "label": "ACTOR"}
+{"pattern": [{"TEXT": {"regex": "(?i)The DPU-ICUI"}}], "label": "ACTOR"}
+{"pattern": [{"TEXT": {"regex": "(?i)The DPU-RTOS"}}], "label": "ACTOR"}
+{"pattern": [{"TEXT": {"regex": "(?i)The DPU-SCUI"}}], "label": "ACTOR"}
+{"pattern": [{"TEXT": {"regex": "(?i)The DPU-SSI"}}], "label": "ACTOR"}
+{"pattern": [{"TEXT": {"regex": "(?i)The DPU-TIS"}}], "label": "ACTOR"}
+{"pattern": [{"TEXT": {"regex": "(?i)The DPU-TMALI"}}], "label": "ACTOR"}
+{"pattern": [{"TEXT": {"regex": "(?i)The Development Team"}}], "label": "ACTOR"}
+{"pattern": [{"TEXT": {"regex": "(?i)The Disputes System"}}], "label": "ACTOR"}
+{"pattern": [{"TEXT": {"regex": "(?i)The EIRENE system"}}], "label": "ACTOR"}
+{"pattern": [{"TEXT": {"regex": "(?i)The ETCS on-board"}}], "label": "ACTOR"}
+{"pattern": [{"TEXT": {"regex": "(?i)The ETCS trainborne equipment"}}], "label": "ACTOR"}
+{"pattern": [{"TEXT": {"regex": "(?i)The General purpose radio"}}], "label": "ACTOR"}
+{"pattern": [{"TEXT": {"regex": "(?i)The GlobalPlatform API"}}], "label": "ACTOR"}
+{"pattern": [{"TEXT": {"regex": "(?i)The GlobalPlatform Environment (OPEN)"}}], "label": "ACTOR"}
+{"pattern": [{"TEXT": {"regex": "(?i)The GlobalPlatform Registry"}}], "label": "ACTOR"}
+{"pattern": [{"TEXT": {"regex": "(?i)The IQA subsystem"}}], "label": "ACTOR"}
+{"pattern": [{"TEXT": {"regex": "(?i)The Intensifier Characteristics Engineering mode"}}], "label": "ACTOR"}
+{"pattern": [{"TEXT": {"regex": "(?i)The Load File Data Block Hash"}}], "label": "ACTOR"}
+{"pattern": [{"TEXT": {"regex": "(?i)The MMI"}}], "label": "ACTOR"}
+{"pattern": [{"TEXT": {"regex": "(?i)The Member States"}}], "label": "ACTOR"}
+{"pattern": [{"TEXT": {"regex": "(?i)The NGN network"}}], "label": "ACTOR"}
+{"pattern": [{"TEXT": {"regex": "(?i)The OPEN"}}], "label": "ACTOR"}
+{"pattern": [{"TEXT": {"regex": "(?i)The Operational radio"}}], "label": "ACTOR"}
+{"pattern": [{"TEXT": {"regex": "(?i)The POS device"}}], "label": "ACTOR"}
+{"pattern": [{"TEXT": {"regex": "(?i)The PSAM"}}], "label": "ACTOR"}
+{"pattern": [{"TEXT": {"regex": "(?i)The Project Team"}}], "label": "ACTOR"}
+{"pattern": [{"TEXT": {"regex": "(?i)The QA/QC Team"}}], "label": "ACTOR"}
+{"pattern": [{"TEXT": {"regex": "(?i)The RFS system"}}], "label": "ACTOR"}
+{"pattern": [{"TEXT": {"regex": "(?i)The RMS System"}}], "label": "ACTOR"}
+{"pattern": [{"TEXT": {"regex": "(?i)The Reversing function"}}], "label": "ACTOR"}
+{"pattern": [{"TEXT": {"regex": "(?i)The Railway emergency call"}}], "label": "ACTOR"}
+{"pattern": [{"TEXT": {"regex": "(?i)The Train emergency call"}}], "label": "ACTOR"}
+{"pattern": [{"TEXT": {"regex": "(?i)The Technical Lead"}}], "label": "ACTOR"}
+{"pattern": [{"TEXT": {"regex": "(?i)The Technical Owner/Lead"}}], "label": "ACTOR"}
+{"pattern": [{"TEXT": {"regex": "(?i)The VCD package"}}], "label": "ACTOR"}
+{"pattern": [{"TEXT": {"regex": "(?i)The VCD system"}}], "label": "ACTOR"}
+{"pattern": [{"TEXT": {"regex": "(?i)The VCD transportation system"}}], "label": "ACTOR"}
+{"pattern": [{"TEXT": {"regex": "(?i)The VCD viewing system"}}], "label": "ACTOR"}
+{"pattern": [{"TEXT": {"regex": "(?i)The WCS system"}}], "label": "ACTOR"}
+{"pattern": [{"TEXT": {"regex": "(?i)The activation of the driver safety device"}}], "label": "ACTOR"}
+{"pattern": [{"TEXT": {"regex": "(?i)The adjuster"}}], "label": "ACTOR"}
+{"pattern": [{"TEXT": {"regex": "(?i)The aggregated totals by card issuer"}}], "label": "ACTOR"}
+{"pattern": [{"TEXT": {"regex": "(?i)The application"}}], "label": "ACTOR"}
+{"pattern": [{"TEXT": {"regex": "(?i)The audit report"}}], "label": "ACTOR"}
+{"pattern": [{"TEXT": {"regex": "(?i)The architecture"}}], "label": "ACTOR"}
+{"pattern": [{"TEXT": {"regex": "(?i)The authentication"}}], "label": "ACTOR"}
+{"pattern": [{"TEXT": {"regex": "(?i)The authentication"}}], "label": "ACTOR"}
+{"pattern": [{"TEXT": {"regex": "(?i)The card verification"}}], "label": "ACTOR"}
+{"pattern": [{"TEXT": {"regex": "(?i)The cardholder"}}], "label": "ACTOR"}
+{"pattern": [{"TEXT": {"regex": "(?i)The driver"}}], "label": "ACTOR"}
+{"pattern": [{"TEXT": {"regex": "(?i)The emergency button"}}], "label": "ACTOR"}
+{"pattern": [{"TEXT": {"regex": "(?i)The estimator"}}], "label": "ACTOR"}
+{"pattern": [{"TEXT": {"regex": "(?i)The interface"}}], "label": "ACTOR"}
+{"pattern": [{"TEXT": {"regex": "(?i)The network"}}], "label": "ACTOR"}
+{"pattern": [{"TEXT": {"regex": "(?i)The owner"}}], "label": "ACTOR"}
+{"pattern": [{"TEXT": {"regex": "(?i)The radio"}}], "label": "ACTOR"}
+{"pattern": [{"TEXT": {"regex": "(?i)The realtor"}}], "label": "ACTOR"}
+{"pattern": [{"TEXT": {"regex": "(?i)The solution"}}], "label": "ACTOR"}
+{"pattern": [{"TEXT": {"regex": "(?i)The streaming server"}}], "label": "ACTOR"}
+{"pattern": [{"TEXT": {"regex": "(?i)The terminal"}}], "label": "ACTOR"}
+{"pattern": [{"TEXT": {"regex": "(?i)The trainborne equipment"}}], "label": "ACTOR"}
+{"pattern": [{"TEXT": {"regex": "(?i)The user"}}], "label": "ACTOR"}
+{"pattern": [{"TEXT": {"regex": "(?i)The website"}}], "label": "ACTOR"}
+{"pattern": [{"TEXT": {"regex": "(?i)System Administrator"}}], "label": "ACTOR"}
+{"pattern": [{"TEXT": {"regex": "(?i)CST"}}], "label": "ACTOR"}
+{"pattern": [{"TEXT": {"regex": "(?i)Developer"}}], "label": "ACTOR"}
+{"pattern": [{"TEXT": {"regex": "(?i)stakeholder"}}], "label": "ACTOR"}
+{"pattern": [{"TEXT": {"regex": "(?i)Machine Learning expert"}}], "label": "ACTOR"}
+{"pattern": [{"TEXT": {"regex": "(?i)repository manager"}}], "label": "ACTOR"}
+{"pattern": [{"TEXT": {"regex": "(?i)content designer"}}], "label": "ACTOR"}
+{"pattern": [{"TEXT": {"regex": "(?i)Extension Educator"}}], "label": "ACTOR"}
+{"pattern": [{"TEXT": {"regex": "(?i)Platform Administrator"}}], "label": "ACTOR"}
+{"pattern": [{"TEXT": {"regex": "(?i)visitor"}}], "label": "ACTOR"}
+{"pattern": [{"TEXT": {"regex": "(?i)tester"}}], "label": "ACTOR"}
+{"pattern": [{"TEXT": {"regex": "(?i)moderator"}}], "label": "ACTOR"}
+{"pattern": [{"TEXT": {"regex": "(?i)serious games developer"}}], "label": "ACTOR"}
+{"pattern": [{"TEXT": {"regex": "(?i)data scientist"}}], "label": "ACTOR"}
+{"pattern": [{"TEXT": {"regex": "(?i)Consumer"}}], "label": "ACTOR"}
+{"pattern": [{"TEXT": {"regex": "(?i)site admin"}}], "label": "ACTOR"}
+{"pattern": [{"TEXT": {"regex": "(?i)repository owner"}}], "label": "ACTOR"}
+{"pattern": [{"TEXT": {"regex": "(?i)data migration integrity testing."}}], "label": "ACTOR"}
+{"pattern": [{"TEXT": {"regex": "(?i)externalcollaborator"}}], "label": "ACTOR"}
+{"pattern": [{"TEXT": {"regex": "(?i)Data Publishing User"}}], "label": "ACTOR"}
+{"pattern": [{"TEXT": {"regex": "(?i)site member"}}], "label": "ACTOR"}
+{"pattern": [{"TEXT": {"regex": "(?i)research head"}}], "label": "ACTOR"}
+{"pattern": [{"TEXT": {"regex": "(?i)Authenticated User"}}], "label": "ACTOR"}
+{"pattern": [{"TEXT": {"regex": "(?i)DB/IR administrator"}}], "label": "ACTOR"}
+{"pattern": [{"TEXT": {"regex": "(?i)trainer"}}], "label": "ACTOR"}
+{"pattern": [{"TEXT": {"regex": "(?i)repository support team member"}}], "label": "ACTOR"}
+{"pattern": [{"TEXT": {"regex": "(?i)collection owner"}}], "label": "ACTOR"}
+{"pattern": [{"TEXT": {"regex": "(?i)Publisher"}}], "label": "ACTOR"}
+{"pattern": [{"TEXT": {"regex": "(?i)ResearcherDeveloper"}}], "label": "ACTOR"}
+{"pattern": [{"TEXT": {"regex": "(?i)author"}}], "label": "ACTOR"}
+{"pattern": [{"TEXT": {"regex": "(?i)Developer"}}], "label": "ACTOR"}
+{"pattern": [{"TEXT": {"regex": "(?i)research evaluation manager"}}], "label": "ACTOR"}
+{"pattern": [{"TEXT": {"regex": "(?i)camp worker"}}], "label": "ACTOR"}
+{"pattern": [{"TEXT": {"regex": "(?i)Development Staff member"}}], "label": "ACTOR"}
+{"pattern": [{"TEXT": {"regex": "(?i)superuser"}}], "label": "ACTOR"}
+{"pattern": [{"TEXT": {"regex": "(?i)admin"}}], "label": "ACTOR"}
+{"pattern": [{"TEXT": {"regex": "(?i)API user"}}], "label": "ACTOR"}
+{"pattern": [{"TEXT": {"regex": "(?i)consumer"}}], "label": "ACTOR"}
+{"pattern": [{"TEXT": {"regex": "(?i)Web Developer"}}], "label": "ACTOR"}
+{"pattern": [{"TEXT": {"regex": "(?i)Application Administrator"}}], "label": "ACTOR"}
+{"pattern": [{"TEXT": {"regex": "(?i)plugin developer"}}], "label": "ACTOR"}
+{"pattern": [{"TEXT": {"regex": "(?i)Prospective Applicant"}}], "label": "ACTOR"}
+{"pattern": [{"TEXT": {"regex": "(?i)Visual Designer"}}], "label": "ACTOR"}
+{"pattern": [{"TEXT": {"regex": "(?i)administrator"}}], "label": "ACTOR"}
+{"pattern": [{"TEXT": {"regex": "(?i)staff member"}}], "label": "ACTOR"}
+{"pattern": [{"TEXT": {"regex": "(?i)metadata manager"}}], "label": "ACTOR"}
+{"pattern": [{"TEXT": {"regex": "(?i)rector"}}], "label": "ACTOR"}
+{"pattern": [{"TEXT": {"regex": "(?i)Researcher Publisher"}}], "label": "ACTOR"}
+{"pattern": [{"TEXT": {"regex": "(?i)Staff member"}}], "label": "ACTOR"}
+{"pattern": [{"TEXT": {"regex": "(?i)DevOps engineer"}}], "label": "ACTOR"}
+{"pattern": [{"TEXT": {"regex": "(?i)depositor"}}], "label": "ACTOR"}
+{"pattern": [{"TEXT": {"regex": "(?i)release engineer"}}], "label": "ACTOR"}
+{"pattern": [{"TEXT": {"regex": "(?i)Inspection Staff member"}}], "label": "ACTOR"}
+{"pattern": [{"TEXT": {"regex": "(?i)archivist"}}], "label": "ACTOR"}
+{"pattern": [{"TEXT": {"regex": "(?i)Repository Manager"}}], "label": "ACTOR"}
+{"pattern": [{"TEXT": {"regex": "(?i)Website user"}}], "label": "ACTOR"}
+{"pattern": [{"TEXT": {"regex": "(?i)estimator"}}], "label": "ACTOR"}
+{"pattern": [{"TEXT": {"regex": "(?i)Cornell faculty member"}}], "label": "ACTOR"}
+{"pattern": [{"TEXT": {"regex": "(?i)Practitioner"}}], "label": "ACTOR"}
+{"pattern": [{"TEXT": {"regex": "(?i)potential research participant"}}], "label": "ACTOR"}
+{"pattern": [{"TEXT": {"regex": "(?i)asset manager"}}], "label": "ACTOR"}
+{"pattern": [{"TEXT": {"regex": "(?i)API User"}}], "label": "ACTOR"}
+{"pattern": [{"TEXT": {"regex": "(?i)pipeline designer"}}], "label": "ACTOR"}
+{"pattern": [{"TEXT": {"regex": "(?i)archive"}}], "label": "ACTOR"}
+{"pattern": [{"TEXT": {"regex": "(?i)Plan Review Staff Supervisor"}}], "label": "ACTOR"}
+{"pattern": [{"TEXT": {"regex": "(?i)site administrator"}}], "label": "ACTOR"}
+{"pattern": [{"TEXT": {"regex": "(?i)student"}}], "label": "ACTOR"}
+{"pattern": [{"TEXT": {"regex": "(?i)Postgraduate Convenor"}}], "label": "ACTOR"}
+{"pattern": [{"TEXT": {"regex": "(?i)ethics manager"}}], "label": "ACTOR"}
+{"pattern": [{"TEXT": {"regex": "(?i)dataset developer"}}], "label": "ACTOR"}
+{"pattern": [{"TEXT": {"regex": "(?i)data manager"}}], "label": "ACTOR"}
+{"pattern": [{"TEXT": {"regex": "(?i)owner"}}], "label": "ACTOR"}
+{"pattern": [{"TEXT": {"regex": "(?i)MedicalCaregiver"}}], "label": "ACTOR"}
+{"pattern": [{"TEXT": {"regex": "(?i)Inspection Staff Supervisor"}}], "label": "ACTOR"}
+{"pattern": [{"TEXT": {"regex": "(?i)site member who has read a teaser on the front page"}}], "label": "ACTOR"}
+{"pattern": [{"TEXT": {"regex": "(?i)pipeline developer"}}], "label": "ACTOR"}
+{"pattern": [{"TEXT": {"regex": "(?i)library discovery operator"}}], "label": "ACTOR"}
+{"pattern": [{"TEXT": {"regex": "(?i)researcher"}}], "label": "ACTOR"}
+{"pattern": [{"TEXT": {"regex": "(?i)summit coordinator"}}], "label": "ACTOR"}
+{"pattern": [{"TEXT": {"regex": "(?i)website user"}}], "label": "ACTOR"}
+{"pattern": [{"TEXT": {"regex": "(?i)Extension Administrator"}}], "label": "ACTOR"}
+{"pattern": [{"TEXT": {"regex": "(?i)advertiser"}}], "label": "ACTOR"}
+{"pattern": [{"TEXT": {"regex": "(?i)User"}}], "label": "ACTOR"}
+{"pattern": [{"TEXT": {"regex": "(?i)Research Information manager"}}], "label": "ACTOR"}
+{"pattern": [{"TEXT": {"regex": "(?i)Reporting"}}], "label": "ACTOR"}
+{"pattern": [{"TEXT": {"regex": "(?i)designer"}}], "label": "ACTOR"}
+{"pattern": [{"TEXT": {"regex": "(?i)research support officer"}}], "label": "ACTOR"}
+{"pattern": [{"TEXT": {"regex": "(?i)Data Analyst"}}], "label": "ACTOR"}
+{"pattern": [{"TEXT": {"regex": "(?i)Archivist"}}], "label": "ACTOR"}
+{"pattern": [{"TEXT": {"regex": "(?i)Repository Manager"}}], "label": "ACTOR"}
+{"pattern": [{"TEXT": {"regex": "(?i)Data user"}}], "label": "ACTOR"}
+{"pattern": [{"TEXT": {"regex": "(?i)NSF member of the team"}}], "label": "ACTOR"}
+{"pattern": [{"TEXT": {"regex": "(?i)fundingbody"}}], "label": "ACTOR"}
+{"pattern": [{"TEXT": {"regex": "(?i)Admin"}}], "label": "ACTOR"}
+{"pattern": [{"TEXT": {"regex": "(?i)Public User"}}], "label": "ACTOR"}
+{"pattern": [{"TEXT": {"regex": "(?i)Basic Data Entry user"}}], "label": "ACTOR"}
+{"pattern": [{"TEXT": {"regex": "(?i)camp counselor"}}], "label": "ACTOR"}
+{"pattern": [{"TEXT": {"regex": "(?i)Visitor"}}], "label": "ACTOR"}
+{"pattern": [{"TEXT": {"regex": "(?i)lab administrator"}}], "label": "ACTOR"}
+{"pattern": [{"TEXT": {"regex": "(?i)patron"}}], "label": "ACTOR"}
+{"pattern": [{"TEXT": {"regex": "(?i)archivemanager"}}], "label": "ACTOR"}
+{"pattern": [{"TEXT": {"regex": "(?i)trainingcoordinator"}}], "label": "ACTOR"}
+{"pattern": [{"TEXT": {"regex": "(?i)SocialCaregiver"}}], "label": "ACTOR"}
+{"pattern": [{"TEXT": {"regex": "(?i)hydrator user"}}], "label": "ACTOR"}
+{"pattern": [{"TEXT": {"regex": "(?i)Enforcement Staff member"}}], "label": "ACTOR"}
+{"pattern": [{"TEXT": {"regex": "(?i)User"}}], "label": "ACTOR"}
+{"pattern": [{"TEXT": {"regex": "(?i)supervisor"}}], "label": "ACTOR"}
+{"pattern": [{"TEXT": {"regex": "(?i)app developer"}}], "label": "ACTOR"}
+{"pattern": [{"TEXT": {"regex": "(?i)repository operator"}}], "label": "ACTOR"}
+{"pattern": [{"TEXT": {"regex": "(?i)donor representative"}}], "label": "ACTOR"}
+{"pattern": [{"TEXT": {"regex": "(?i)user"}}], "label": "ACTOR"}
+{"pattern": [{"TEXT": {"regex": "(?i)DPC"}}], "label": "ACTOR"}
+{"pattern": [{"TEXT": {"regex": "(?i)company"}}], "label": "ACTOR"}
+{"pattern": [{"TEXT": {"regex": "(?i)non-Duke researcher"}}], "label": "ACTOR"}
+{"pattern": [{"TEXT": {"regex": "(?i)trainee"}}], "label": "ACTOR"}
+{"pattern": [{"TEXT": {"regex": "(?i)assistant archivist"}}], "label": "ACTOR"}
+{"pattern": [{"TEXT": {"regex": "(?i)academicpublisher"}}], "label": "ACTOR"}
+{"pattern": [{"TEXT": {"regex": "(?i)system administrator"}}], "label": "ACTOR"}
+{"pattern": [{"TEXT": {"regex": "(?i)team member"}}], "label": "ACTOR"}
+{"pattern": [{"TEXT": {"regex": "(?i)participant"}}], "label": "ACTOR"}
+{"pattern": [{"TEXT": {"regex": "(?i)IT officer"}}], "label": "ACTOR"}
+{"pattern": [{"TEXT": {"regex": "(?i)Director of Research Integrity"}}], "label": "ACTOR"}
+{"pattern": [{"TEXT": {"regex": "(?i)FABS user"}}], "label": "ACTOR"}
+{"pattern": [{"TEXT": {"regex": "(?i)broker user"}}], "label": "ACTOR"}
+{"pattern": [{"TEXT": {"regex": "(?i)Civic Tech Activist"}}], "label": "ACTOR"}
+{"pattern": [{"TEXT": {"regex": "(?i)broker team member"}}], "label": "ACTOR"}
+{"pattern": [{"TEXT": {"regex": "(?i)funder"}}], "label": "ACTOR"}
+{"pattern": [{"TEXT": {"regex": "(?i)content editor"}}], "label": "ACTOR"}
+{"pattern": [{"TEXT": {"regex": "(?i)workshop attendee"}}], "label": "ACTOR"}
+{"pattern": [{"TEXT": {"regex": "(?i)JuniorResearcher"}}], "label": "ACTOR"}
+{"pattern": [{"TEXT": {"regex": "(?i)Application Administrator"}}], "label": "ACTOR"}
+{"pattern": [{"TEXT": {"regex": "(?i)recruiter"}}], "label": "ACTOR"}
+{"pattern": [{"TEXT": {"regex": "(?i)publisher"}}], "label": "ACTOR"}
+{"pattern": [{"TEXT": {"regex": "(?i)parent"}}], "label": "ACTOR"}
+{"pattern": [{"TEXT": {"regex": "(?i)data curator"}}], "label": "ACTOR"}
+{"pattern": [{"TEXT": {"regex": "(?i)government Publisher"}}], "label": "ACTOR"}
+{"pattern": [{"TEXT": {"regex": "(?i)Trainer"}}], "label": "ACTOR"}
+{"pattern": [{"TEXT": {"regex": "(?i)agency user"}}], "label": "ACTOR"}
+{"pattern": [{"TEXT": {"regex": "(?i)employee"}}], "label": "ACTOR"}
+{"pattern": [{"TEXT": {"regex": "(?i)data librarian"}}], "label": "ACTOR"}
+{"pattern": [{"TEXT": {"regex": "(?i)Bath Data Archive administrator"}}], "label": "ACTOR"}
+{"pattern": [{"TEXT": {"regex": "(?i)Staff member"}}], "label": "ACTOR"}
+{"pattern": [{"TEXT": {"regex": "(?i)lab member"}}], "label": "ACTOR"}
+{"pattern": [{"TEXT": {"regex": "(?i)institutional data steward"}}], "label": "ACTOR"}
+{"pattern": [{"TEXT": {"regex": "(?i)faculty member"}}], "label": "ACTOR"}
+{"pattern": [{"TEXT": {"regex": "(?i)site visitor"}}], "label": "ACTOR"}
+{"pattern": [{"TEXT": {"regex": "(?i)library staff member"}}], "label": "ACTOR"}
+{"pattern": [{"TEXT": {"regex": "(?i)InformalCaregiver"}}], "label": "ACTOR"}
+{"pattern": [{"TEXT": {"regex": "(?i)Applicant"}}], "label": "ACTOR"}
+{"pattern": [{"TEXT": {"regex": "(?i)migration specialist"}}], "label": "ACTOR"}
+{"pattern": [{"TEXT": {"regex": "(?i)member"}}], "label": "ACTOR"}
+{"pattern": [{"TEXT": {"regex": "(?i)ResearcherGovernment Publisher"}}], "label": "ACTOR"}
+{"pattern": [{"TEXT": {"regex": "(?i)Agency user"}}], "label": "ACTOR"}
+{"pattern": [{"TEXT": {"regex": "(?i)Broker user"}}], "label": "ACTOR"}
+{"pattern": [{"TEXT": {"regex": "(?i)data reuser"}}], "label": "ACTOR"}
+{"pattern": [{"TEXT": {"regex": "(?i)repoadmin"}}], "label": "ACTOR"}
+{"pattern": [{"TEXT": {"regex": "(?i)Inspection Supervisor"}}], "label": "ACTOR"}
+{"pattern": [{"TEXT": {"regex": "(?i)Inspector"}}], "label": "ACTOR"}
+{"pattern": [{"TEXT": {"regex": "(?i)Mike"}}], "label": "ACTOR"}
+{"pattern": [{"TEXT": {"regex": "(?i)investigator"}}], "label": "ACTOR"}
+{"pattern": [{"TEXT": {"regex": "(?i)Platform administrator"}}], "label": "ACTOR"}
+{"pattern": [{"TEXT": {"regex": "(?i)data contributor"}}], "label": "ACTOR"}
+{"pattern": [{"TEXT": {"regex": "(?i)collection curator"}}], "label": "ACTOR"}
+{"pattern": [{"TEXT": {"regex": "(?i)web recruiter manager"}}], "label": "ACTOR"}
+{"pattern": [{"TEXT": {"regex": "(?i)IT staff member"}}], "label": "ACTOR"}
+{"pattern": [{"TEXT": {"regex": "(?i)UI designer"}}], "label": "ACTOR"}
+{"pattern": [{"TEXT": {"regex": "(?i)faculty data steward"}}], "label": "ACTOR"}
+{"pattern": [{"TEXT": {"regex": "(?i)Planning Staff member"}}], "label": "ACTOR"}
+{"pattern": [{"TEXT": {"regex": "(?i)Researcher"}}], "label": "ACTOR"}
+{"pattern": [{"TEXT": {"regex": "(?i)academic researcher"}}], "label": "ACTOR"}
+{"pattern": [{"TEXT": {"regex": "(?i)developer"}}], "label": "ACTOR"}
+{"pattern": [{"TEXT": {"regex": "(?i)systems administrator"}}], "label": "ACTOR"}
+{"pattern": [{"TEXT": {"regex": "(?i)employee from the HR department"}}], "label": "ACTOR"}
+{"pattern": [{"TEXT": {"regex": "(?i)legalofficer"}}], "label": "ACTOR"}
+{"pattern": [{"TEXT": {"regex": "(?i)attendee"}}], "label": "ACTOR"}
+{"pattern": [{"TEXT": {"regex": "(?i)Data Analyst"}}], "label": "ACTOR"}
+{"pattern": [{"TEXT": {"regex": "(?i)data user"}}], "label": "ACTOR"}
+{"pattern": [{"TEXT": {"regex": "(?i)DigitalRecords Archivist"}}], "label": "ACTOR"}
+{"pattern": [{"TEXT": {"regex": "(?i)MRI operator"}}], "label": "ACTOR"}
+{"pattern": [{"TEXT": {"regex": "(?i)CMS SME"}}], "label": "ACTOR"}
+{"pattern": [{"TEXT": {"regex": "(?i)Technical Staff member"}}], "label": "ACTOR"}
+{"pattern": [{"TEXT": {"regex": "(?i)Owner"}}], "label": "ACTOR"}
+{"pattern": [{"TEXT": {"regex": "(?i)Plan Review Staff Member"}}], "label": "ACTOR"}
+{"pattern": [{"TEXT": {"regex": "(?i)DAMS manager"}}], "label": "ACTOR"}
+{"pattern": [{"TEXT": {"regex": "(?i)Customer"}}], "label": "ACTOR"}
+{"pattern": [{"TEXT": {"regex": "(?i)externaluser"}}], "label": "ACTOR"}
+{"pattern": [{"TEXT": {"regex": "(?i)Zooniverse admin"}}], "label": "ACTOR"}
+{"pattern": [{"TEXT": {"regex": "(?i)IT manager"}}], "label": "ACTOR"}
+{"pattern": [{"TEXT": {"regex": "(?i)Administrator"}}], "label": "ACTOR"}
+{"pattern": [{"TEXT": {"regex": "(?i)externalcoordinator"}}], "label": "ACTOR"}
+{"pattern": [{"TEXT": {"regex": "(?i)the repository."}}], "label": "ACTOR"}
+{"pattern": [{"TEXT": {"regex": "(?i)collection curator"}}], "label": "ACTOR"}
+{"pattern": [{"TEXT": {"regex": "(?i)Repository Manager Researcher"}}], "label": "ACTOR"}
+{"pattern": [{"TEXT": {"regex": "(?i)manager"}}], "label": "ACTOR"}
+{"pattern": [{"TEXT": {"regex": "(?i)Extension Administrator"}}], "label": "ACTOR"}
+{"pattern": [{"TEXT": {"regex": "(?i)County Staff Member"}}], "label": "ACTOR"}
+{"pattern": [{"TEXT": {"regex": "(?i)site editor"}}], "label": "ACTOR"}
+{"pattern": [{"TEXT": {"regex": "(?i)DeveloperPublisher"}}], "label": "ACTOR"}
+{"pattern": [{"TEXT": {"regex": "(?i)teachingfacultymember"}}], "label": "ACTOR"}
+{"pattern": [{"TEXT": {"regex": "(?i)Research Centre Director"}}], "label": "ACTOR"}
+{"pattern": [{"TEXT": {"regex": "(?i)user researcher"}}], "label": "ACTOR"}
+{"pattern": [{"TEXT": {"regex": "(?i)research facility manager"}}], "label": "ACTOR"}
+{"pattern": [{"TEXT": {"regex": "(?i)executive"}}], "label": "ACTOR"}
+{"pattern": [{"TEXT": {"regex": "(?i)CMS administrator"}}], "label": "ACTOR"}
+{"pattern": [{"TEXT": {"regex": "(?i)DeveloperWrangler"}}], "label": "ACTOR"}
+{"pattern": [{"TEXT": {"regex": "(?i)corporatesponsor"}}], "label": "ACTOR"}
+{"pattern": [{"TEXT": {"regex": "(?i)CSM"}}], "label": "ACTOR"}
+{"pattern": [{"TEXT": {"regex": "(?i)OpenSpending Community Member"}}], "label": "ACTOR"}
+{"pattern": [{"TEXT": {"regex": "(?i)Plan Review Staff member"}}], "label": "ACTOR"}
+{"pattern": [{"TEXT": {"regex": "(?i)batch submitter"}}], "label": "ACTOR"}
+{"pattern": [{"TEXT": {"regex": "(?i)research participant"}}], "label": "ACTOR"}
+{"pattern": [{"TEXT": {"regex": "(?i)company accountant"}}], "label": "ACTOR"}
+{"pattern": [{"TEXT": {"regex": "(?i)Developer"}}], "label": "ACTOR"}
+{"pattern": [{"TEXT": {"regex": "(?i)Data Consuming User"}}], "label": "ACTOR"}
+{"pattern": [{"TEXT": {"regex": "(?i)institutional data manager"}}], "label": "ACTOR"}
+{"pattern": [{"TEXT": {"regex": "(?i)sponsor"}}], "label": "ACTOR"}
+{"pattern": [{"TEXT": {"regex": "(?i)Zoning Staff member"}}], "label": "ACTOR"}
+{"pattern": [{"TEXT": {"regex": "(?i)camp administrator"}}], "label": "ACTOR"}

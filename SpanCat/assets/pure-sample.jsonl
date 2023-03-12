@@ -1,0 +1,50 @@
+{"text": "Stored numbers and other set-up details should be protected against accidental alteration."}
+{"text": "The system should have capability to support public access to a subset of data andfunctionality"}
+{"text": "The System must ensure that audit trail data is available for inspection on request, so that a specific event can be identified and all related data made accessible, and that this can be achieved by authorised external personnel who have little or no familiarity with the system."}
+{"text": "The User shall be able to view the hyperlinks and descriptions listed."}
+{"text": "Systems supporting OM must have the capability to capture data about any conveyance involved in an OM investigation, including: type of conveyance, route taken (e.g., flight number), etc."}
+{"text": "The ETCS on-board shall be capable of receiving National values from the trackside to adapt to National requirements"}
+{"text": "Mobiles configured for reception of railway emergency calls entering into a call area"}
+{"text": "An addressing scheme shall be provided which permits users to be identified by numbers corresponding to their functional roles rather than by numbers tied to the terminal equipment that they are using."}
+{"text": "The system shall retain existing HIPAA compliance capabilities."}
+{"text": "The system shall display the desired operational page for the user after clicking the hyperlink."}
+{"text": "Transferring to Full Supervision shall occur automatically when a movement authority and all other necessary information is received through track-to-train transmission."}
+{"text": "The composition of call groups shall be able to be modified within the network. A single user shall be able to be a member of one or more call groups."}
+{"text": "The VCD system must provide a functionality to request attestations that can be collected automatically via an issuing body."}
+{"text": "Avoiding opening unnecessary windows: Additional windows such as new browser windows or pop-up windows should only be opened if this supports the user\u2019s task. Opening new windows can distract, confuse or impede users for a variety of reasons. They can superimpose the primary window, hiding relevant information. They could make it cognitively more difficult to understand the navigation structure with negative effects on both usability and accessibility. They also require additional user actions for closing unwanted windows."}
+{"text": "The system should be implemented using Service Oriented Architecture (SOA) and have a modular design"}
+{"text": "The trackside shall be able to send information for the calculation of speed profiles."}
+{"text": "Where more than one mobile radio network is available for use by a mobile, the selection of the network to use shall be automatic (see section 10.5)."}
+{"text": "The VCD system MUST have a functionality to extract structural data of evidence from attestations that can be retrieved automatically."}
+{"text": "Every on-engine/coach function shall be identified by a unique standard number."}
+{"text": "The VCD system MUST provide a functionality that displays the attestation services that cannot be invoked automatically and that have to be manually added by the economic operator."}
+{"text": "Placing navigation components consistently: Navigation components should be placed consistently on the pages or in the framesets in the pages of the application."}
+{"text": "Therefore, the radio shall provide a priority function for calls from different sources in order to handle contention for the radio."}
+{"text": "Systems supporting OM should generate electronic data dictionaries for dynamic data (or other user-defined data descriptions to assist with effective data exchange), line lists, activity logs, aggregate data, and call-back lists to assist the emergency response group and investigators in responding to and containing a health event."}
+{"text": "The VCD transportation system MUST provide a functionality that supports the economic operator in submitting the VCD package to a contracting authority."}
+{"text": "Receive incoming group or broadcast voice call"}
+{"text": "The subject of a specimen/sample collected for laboratory testing must be linked to the specimen/sample by an identifier (i.e., Subject ID) that is unique within the jurisdiction."}
+{"text": "The link assurance tone shall be provided via the loudspeaker."}
+{"text": "When the call is connected to the controller, an audible and visual indication is to be provided to the driver. The call shall be connected to the loudspeaker at the pre-set value."}
+{"text": "Systems supporting OM must have the capability to capture data for any object involved in an OM investigation, such as a letter, invoice, food item, or any object that cannot be classified as a \u201cperson, organization, place, or animal.\u201d Collected data may include: name of the object, type, physical descriptors, address, identification number (e.g. serial number, package slip number), and relevant dates and times (e.g., invoice date, shipping date, packaging date)."}
+{"text": "The Cab radio system shall be able to receive incoming text messages (see section 12 for details)."}
+{"text": "On demand, the position of the front end of the train at the time of the demand shall be indicated on the DMI. This shall be possible while the train is moving or stationary."}
+{"text": "If an affected person suffers a negative reaction to a vaccine or prophylaxis that was administered, adverse event data may be collected and used to determine the need for additional interventions or to determine if there is a problem with the pharmaceutical, batch, or the administering facility or person. For specific data requirements regarding adverse event data, please reference PHIN Preparedness Countermeasure/Response Administration Functional Requirements and Process Flows, available at www.cdc.gov/phin."}
+{"text": "Systems supporting OM must have the capability to capture data about any animals involved in an OM investigation, including: type (dog, monkey, etc), age, gender, owner\u2019s name and address, color, weight, and species. A Subject ID should also be collected for animals in an OM investigation. It may be a challenge to ensure unambiguous identification because demographic details of an animal are not easily identified; therefore, animals involved in investigations may need to be tagged."}
+{"text": "The solution should provide detailed context-sensitive help material for all the possible actions and scenarios on all user interfaces in the application."}
+{"text": "All error messages produced by the System must be meaningful, so that they can be appropriately acted upon by the users who are likely to see them. Ideally, each error message will be accompanied by explanatory text and an indication of the action(s) which the user can take in response to the error."}
+{"text": "Case data about the entity should include: a case identifier (i.e., Case ID) that is unique within the jurisdiction being reported, the suspected agent, case diagnosis, health status (e.g., no symptoms, acute illness), case status (e.g., confirmed, probable, suspect), investigation dates, clinical history, symptom onset date and time, epidemiological links to other cases, and priority (e.g., high, medium, low)."}
+{"text": "The System must provide End User and Administrator functions which are easy to use and intuitive throughout."}
+{"text": "The driver can not speak in a group call until permission is granted by the network after pushing the PTT button."}
+{"text": "Reports generated by systems supporting OM should clearly indicate the number of cases, the number of contacts per case, the number of cases with no known epi-link at the time of diagnosis, the laboratory results, and the number of vaccinations and/or treatments administered."}
+{"text": "The VCD system MUST have the status of a trusted system."}
+{"text": "Policies are in place to perform renegotiation for problem resolution."}
+{"text": "A dedicated Push-To-Talk button shall be provided."}
+{"text": "The group identity of the voice group call (VBS or VGCS) shall be displayed."}
+{"text": "The current application level shall be indicated on the DMI."}
+{"text": "If the ability to initiate Railway emergency calls is implemented in the radio, accidental initiation of a Railway emergency call shall be prevented."}
+{"text": "The Development Team shall be required to adjust existing source code to follow acceptedcoding standards only if that source code must be modified."}
+{"text": "The drivers functional number shall be automatically registered/deregistered when the train number is registered/deregistered."}
+{"text": "If a resource fails, its service information is removed from SR and the resource ID counter is decremented."}
+{"text": "The radio shall support at least ten different languages."}
+{"text": "It MUST be clarified which possibilities exist to utilize the infrastructure for submitting a VCD package directly to procurement platforms (e.g. via VPN)."}

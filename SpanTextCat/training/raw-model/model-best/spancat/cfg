@@ -1,0 +1,12 @@
+{
+  "labels":[
+    "PRECONDITION",
+    "ACTOR",
+    "POSTCONDITION",
+    "QUALITY",
+    "ACTION"
+  ],
+  "spans_key":"sc",
+  "threshold":0.5,
+  "max_positive":null
+}

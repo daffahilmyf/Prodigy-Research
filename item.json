@@ -1,0 +1,166 @@
+//  Combination Order: remove_stopwords, lemmatize, stem, exclude_conditional_stopwords
+//  Configuration Input: True (T), False (F)
+{
+  "result": [
+    {
+      "combination": "T T T T ",
+      "model": [
+        { "name": "SVC", "score": 0.7380154639175257 },
+        { "name": "Naive Bayes", "score": 0.7171176975945017 },
+        { "name": "Random Forest", "score": 0.7213487972508591 },
+        { "name": "Decision Tree", "score": 0.6943943298969072 },
+        { "name": "Logistic Regression", "score": 0.744286941580756 }
+      ]
+    },
+    {
+      "combination": "T T T F ",
+      "model": [
+        { "name": "SVC", "score": 0.7380154639175257 },
+        { "name": "Naive Bayes", "score": 0.7171176975945017 },
+        { "name": "Random Forest", "score": 0.7359321305841924 },
+        { "name": "Decision Tree", "score": 0.6798969072164949 },
+        { "name": "Logistic Regression", "score": 0.744286941580756 }
+      ]
+    },
+    {
+      "combination": "T T F T ",
+      "model": [
+        { "name": "SVC", "score": 0.7380154639175257 },
+        { "name": "Naive Bayes", "score": 0.7171176975945017 },
+        { "name": "Random Forest", "score": 0.7567654639175256 },
+        { "name": "Decision Tree", "score": 0.6861683848797251 },
+        { "name": "Logistic Regression", "score": 0.744286941580756 }
+      ]
+    },
+    {
+      "combination": "T T F F ",
+      "model": [
+        { "name": "SVC", "score": 0.7380154639175257 },
+        { "name": "Naive Bayes", "score": 0.7171176975945017 },
+        { "name": "Random Forest", "score": 0.7567439862542955 },
+        { "name": "Decision Tree", "score": 0.6944372852233677 },
+        { "name": "Logistic Regression", "score": 0.744286941580756 }
+      ]
+    },
+    {
+      "combination": "T F T T ",
+      "model": [
+        { "name": "SVC", "score": 0.7380154639175257 },
+        { "name": "Naive Bayes", "score": 0.7171176975945017 },
+        { "name": "Random Forest", "score": 0.7504939862542954 },
+        { "name": "Decision Tree", "score": 0.6923324742268042 },
+        { "name": "Logistic Regression", "score": 0.744286941580756 }
+      ]
+    },
+    {
+      "combination": "T F T F ",
+      "model": [
+        { "name": "SVC", "score": 0.7380154639175257 },
+        { "name": "Naive Bayes", "score": 0.7171176975945017 },
+        { "name": "Random Forest", "score": 0.7276202749140894 },
+        { "name": "Decision Tree", "score": 0.7028350515463917 },
+        { "name": "Logistic Regression", "score": 0.744286941580756 }
+      ]
+    },
+    {
+      "combination": "T F F T ",
+      "model": [
+        { "name": "SVC", "score": 0.7380154639175257 },
+        { "name": "Naive Bayes", "score": 0.7171176975945017 },
+        { "name": "Random Forest", "score": 0.7235180412371134 },
+        { "name": "Decision Tree", "score": 0.7047895189003437 },
+        { "name": "Logistic Regression", "score": 0.744286941580756 }
+      ]
+    },
+    {
+      "combination": "T F F F ",
+      "model": [
+        { "name": "SVC", "score": 0.7380154639175257 },
+        { "name": "Naive Bayes", "score": 0.7171176975945017 },
+        { "name": "Random Forest", "score": 0.7359321305841925 },
+        { "name": "Decision Tree", "score": 0.6902920962199313 },
+        { "name": "Logistic Regression", "score": 0.744286941580756 }
+      ]
+    },
+    {
+      "combination": "F T T T ",
+      "model": [
+        { "name": "SVC", "score": 0.7380154639175257 },
+        { "name": "Naive Bayes", "score": 0.7171176975945017 },
+        { "name": "Random Forest", "score": 0.7442439862542956 },
+        { "name": "Decision Tree", "score": 0.6902920962199313 },
+        { "name": "Logistic Regression", "score": 0.744286941580756 }
+      ]
+    },
+    {
+      "combination": "F T T F ",
+      "model": [
+        { "name": "SVC", "score": 0.7380154639175257 },
+        { "name": "Naive Bayes", "score": 0.7171176975945017 },
+        { "name": "Random Forest", "score": 0.7546606529209622 },
+        { "name": "Decision Tree", "score": 0.6799398625429554 },
+        { "name": "Logistic Regression", "score": 0.744286941580756 }
+      ]
+    },
+    {
+      "combination": "F T F T ",
+      "model": [
+        { "name": "SVC", "score": 0.7380154639175257 },
+        { "name": "Naive Bayes", "score": 0.7171176975945017 },
+        { "name": "Random Forest", "score": 0.72768470790378 },
+        { "name": "Decision Tree", "score": 0.698668384879725 },
+        { "name": "Logistic Regression", "score": 0.744286941580756 }
+      ]
+    },
+    {
+      "combination": "F T F F ",
+      "model": [
+        { "name": "SVC", "score": 0.7380154639175257 },
+        { "name": "Naive Bayes", "score": 0.7171176975945017 },
+        { "name": "Random Forest", "score": 0.729725085910653 },
+        { "name": "Decision Tree", "score": 0.7069587628865979 },
+        { "name": "Logistic Regression", "score": 0.744286941580756 }
+      ]
+    },
+    {
+      "combination": "F F T T ",
+      "model": [
+        { "name": "SVC", "score": 0.7380154639175257 },
+        { "name": "Naive Bayes", "score": 0.7171176975945017 },
+        { "name": "Random Forest", "score": 0.717139175257732 },
+        { "name": "Decision Tree", "score": 0.702770618556701 },
+        { "name": "Logistic Regression", "score": 0.744286941580756 }
+      ]
+    },
+    {
+      "combination": "F F T F ",
+      "model": [
+        { "name": "SVC", "score": 0.7380154639175257 },
+        { "name": "Naive Bayes", "score": 0.7171176975945017 },
+        { "name": "Random Forest", "score": 0.7337843642611683 },
+        { "name": "Decision Tree", "score": 0.6944587628865979 },
+        { "name": "Logistic Regression", "score": 0.744286941580756 }
+      ]
+    },
+    {
+      "combination": "F F F T ",
+      "model": [
+        { "name": "SVC", "score": 0.7380154639175257 },
+        { "name": "Naive Bayes", "score": 0.7171176975945017 },
+        { "name": "Random Forest", "score": 0.7235609965635739 },
+        { "name": "Decision Tree", "score": 0.700622852233677 },
+        { "name": "Logistic Regression", "score": 0.744286941580756 }
+      ]
+    },
+    {
+      "combination": "F F F F ",
+      "model": [
+        { "name": "SVC", "score": 0.7380154639175257 },
+        { "name": "Naive Bayes", "score": 0.7171176975945017 },
+        { "name": "Random Forest", "score": 0.7276417525773196 },
+        { "name": "Decision Tree", "score": 0.7048969072164948 },
+        { "name": "Logistic Regression", "score": 0.744286941580756 }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1 @@
+python -m prodigy span-and-textcat nlp-research en assets/merged.jsonl -F recipe.py --exclusive

@@ -1,0 +1,1082 @@
+Systems designed to support OM must offer configuration flexibility so that new data fields, entities, entity types and relationship types may be added to capture information unique to each particular health event.
+Systems supporting OM must support structured data entry for common forms and fields to ensure data integrity, validity, and standardization. A standardized data structure ensures that data mapping of common elements will only be necessary one time, rather than for each event.
+Systems supporting OM should support multiple deployment options (e.g., client server, disconnected, and potentially web based).
+Systems supporting OM should provide the ability for computers in disconnected mode to reconnect to a server to share OM data among other computers that operate in disconnected mode.
+OM data should be synchronized so that all instances of OM applications working from the same server are able to share and use the same data.
+Systems supporting OM should be able to electronically record and store data from remote devices that may be uploaded to an aggregating system.
+Systems supporting OM should be capable of using configurable, domain-specific vocabulary.
+Systems supporting OM must have the capability to capture demographic data about persons involved in an OM investigation, including: Subject ID, name, address, date of birth, gender, phone number, race, ethnicity, and country of citizenship.
+Other descriptive details may be captured, such as occupation and work history.
+Systems supporting OM must have the capability to capture data about organizations (e.g., a local health department, a university, a professional association) involved in an OM investigation, including: organization name, location, and contact information.
+Systems supporting OM must have the capability to capture data about locations involved in an OM investigation, including: name (if applicable), type (e.g., floor, building, room, store), street address, city, state, zip code, country, GPS coordinates, and other specific details (e.g., a specific building on a campus, a business branch location, a local chapter’s meeting hall)
+Systems supporting OM must have the capability to capture data about any animals involved in an OM investigation, including: type (dog, monkey, etc), age, gender, owner’s name and address, color, weight, and species. A Subject ID should also be collected for animals in an OM investigation. It may be a challenge to ensure unambiguous identification because demographic details of an animal are not easily identified; therefore, animals involved in investigations may need to be tagged.
+Systems supporting OM must have the capability to capture data for any object involved in an OM investigation, such as a letter, invoice, food item, or any object that cannot be classified as a “person, organization, place, or animal.” Collected data may include: name of the object, type, physical descriptors, address, identification number (e.g. serial number, package slip number), and relevant dates and times (e.g., invoice date, shipping date, packaging date).
+Systems supporting OM must have the capability to capture data about any conveyance involved in an OM investigation, including: type of conveyance, route taken (e.g., flight number), etc.
+Systems supporting OM must have the capability to capture data about any public or private gathering of people (e.g., church social, ball game) involved in an OM investigation, including: time, location, nature of the event, etc.
+Systems supporting OM must have the capability to capture data about any living things other than persons or animals that are involved in an OM investigation, including: type of living thing, and other customizable data collection questions.
+Systems supporting OM must have the capability to capture an entity’s travel history to support investigations of entities infected, exposed or potentially exposed.
+When a health event is investigated, it must be assigned an event identifier (i.e., Event ID) that is unique within the jurisdiction.
+Data describing the health event should be captured, including the reason for the investigation, the category of event (e.g. environmental, infectious), the date the event began, the suspected agent (if known) or investigation focus, the geographic area impacted by the event, as well as the event status (e.g., open, closed).
+Systems supporting OM should have the ability to record the case definition for a health event.
+Systems supporting OM should have the ability to capture changes to the case definition that occur as the health event evolves.
+Travel history provides specific information to indicate when, where, and how subjects involved in an event traveled to a location (or to multiple locations), and conveyance data describes the vehicle in which the travel occurred. Examples of travel history include a person’s local travel as a part of their daily activities as well as the shipment of animals or plants from one country to another.
+Travel history data should include information such as the method of transportation (e.g. bus, plane, boat, car), flight number, departure and arrival dates and times, and the origination and destination locations (city, state, and country).
+Information about each leg of a trip, as well as the parent information about the trip, should be captured. For example, if a person who lives in Georgia travels to Seattle and becomes exposed to monkey pox, then visits a friend in Santa Fe, travel history and conveyance data should be noted accordingly for each place the exposed person traveled.
+Travel history data to be collected for an animal or object should include shipping invoices, animal shelter delivery and adoption receipts, and delivery schedules (including delivery vehicle and driver information).
+Detailed conveyance data must be collected when relevant to the investigation, including the carrier identifier, the type of conveyance (such as airplane, bus, or train, among countless others), as well as the make, model, year, and identification number (e.g., VIN) of each vehicle with which the entity was in contact (if this information is relevant to the investigation).
+Case and exposure data provide more detailed information beyond demographic data. Cases can be persons or animals, and exposure contacts can be persons, animals, other organisms, or exposure settings, such as travel conveyance, location, organization, object, or event.
+Because attributes of both case and exposure data may describe the same entity, systems supporting OM must have the ability to avoid capturing redundant entity demographic information.
+Case data about the entity should include: a case identifier (i.e., Case ID) that is unique within the jurisdiction being reported, the suspected agent, case diagnosis, health status (e.g., no symptoms, acute illness), case status (e.g., confirmed, probable, suspect), investigation dates, clinical history, symptom onset date and time, epidemiological links to other cases, and priority (e.g., high, medium, low).
+There must be a means to update the case diagnosis either manually or automatically if the case definition changes during an event.
+Epidemiological (epi) data must be collected to assist in the case investigation of events. Standard epi data to be collected includes: onset date and time of symptoms, type of symptoms, risk factors, medical history data, laboratory data, procedure data, and questionnaire responses.
+Systems supporting OM must allow for dynamic, event-specific case investigation data to be captured.
+In the context of a case, all entities exposed to a case must be recorded and linked to the case.
+Demographic information should be collected about the investigator, including their name, address, and contact information, so that the investigator may be contacted to answer questions or to provide additional information.
+Both the jurisdiction investigating the event and the jurisdiction reporting the cases and associated investigations must be captured. For example, if a person becomes ill during travel in one jurisdiction but is the resident of another, the illness will be reported by the state (jurisdiction) of residence and investigated by the jurisdiction visited.
+Systems supporting OM should have the ability to classify entities associated with the investigation as investigation controls. For example, controls share demographic characteristics with the subject of the case, but are not infected with the agent that is the focus of the investigation.
+Exposure investigation data to be captured must include information related to exposure levels, type of exposure (e.g., intimate, social, household, common conveyance), place of exposure, length of time the entity was exposed, frequency of exposure, and the entity’s proximity to the source of exposure.
+Detailed data must be collected about the source of exposure as well as the exposed entity to support contact exposure tracing. Exposure data related to both the potential source and the potential spread include the entity’s type, Subject ID, Contact ID, contact’s name and address, exposure dates and times, health status, and priority code.
+Epi data must be collected to assist in the exposure investigation of health events. Standard epi data to be collected for exposure investigation parallels the data to be collected for case investigation and includes: onset date and time of symptoms, type of symptoms, risk factors, laboratory data, procedure data, and questionnaire responses.
+Systems supporting OM must support capturing dynamic, event-specific data that describes contact between two subjects.
+Monitoring and follow-up data is used to track the progress and treatment of subjects who were exposed or potentially exposed to a health event. For more information about monitoring and follow-up data, please reference “PHIN Countermeasure/Response Administration Functional Requirements and Process Flows”, available at www.cdc.gov/phin.
+Systems supporting OM should support the monitoring and follow-up activities required when tracking the status of cases and exposed individuals.
+Monitoring data should be collected about cases and exposed individuals who are isolated or quarantined because of a health event.
+Follow-up data should be collected from subjects or their proxies to track symptoms and compliance with recommended treatment plans or prophylaxis.
+Follow-up data may be received from take response exams of persons who received a countermeasure that requires such an exam (i.e., smallpox vaccination).
+Specimens/samples collected for laboratory testing must be assigned an identifier (i.e., Specimen ID) that is unique within the jurisdiction.
+The subject of a specimen/sample collected for laboratory testing must be linked to the specimen/sample by an identifier (i.e., Subject ID) that is unique within the jurisdiction.
+Systems supporting OM must be able to store data about the specimens/samples that are collected for laboratory testing. Examples of this data are: Specimen ID, Subject ID, purpose for test, collection date and time, subject type (e.g., human, plant, animal, food), specimen category, specimen type, suspected agent, risk indicator (e.g., infectious, radioactive, corrosive), person performing specimen/sample collection (including contact information), location of collection, and volume and quantity details.
+Clinical specimen data should include information about the specimen source/site from which the specimen was taken, symptom date of onset, and whether the sample is acute or convalescent.
+Environmental sample data should include information about the collection method, location (geocoded if possible) from which the sample was taken, source (e.g., rain or well for water, radiation release, asbestos, chair or desk in a specified location), nature of the sample (e.g., soil, water, air), quality control data, collection begin and end date and time for air samples, and original volume and volume of concentrate tested for water samples.
+Food sample data should include information about the lot number, batch number, manufacturer name, shipping invoice, temperature, sample type (e.g., dairy – milk, red meat, spice), and product storage condition.
+Bar-coding should be supported for the capture of detailed specimen/sample data to improve the quality and efficiency of data collection.
+Chain of custody information for all specimens/samples should be captured.
+Chain of custody information for forensic and select agent samples must be captured, including the person who collected the sample, the location of collection, all people who came into contact with the sample during the preparation for shipment to the laboratory, and the acceptance of the package by the shipper.
+Systems supporting OM must be able to create a laboratory test request for a specimen/sample or group of specimens/samples. More information about creating laboratory test requests is found in section 2.5 System Integration and Data Exchange of this document.
+Information about batch shipments of specimens/samples that are transferred to test laboratories or other facilities must be collected, including the shipper (e.g., UPS, FedEx), shipment tracking number, and the sending organization’s contact information.
+Systems supporting OM should be able to support the inclusion of labeling, packaging and shipping instructions (e.g., container type, storage condition, preservative), and the shipping manifest with batch shipments of specimens/samples.
+Systems supporting OM must be able to store laboratory result(s) and link the result(s) to the original laboratory test request. More information about receiving and linking laboratory test requests is found in section 2.5 System Integration and Data Exchange of this document.
+Systems supporting OM must store data about laboratory results. Examples of this data include the Specimen ID, Subject ID, test date and time, test type (LOINC), data for each organization involved in the testing of the specimen/sample (e.g., testing or reference laboratory name, location, contact information), laboratory results and result values (SNOMED), other data such as unit of measure for result value, overall interpretation, and any relevant notes.
+If the specimen/sample collection record exists, the laboratory result must be linked to the specimen collection record by the Specimen ID.
+If the specimen/sample collection record does not exist, the laboratory result must be linked to the subject by the Subject ID.
+All levels of granularity of results (e.g., specimen/sample level, assay level) must be supported.
+Systems supporting OM should capture or be linked to data regarding the prophylaxis or treatment to cases, exposed individuals, or at risk persons, including the person who ordered the prophylaxis or treatment, and the name, date, type, duration, and dosage of the treatment or prophylaxis given. For specific data requirements regarding the administration of prophylaxis and treatment, please reference PHIN Preparedness Countermeasure/Response Administration Functional Requirements and Process Flows, available at www.cdc.gov/phin.
+Contraindication information should be collected to indicate why vaccinations, treatments, or antidotes may not have been administered or why the patient may not have complied with prescribed interventions.
+If an affected person suffers a negative reaction to a vaccine or prophylaxis that was administered, adverse event data may be collected and used to determine the need for additional interventions or to determine if there is a problem with the pharmaceutical, batch, or the administering facility or person. For specific data requirements regarding adverse event data, please reference PHIN Preparedness Countermeasure/Response Administration Functional Requirements and Process Flows, available at www.cdc.gov/phin.
+Systems supporting OM should capture information such as the date and time of an activity, activity type, who initiated the activity, and contact information to generate activity logs for management purposes.
+Activity logs, which are tools for investigators to track their actions during a case, should be supported. For example, investigators may log calls made to monitor symptoms or calls made to schedule follow-up visits.
+Activity logs may also provide information needed to support communication with various jurisdictions in the event that the investigation crosses jurisdictional boundaries. For example, if a person becomes ill during travel in one jurisdiction but is the resident of another, the illness will be reported by the state (jurisdiction) of residence, rather than by the jurisdiction visited.
+Electronic questionnaires must be developed and validated. They will be designed by investigators to collect common data elements (e.g., patient demographics, test results, exposure contacts), agent-specific data elements (e.g., specific laboratory test), and other customized data elements.
+Electronic questionnaires should provide the capability to accept digital signatures.
+Systems supporting OM must provide the ability to control the configuration of and revisions to investigation-specific questionnaires.
+Systems supporting OM must provide the ability to publish investigation-specific questionnaires and implementation guides.
+Case investigation should be supported by reusable questionnaire libraries that use common terminology (where available) to maximize the efficiency of data exchange.
+Systems supporting OM should provide a manual or automatic means of updating the status of case records as the case definition changes.
+Systems supporting OM should track the changes made to the status of case records as a result of changes in the case definition.
+Linkages allow investigators to create meaningful analysis, characterize the event, and identify at-risk populations.
+Systems supporting OM must support dynamically defined associations between entities for the purpose of defining relationships. For example, person-to-person (e.g., family relationship, exposure relationship), person-to-place (e.g., household, common place), animal-to-person, object-to-place, person-to-travel.
+Entity-to-epi data links must match the entity to their symptoms, survey questions, specimens/samples collected, laboratory results, and prophylaxis and treatment data.
+Each new case must be able to link an assigned Entity ID to an Event ID within the scope of the investigation.
+Systems supporting OM require the ability to capture information about possible cases and potential contacts from the identification process through the treatment and follow-up process, as supported by linkages among entities, events, and actions.
+Laboratory results must be linked to corresponding specimens/samples including multiple results from one specimen/sample), and subjects when the participating laboratory returns the results. These linkages must unambiguously associate multiple laboratory results to case and contact identifiers.
+If the specimen/sample was created from another specimen/sample (e.g., aliquots, and new specimen types created from a source sample), laboratory results for the child specimens/samples must be linked to the corresponding parent specimen/sample.
+Each investigation subject may be associated with exposure contacts, including unambiguous links to contacts in other jurisdictions.
+Contacts of exposed entities (e.g., people, animals, places) may be traced, investigated, and monitored.
+Systems supporting OM should be able to create new contacts from existing case records, and should also identify the contact type.
+Systems supporting OM must support contact exposure tracing by allowing one contact to be linked to multiple cases, and allowing multiple contacts to be linked to a single case.
+Systems supporting OM should be able to produce contact work lists for each investigator to use, and should allow sorting by priority or geography.
+Systems supporting OM should allow for analytical searches based upon multiple criteria.
+Systems supporting OM should have the ability to produce charts, maps, and graphs that illustrate OM data, such as epi-curves and the effect of vaccination or prophylaxis on the number of new cases (demonstrating the effectiveness in containing the health event) or maps that illustrate the number of cases by zip code.
+Systems supporting OM should generate electronic data dictionaries for dynamic data (or other user-defined data descriptions to assist with effective data exchange), line lists, activity logs, aggregate data, and call-back lists to assist the emergency response group and investigators in responding to and containing a health event.
+Reports generated by systems supporting OM should clearly indicate the number of cases, the number of contacts per case, the number of cases with no known epi-link at the time of diagnosis, the laboratory results, and the number of vaccinations and/or treatments administered.
+Systems supporting OM should have the ability to produce pre-formatted queries and reports to allow faster and more accurate reporting, while still allowing the flexibility of ad-hoc reporting.
+Systems supporting OM should have the ability to produce individual reports for each emergency team member or investigator.
+Systems supporting OM should have the ability to compare characteristics of exposed and non-exposed (i.e., controls) persons.
+Systems supporting OM should have the ability to produce lists of action items (e.g., to do lists).
+Systems supporting OM must have the ability to print questionnaires for multiple uses, including taking to the field, use during phone interviews, etc.
+Systems supporting OM must be able to aggregate data. Examples of aggregated data to be supported are: number of cases, number of contacts per case, and number of vaccinations and/or treatments administered.
+Health event data should be aggregated into a centralized data store (i.e., data warehouse) designed specifically to support analysis of events over time.
+Data should be accessible for use with commonly available analytical tools (e.g., SAS, SPSS, EPI-INFO, MS Access, MS Excel, Crystal Reports).
+Contact information for key response partner organizations should be stored in a local instance of a public health directory for associating to a health event, as described in section 2.2.2 Health event Data of this document.
+Systems supporting OM must be able to accept data from other partner systems supporting OM.
+Systems supporting OM must be able to create and send messages for laboratory test requests. This requirement is identified as a key performance measure for assessing preparedness as described in PHIN Preparedness Key Performance Measures, available at www.cdc.gov/phin.
+Systems supporting OM should be able to receive, parse and process messages for laboratory test request responses, in accordance with PHIN Laboratory Test Order Response Message Implementation Guide, available at www.cdc.gov/phin.
+Systems supporting OM must be able to receive, parse and process messages for laboratory results. This requirement is identified as a key performance measure for assessing preparedness as described in PHIN Preparedness Key Performance Measures, available at www.cdc.gov/phin.
+Laboratory results should be linked to laboratory test requests, which are linked to subjects.
+Systems supporting OM should be able to exchange messages for laboratory results with systems supporting surveillance, early event detection (EED), and other preparedness areas.
+Systems supporting OM must be able to exchange messages for confirmed, probable and suspect cases, and the other case classifications that are noted in the PHIN message implementation guide, with systems supporting surveillance, early event detection (EED), and other preparedness areas. This requirement is identified as a key performance measure for assessing preparedness as described in PHIN Preparedness Key Performance Measures, available at www.cdc.gov/phin.
+Systems supporting OM must exchange messages for investigations and for exposure contacts. This requirement is identified as a key performance measure for assessing preparedness as described in PHIN Preparedness Key Performance Measures, available at www.cdc.gov/phin.
+Systems supporting OM must be able to receive, parse and process messages for countermeasures that have been administered. This requirement is identified as a key performance measure for assessing preparedness as described in PHIN Preparedness Key Performance Measures, available at www.cdc.gov/phin.
+Countermeasures that have been administered must be linked to the entity that was administered the countermeasures.
+Systems supporting OM must be able to create and send messages for countermeasure administration requests. This requirement is identified as a key performance measure for assessing preparedness as described in PHIN Preparedness Key Performance Measures, available at www.cdc.gov/phin.
+Systems supporting OM must be able to exchange aggregated data. Examples of aggregated data to be supported are: number of cases, number of contacts per case, and number of vaccinations and/or treatments administered.
+Systems supporting OM should be able to provide the aggregate data necessary for health event monitoring to systems that support response tracking, such as the number of suspect cases, number of persons under isolation or quarantine, and the number of patients receiving countermeasures.
+Mapping interfaces and data dictionaries must be clearly defined and included in data exchanges to indicate and describe both standard and customized fields because systems supporting OM are configurable to meet the individual needs of each event and therefore collect data specific to each event.
+Message components should be grouped by observation type (e.g., laboratory, symptom, exposure, risk, treatment) by systems supporting OM.
+Systems supporting OM should support multiple file formats for import and export, such as databases, spreadsheets, messages, and text files, among others
+Data exchange should support analysis and information sharing of possible health events at all levels of public health (e.g., national, state, local).
+It is recommended that standards be used across systems supporting OM; however, it is required that vocabulary standards be used when exchanging data. Vocabulary requirements that span PHIN functional areas should be reviewed in “PHIN Preparedness Cross Functional Components Requirements”, available at www.cdc.gov/phin.
+Operational requirements, such as system backup policies and procedures, continuity of operations, system monitoring, and employee training ensure that public health partners can effectively support activities in OM and other PHIN functional areas. Operational requirements specific to OM are defined below. Operational requirements that span PHIN functional areas are separately defined and should be reviewed in “PHIN Preparedness Cross Functional Components Requirements”, available at www.cdc.gov/phin.
+Policies and procedures for communicating information to appropriate stakeholders (e.g., state and federal emergency management organizations, FEMA, hazmat teams, public works facilities, intelligence organizations, the media, and the public) should be clearly defined.
+Polices regarding data synchronization should be defined to support multiple deployment options as discussed in section 2.1 System Architecture of this document.
+Configuration management protocols and personnel should be identified to support multiple deployment options.
+Protocols and personnel should be identified to support the set-up and configuration of laptops and other field devices used in OM investigations.
+Processes and personnel should be identified to support agent-specific deployment packages, including syndromic grouping libraries and vocabulary sub-sets, which will be used to efficiently collect data specific to the particular health event being investigated.
+Policies and procedures should be in place for determining when follow up and isolation and quarantine monitoring should be done as a part of a focused countermeasure administration and response effort, rather than as a function of contact exposure tracing.
+Systems and data supporting OM must be protected from sabotage, corruption and unauthorized access, and must be available subsequent to a catastrophic event. Security and Availability requirements that span PHIN functional areas should be reviewed in “PHIN Preparedness Cross Functional Components Requirements”, available at www.cdc.gov/phin.
+Privacy requirements ensure that sensitive information is not accessibly to unauthorized uses. Privacy requirements are broadly defined because they span all PHIN functional areas. These requirements should be reviewed in “PHIN Preparedness Cross Functional Components Requirements”, available at www.cdc.gov/phin.
+A template that ensures comparable and reliable mappings between criteria for qualitative selection and exclusion and national attestations MUST be defined.
+The members of this work package MUST perform the mapping between national attestations and European criteria of qualitative selection and exclusion.
+Provision of an update mechanism maintained by the individual Member State.
+The pre-VCD mapping tool is openly accessible for economic operators and contracting authorities etc.
+The Member States shall agree on a common representation format for the information they intend to supply into the knowledge base supporting the tool’s operations.
+The Member States shall supply the information generated from the analysis of the national context they represent.
+The Member States need to update the mapping in case of any change within a short time frame (e.g. five days after a legal change has been put into force).
+In this stage the economic operator is not supported in creating a VCD package that follows a common logic. The VCD package compilation has to be performed by the economic operator himself (it is offered in the next stage of the VCD four-stage-model).
+Identity and access management MUST provide a functionality to register an economic operator in a formal procedure in order to create a VCD account.
+Identity and access management MUST provide an interface to submit sensitive economic operator data (for example by uploading attestations that verify sensitive economic operator data) in order to allow the economic operator to apply for the creation of a VCD account.
+Sensitive economic operator data MUST be verified through a formal procedure by an officer.
+An officer has to create a VCD account for the economic operator.
+Sensitive economic operator data MUST be placed to a VCD account by an officer.
+Identity and access management MUST provide a functionality that enables the economic operator to receive his log-in data.
+The authentication within identity and access management SHOULD provide a single-sign on functionality that can be used across other systems.
+A change procedure MUST be defined in order to modify sensitive economic operator data that is connected to the VCD account.
+The economic operator MUST be able to delete his account.
+MUST be clearly defined which economic operator data are sensitive and belong to identity and access management.
+A single-sign on SHOULD be implemented in order to allow identity and access management across different systems.
+The identity and access management procedures for creating a VCD account SHOULD be harmonized with the registration procedure of the overall infrastructure provided by WP8.
+The VCD System SHOULD make use of a single-sign-on interface and function in order to submit login data.
+The VCD system MUST provide a functionality to check through identity and access management whether an economic operator has sufficient user rights to access his account.
+The VCD system MUST provide an interface where the economic operator can provide nonsensitive economic operator data.
+The VCD system MUST provide an interface where tender-specific data can be either fetched from or be provided through (e.g. criteria of qualitative selection and exclusion).
+The VCD system MUST provide an interface where the economic operator can request the creation of a VCD package.
+The VCD system MUST have an interface to receive and process the information (mapping of evidence) provided by the pre-VCD mapping tool.
+The VCD system MUST provide a functionality that suggests a possible compilation of the VCD to the economic operator according to the tender-specific criteria.
+The VCD system MUST provide a functionality where the economic operator can decide which particular attestation services should be invoked and collected.
+The VCD system MUST provide a functionality that displays the attestation services that cannot be invoked automatically and that have to be manually added by the economic operator.
+The VCD system must provide a functionality to request attestations that can be collected automatically via an issuing body.
+The VCD system MUST have an interface/technical access to retrieve attestations that can be automatically retrieved from issuing bodies.
+The VCD system MUST have a functionality to extract structural data of evidence from attestations that can be retrieved automatically.
+The VCD system MUST have an interface to submit/upload evidence that have to be provided manually by the economic operator.
+The evidence submitted to the VCD system MUST correspond to the mapping information suggested by the VCD system (or the pre-VCD mapping tool).
+The VCD system MUST provide an interface where an economic operator can add structural data of evidence that belong to specific evidence.
+The VCD system SHOULD provide an interface where a translator/economic operator can submit certified translations to specific evidence.
+The VCD system MUST provide and interface where the economic operator can initiate the compilation process.
+The VCD system MUST provide a functionality to compile various data formats from various sources (issuing bodies) into a single VCD package. The VCD package MUST provide a functionality to add structural VCD package data to the VCD package and VCD system (e.g. log file) during the compilation process. The VCD package MUST provide a functionality to add tender-specific data to the VCD package and VCD system (e.g. log file) during the compilation process. The VCD package MUST provide a functionality to add economic operator data to the VCD package and VCD system (e.g. log file) during the compilation process. The VCD package MUST provide a functionality to add tender-specific data to the VCD package and VCD system (e.g. log file) during the compilation process. The VCD package MUST provide a functionality to add structural data of evidence to the VCD package and VCD system (e.g. log file) during the compilation process The VCD package MUST provide a functionality to add evidences to the VCD package and VCD system (e.g. log file) during the compilation process. The VCD package MUST provide a functionality to add translations to the VCD package and VCD system (e.g. log file) during the compilation process
+The VCD package MUST provide a functionality to add structural VCD package data to the VCD package and VCD system (e.g. log file) during the compilation process.
+The VCD package MUST provide a functionality to add tender-specific data to the VCD package and VCD system (e.g. log file) during the compilation process.
+The VCD package MUST provide a functionality to add economic operator data to the VCD package and VCD system (e.g. log file) during the compilation process.
+The VCD package MUST provide a functionality to add tender-specific data to the VCD package and VCD system (e.g. log file) during the compilation process.
+The VCD package MUST provide a functionality to add structural data of evidence to the VCD package and VCD system (e.g. log file) during the compilation process
+The VCD package MUST provide a functionality to add evidences to the VCD package and VCD system (e.g. log file) during the compilation process.
+The VCD package MUST provide a functionality to add translations to the VCD package and VCD system (e.g. log file) during the compilation process
+The VCD system MUST provide a functionality to notify the economic operator when the compilation process is finished.
+The VCD system MUST provide interfaces to deliver the VCD to the economic operator.
+The VCD package MUST provide a functionality to add structural VCD package data to the VCD package and VCD system (e.g. log file) during the compilation process.
+The VCD package MUST provide a functionality to add tender-specific data to the VCD package and VCD system (e.g. log file) during the compilation process.
+The VCD package MUST provide a functionality to add economic operator data to the VCD package and VCD system (e.g. log file) during the compilation process.
+The VCD package MUST provide a functionality to add tender-specific data to the VCD package and VCD system (e.g. log file) during the compilation process.
+The VCD package MUST provide a functionality to add structural data of evidence to the VCD package and VCD system (e.g. log file) during the compilation process
+The VCD package MUST provide a functionality to add evidences to the VCD package and VCD system (e.g. log file) during the compilation process.
+The VCD package MUST provide a functionality to add translations to the VCD package and VCD system (e.g. log file) during the compilation process
+VCD system MUST be operated by at least one national VCD service provider
+The VCD system MUST have the status of a trusted system.
+The national VCD service provider that hosts the system must have the status of a trusted entity.
+Direct access to attestations issued by (national) issuing bodies MUST be established through organisational agreements (e.g. service level agreements).
+Technical access to the relevant attestations issued by (national) issuing SHOULD be supported through national law.
+The compilation suggestion that is given to the economic operator by the VCD system MUST be reliable with regard to fulfilment of tender-specific requirements.
+User rights for the VCD system MUST be defined.
+Structural data of evidence MUST be defined.
+Semantic interoperability of structural data of evidence SHOULD be ensured through an agreement procedure among the WP partners.
+The evidence submitted to the VCD system MUST be eligible for the requirements mentioned by §§45– 46 of European Directive 2004/18/EC.
+The VCD transportation system MUST provide a functionality that enables both parties involved, contracting authorities and economic operators, to authenticate to the VCD transportation system before using it.
+The authentication to the VCD transportation system SHOULD make use of single-sign-in interface and function in order to submit login data.
+The VCD transportation system MUST provide a functionality that enables the economic operator to find an electronic address of a contracting authority for receiving VCD packages.
+The VCD transportation system MUST have an interface to connect to it in order to submit the VCD package to a contracting authority.
+The VCD transportation system MUST provide a functionality that supports the economic operator in submitting the VCD package to a contracting authority.
+The VCD transportation system SHOULD provide a functionality that supports the economic operator in submitting the VCD package to a contracting authorities’ procurement platform where the tender/bid has to be placed.
+The transportation system MUST provide an interface that enables contracting authorities to receive a VCD.
+Both parties involved, contracting authorities and economic operators, MUST have an electronic address for receiving/sending VCD packages
+The transport of a VCD package MUST be initiated by the economic operator.
+The choice of how to submit the VCD package to the contracting authority MUST be the one that is preferred by the economic operator.
+It MUST be clarified which possibilities exist to utilize the infrastructure for submitting a VCD package directly to procurement platforms (e.g. via VPN).
+The transportation system MUST ensure that the VCD package is being delivered to the contracting authority
+The transport of a VCD package MUST be confidential.
+The transport of a VCD package MUST be reliable.
+The transport of a VCD package MUST be secure.
+The transport of a VCD package MUST ensure that the package has not been altered or modified during transportation or validation.
+A VCD will carry a unique identifier and information about security and quality enhancing policies used by the certified VCD Service Provider when compiling the file.
+The VCD viewing system MUST provide a functionality to authenticate contracting authorities to view the data contained within a VCD package.
+The authentication to the VCD viewing system SHOULD make use of single-sign-on interface and function in order to submit login data.
+The VCD viewing system MUST display structural VCD package data contained in the VCD package
+The VCD viewing system MUST display tender-specific data contained in the VCD package
+The VCD viewing system MUST display economic operator data contained in the VCD package
+The VCD viewing system MUST display tender-specific data contained in the VCD package
+The VCD viewing system MUST display structural data of evidence contained in the VCD package
+The VCD viewing system MUST display evidences contained in the VCD package
+Any standard representation of the different types of data MUST be agreed upon the pilot partners.
+A method (e.g. reverse engineering) to develop a standard representation of the different types of data SHOULD be defined.
+A method for the versioning of the development of this common standard schema SHOULD be found.
+A VCD system MUST provide functionality to collect and process context specific data for evidence that has to be provided manually or semi-automatically by the issuing body, by the economic operator or any trusted third party
+A VCD system MUST provide functionality to collect and process context specific data for evidence that has to be provided automatically by the issuing body.
+A VCD system MUST provide IT-interfaces to issuing bodies which provide evidences in machine interpretable format.
+A VCD system MUST interact with the issuing bodies which provide evidences in machine interpretable format through IT-interfaces.
+A VCD system MUST provide a user interface to the issuing body to provide context specific data for an evidence in a structured form (e.g. web-interface, XML-file-upload)
+The VCD system MUST provide a functionality to validate the provided context specific data during the submission process of context specific data to ensure the data is consistent with the VCD advanced package schema.
+Interfaces MUST be defined to retrieve context specific data from issuing bodies either automatically or semi-automatically.
+Interfaces SHOULD be defined that enable national VCD service providers to approve context specific data if they decide to take the role of a trusted third party.
+The rule set derived from legal requirements concerning “evidence checking” MUST be defined.
+The rule set allowing for a Stage 3 mapping among concepts expressed by the “context specific data” MUST be defined.
+The rule set derived from legal requirements concerning subcontracting and other consortium constellations MUST be defined
+A functionality to display context specific data SHOULD/MUST be included within any VCD.
+Any VCD advanced package MUST follow a common standard schema of context specific data that summarize and structure major information contained within context specific evidences.
+Context specific data MUST be machine interpretable
+WP2 SHOULD provide easy solutions for transforming the contents of context specific evidence into simple context specific representations (e.g. a Balance sheet can have several values but an easy representation could be the fulfilment of certain ranges for example below 1 Million / from 1 Million to 10 / …).
+Every pilot partner MUST follow the common standard schema of context specific data by defining a national version of it.
+A VCD system MUST provide a user-interface to the economic operator to initiate the creation of a VCD advanced package.
+A VCD system MUST provide a user-interface to the economic operator to provide existing VCD packages of other economic operators when specific disclosure options have been activated.
+A VCD system MUST provide a functionality to check, whet her the structural VCD package data of existing VCD packages of other economic operators are consistent with the VCD advanced package schema of other economic operators, or not
+A VCD system MUST provide a functionality to check, whether the tender specific data of existing VCD packages are consistent with the tender specific data of other VCD packages
+A VCD system MUST provide functionality to merge the following data from several existing VCD packages of other economic operators: Structural VCD package data Structural data of evidence Tender specific data Economic operator data Context specific data Evidence Authorized translation of evidence
+A VCD system MUST provide functionality to compile the data which result from the evidence collection process and the data provided by the economic operator in the VCD advanced package creation. The types of data which have to be compiled into a VCD advanced package are therefore: Structural VCD package data Structural data of evidence Tender specific data Economic operator data Context specific data Evidence Authorized translation of evidence
+A VCD system MUST provide a user-interface to the economic operator to initiate the recompilation of an existing VCD package into a VCD advanced package.
+A VCD system MUST provide a user-interface to the economic operator for uploading an existing VCD package
+A VCD system MUST provide a functionality to decompose an existing VCD package
+A VCD system MUST provide a functionality to identify outdated or obsolete evidences
+A VCD system must provide a functionality to retrieve actual instances of outdated evidences
+Re-compiling a VCD simple package into a VCD advanced package MUST be possible
+Re-compiling a VCD advanced package into a VCD advanced package MUST be possible
+The VCD system MUST detect which attestations can be used by this feature (e.g. they have to be sufficiently described through context specific data and structural data of evidence).
+The VCD system MUST provide a functionality that enables National VCD Service Providers to store attestations.
+The VCD system MUST ensure that a contracting authority is able to request attestations via the provided reference (including time-restrictions).
+The VCD system MUST provide a functionally to check whether a contracting authority has sufficient rights and has been mandated by the economic operator to retrieve attestations.
+The VCD system MUST provide a functionality and an interface that enables contracting authorities to retrieve the attestation from the storage.
+The VCD system MUST ensure that the attestation that is requested by the contracting authority is still valid at the time of awarding or when the Call for Tender is closed.
+The VCD system MUST provide a functionality that initiates a conflict resolution process between economic operator and contracting authority if errors occur or when certain attestation or a translation cannot be delivered on demand.
+The VCD system SHOULD provide a functionality to approve attestations through validation data and to make this approval visible within a VCD networked package when a National VCD Service provider takes the role of a national validation point in accordance with Article 52 (1) of Directive 2004/18/EC and EFTA EEA Committee decision 68/2006.
+There MUST be an access policy that is issued by the economic operator that mandates a contracting authority to request attestation from the national VCD service provider on demand.
+A general reference structure and syntax MUST be defined. This may include creating contracting authority specific or VCD specific references in order to identify a mandate that has been given by the economic operator to this contracting authority for retrieving attestation or even updates on it.
+National and local political commitments and service-level agreements MUST ensure that consensuses on roles and responsibilities are built with regard to this solution and in particular the National Service Providers who delivers attestations on demand.
+If a resource fails, its service information is removed from SR and the resource ID counter is decremented.
+The format for service information description is defined
+The format for service information description is defined
+The interaction protocol between Web Server-SR, SR-mediator is defined.
+Resource provisioning, delegation and reservation policies are in place
+There is an established norm that any resource failure will be reported
+The interaction protocol between Web Server-SR, SR-mediator is defined.
+If the user requests experience service timeout (threshold), initiation request is cancelled.
+A given peering arrangement is disband or it is re-arranged.
+If there are exceptional circumstances such as natural disaster, theft, etc. for which any peer is unable to honor the negotiated relationships, a given peering arrangement is not disband or re-arranged and SLA conditions are bypassed.
+Policies identifying the consequences of SLA violation are defined.
+Policies are in place to perform renegotiation for problem resolution.
+Policies are in place to perform renegotiation for problem resolution.
+ETCS shall provide the driver with information to allow him to drive the train safely.
+ETCS shall be able to supervise train and shunting movements.
+If the supervision is performed by a RBC it shall be possible to prevent movements of a traction unit in its area if not authorised by the RBC.
+ETCS is required to be functional to a maximum train speed of 500 km/h.
+It shall be possible to implement one or more of the ETCS application levels on a line.
+Trains equipped for ERTMS/ETCS application level 3 shall be able to run on lines equipped with ERTMS/ETCS application level 3, 2, 1 and 0, trains equipped for ERTMS/ETCS application level 2 shall be able to run on lines equipped with ERTMS/ETCS application level 2, 1 and 0 and trains equipped for ERTMS/ETCS application level 1 shall be able to run on lines equipped with ERTMS/ETCS application level 1 and 0.
+The current application level shall be indicated on the DMI.
+The driver shall acknowledge the level transitions, if requested from trackside. If the driver does not acknowledge after the transition the brake shall be applied. If the driver acknowledges afterwards, the brake can be released
+ETCS shall be compatible with existing national systems listed in the CCS TSI such that it does not interfere with the national systems and is not interfered with by the national systems.
+Any transition which occurs while the train is moving shall in principle occur automatically.
+Transitions which occur while the train is stationary, shall be initiated automatically or manually as appropriate.
+If, as a result of an automatic transition, except for transitions to and from National Operation (STM), the responsibility for the driver increases, the ETCS shall seek an acknowledgement from the driver, whether the train is stationary or not.
+For transitions to and from National Operation (STM) the ETCS shall request, an acknowledgement by the driver.
+In case the transition has to be acknowledged and the driver fails to acknowledge as required, the ETCS shall initiate a brake application
+During the transition period between two operational states (including two different national operations) the supervision provided shall at least ensure the same protection provided by the least restrictive state.
+If an ETCS equipped train passes a level transition to a line fitted with more than one level, the onboard shall switch to the highest level, according to the priority given by trackside, for which it is equipped.
+If an ETCS equipped train passes a level transition to one or more levels for which it is not equipped, ETCS shall initiate a brake application.
+The current operational status shall be indicated to the driver on the DMI
+The ETCS on-board shall be capable of receiving National values from the trackside to adapt to National requirements
+National values shall be applicable to a defined area
+Once received onboard the national values shall remain valid even if the onboard equipment is switched off
+If the on-board has no valid national values for the current location, default values shall be used by the onboard equipment.
+Default values shall be harmonised values, permanently stored in all ERTMS/ETCS on board equipment
+At Start Up, the on board equipment shall perform an automatic self-test.
+The test shall require no action on the part of the driver.
+The DMI shall indicate the result of the self-test.
+Train data shall be entered before the on-board ETCS equipment allows train movement.
+The driver shall be able to select Train Data Entry on the DMI.
+Entering or overwriting data manually by the driver shall be possible but only when stationary.
+Train data may be entered automatically from a railway management system or from train memory.
+The driver shall be able to consult train data when the train is stationary or moving.
+Current train data shall be stored (except at transition to shunting) in the ETCS equipment until the traction unit is not operative.
+Stored train data shall be offered to the driver to be confirmed when Data Entry starts.
+The system for Train Data Entry shall provide for the input of other data required by STMs connected to ETCS. This may require additional items, not required for ETCS, to be entered.
+The entry of driver identification and the selection of the language shall be possible.
+The change of driver identification during a journey or a Train Running Number shall be possible
+Following successful completion of Train Data Entry, the driver shall be able to perform shunting movements or train movements.
+If the onboard fails to contact the RBC when awakening the driver shall be asked to enter the RBC contact details
+An ETCS equipped traction unit shall be capable of being moved in Shunting without train data, track data or movement authority.
+Transfer to Shunting on driver’s selection shall only be possible when stationary.
+To prevent unauthorised use of the function permission shall be obtained from the RBC if the train is operating under the control of the RBC.
+Permission received shall be indicated to the driver.
+It shall be possible to manually select Shunting from Stand By operation, Full Supervision operation or Partial Supervision operation
+Automatic transfer to Shunting may be from Full Supervision operation and Partial Supervision operation status at any speed lower than or equal to the supervised shunting speed based on trackside information.
+Before authomatic transition to Shunting, ETCS shall request confirmation from the driver.
+ETCS shall supervise Shunting operation to a permitted national speed value.
+The supervised Shunting speed shall be indicated to the driver on request.
+It shall be possible to apply the train trip function, if the shunting movement passes a signal showing "danger for shunting".
+Exit from Shunting shall only be possible when the train is stationary.
+Exit from Shunting shall take place when the driver selects exit from shunting.
+Partial Supervision shall be selected either by the Driver, or by information received from track-to-train transmission.
+If acknowledgement is specified the driver shall acknowledge transfer from Full Supervision to Partial Supervision within 5 seconds
+Partial Supervision shall be indicated on the DMI.
+In Partial Supervision the train shall be supervised according to train speed and distance data available.
+The train shall have the capability of being supervised to a ceiling speed.
+This ceiling speed shall not be shown continually on the DMI but may be shown momentarily when selected by the driver.
+The train shall leave Partial Supervision when the trainborne equipment is not operative any longer, when Shunting is selected or when Full Supervision is available.
+It shall be possible to order a train trip when passing a stop signal
+Transferring to Full Supervision shall occur automatically when a movement authority and all other necessary information is received through track-to-train transmission.
+It shall be possible for the trackside to ask a driver for confirmation about the occupancy of the track ahead before sending a Full Supervision movement authority.
+Full Supervision shall provide supervision of speed and distance.
+The trainborne equipment shall remain in Full Supervision until the trainborne equipment is not active any longer, when Shunting is selected or when Partial Supervision information is received.
+The ETCS trainborne equipment shall be capable of being isolated.
+When the ETCS trainborne equipment is isolated, the system shall not show any ETCS information other than the fact that the system is isolated.
+Isolation of the ETCS trainborne equipment shall disconnect the ETCS trainborne equipment from the vehicle braking system.
+The ETCS trainborne equipment shall be capable of receiving information from the national train control systems by means of the STM.
+The DMI shall display or be compatible with information from national train control systems. This may mean displaying the information shown by the national system.
+Unfitted operation shall be possible if ordered by trackside
+Unfitted operation shall be possible if selected by the driver at start up
+The on board shall supervise the train against a ceiling speed
+The onboard shall be capable to switch to another ETCS status when transmitted from trackside
+The ETCS on-board shall be capable of receiving track description from the trackside.
+It shall be possible to send information on adhesion conditions from trackside.
+It shall also be possible, to allow the driver to change the adhesion conditions
+in this case information from trackside has priority.
+The trackside shall be able to send information for the calculation of speed profiles.
+If track data at least to the location where the relevant movement authority ends are not available on-board, the movement authority shall be rejected.
+Track to train transmission shall provide the capability to send different speed profiles for specific train categories.
+The ETCS trainborne equipment shall supervise the end of movement authority, if this information is available on-board.
+The target distance to be displayed on the DMI shall be based on the most restrictive braking curve.
+Together with the movement authority, the on board shall be able to receive one or more time-out(s) for certain sections of the movement authority, and shorten the movement authority accordingly when a time out expires.
+Using train data and infrastructure data, braking curves shall be calculated taking into account the target information but not the location of vehicles occupying the track.
+The ceiling speed level for the movement authority shall be defined as data National Value.
+Before entering an occupied track, a driver acknowledgement shall be requested.
+The train shall be supervised according to train speed data available.
+The train shall, as a minimum, be supervised to a ceiling speedthe supervised speed shall not be shown on the DMI unless selected by the driver.
+The target distance shall not be shown on the DMI unless selected by the driver.
+On request of the RBC, the driver shall have the possibility to confirm that the track ahead of him until the end of the on sight section is clear
+ETCS shall collect all relevant information concerning train and line speed.
+ETCS shall calculate the permitted speed for the train for all locations of the authorised movement.
+This static train speed profile shall also respect maximum line speed and track speed and special speed levels for special classes of trains.
+The ETCS trainborne equipment calculates the static train speed profile on the basis of infrastructure data and train data.
+Based on all relevant data, the ETCS shall calculate an emergency braking curve and a service braking curve
+Based on all relevant data, the ETCS shall calculate an emergency braking curve and a service braking curve
+When changing to a lower speed level, the front end of the train shall respect the dynamic train speed profile.
+When changing to a higher speed level the rear end of the train shall respect the static train speed profile.
+It shall be possible to define certain locations (e.g. tunnels) where speed increase is related to the front of the train.
+The braking curves shall ensure that the train complies with its speed requirements.
+Where failure to apply the full service brake is detected the emergency brake shall stop the train in rear of the danger point.
+The release speed shall be indicated on the DMI.
+If the release speed is calculated on board it shall ensure that the train will stop before reaching the danger point
+When the train is stationary or after a certain time (e.g. the time for "route releasing" of the overlap, the release speed calculation shall be based on the distance to the danger point (if calculated on-board). The condition for this change shall be defined for each target as infrastructure data.
+Each railway shall have the possibility of allowing a different release speed for every signal.
+The ETCS trainborne equipment shall be able to determine the location of the entire train.
+On lines fitted with RBC, the ETCS trainborne equipment shall be able to transmit the location of the entire train to the RBC.
+The train location calculation shall take into account error of odometry.
+Actual speed shall be indicated on the DMI
+The indication provided shall enable the driver to drive at the permitted speed without receiving a warning and without intervention of ETCS.
+The driver shall know the distance to the next point defining the indicated braking curve and the permitted speed allowed. This shall be shown to the driver in a way that is understandable and logical.
+Visual and acoustic warnings to the driver about possible intervention from ETCS shall be given to enable the driver to react and avoid intervention.
+The driver shall have the possibility to select the language, this does not concern non pre-defined texts sent from the trackside.
+A train shall be supervised to its static and dynamic train speed profiles.
+Within the braking curve area, a warning shall be given to the driver to enable him to react and avoid intervention from ETCS equipment at least 5 sec. before the intervention.
+If the train or the shunting movement exceeds the permitted ceiling speed by a certain harmonised margin, the trainborne equipment shall execute a brake intervention until the actual speed does not exceed permitted speedthen the driver shall be able to release the brake
+The driver shall be able to release an ETCS emergency brake application when stationary.
+If decided by a national value, the driver may release the ETCS emergency brake when the actual speed is below the permitted speed.
+To protect a traction unit from roll away and unwanted reverse movements the trainborne equipment shall monitor the direction of movement in relation to the permitted direction.
+The trainborne equipment shall apply the emergency brake after a distance, defined by a national value, is travelled by the train.
+The roll away/reverse movement intervention shall be indicated on the DMI.
+When the traction unit has come to a standstill, the driver shall be able to release the emergency brake.
+After releasing the emergency brake ETCS will provide the supervision appertaining when roll away protection was initiated
+When using more than one traction unit this function shall be disabled in all but the leading traction unit.
+All data entered, received or indicated to the driver shall be recorded onboard. All data shall be related to UTC (Universal Time Corrected) and a reference point.
+Information shall be recorded to an accuracy which enables a clear view of the functioning of ETCS and way the traction unit has been driven.
+Standardised output interfaces shall enable transmission of information recorded to other media for investigation
+It shall be possible to use multiple traction units without isolating the ETCS trainborne equipment on traction unit(s) with an in-operative cab.
+Information received shall not influence the traction unit(s) with in-operative cabs.
+It shall be possible to use tandem traction units without isolating the ETCS trainborne equipment on the tandem traction unit.
+The driver shall enter the driver ID
+It shall be possible to drive the train backwards in a supervised way (speed and distance) according to information received from trackside
+The train speed shall be at or below a speed specified by a national value.
+The driver shall select an override control according to the permission received.
+The override control shall be protected against inadvertent operation.
+When the train passes the stop signal, the train trip function shall be suppressed.
+Actual speed shall still be shown on the DMI.
+A special indication shall be shown on the DMI.
+The supervised speed shall not be shown on the DMI.
+The train shall be capable of receiving any track-to-train information intended and relevant for this train including movement authority.
+If supervised by an RBC it shall be possible to command an emergency stop to all trains in a particular area or to a specific train
+It shall be possible to command an immediate train stop.
+It shall be possible to command a conditional emergency stop. If the train has already passed the location for the emergency stop the command shall be ignored
+When a train has received an emergency stop ETCS shall command the emergency brake.
+The emergency stop shall be indicated to the driver on the DMI.
+It shall be possible to prevent a train from entering a route for which it does not meet the required criteria.
+Route unsuitability shall be indicated on the DMI.
+The driver shall be able to override the function when the train is stationary.
+After overriding this function the movement authority shall be re-established.
+When a traction unit passes a stop-signal the emergency brake shall be triggered.
+Operation of the train trip shall be indicated on the DMI.
+The emergency brake shall be applied until the traction unit is stationary.
+When the traction unit is stationary the driver shall be required to acknowledge the train trip condition. This acknowledgement will release the emergency brake.
+After the acknowledgement the driver shall be able to continue the movement
+After the acknowledgement the train shall be able to be driven backwards for a certain distance defined by national value
+The ETCS trainborne equipment shall transmit its own train identification to the RBC.
+The train running number shall consist of a maximum of 8 numeric digits.
+On demand, the position of the front end of the train at the time of the demand shall be indicated on the DMI. This shall be possible while the train is moving or stationary.
+The ETCS on-board shall be capable of receiving information about pantograph and power supply from the trackside.
+The ETCS trainborne equipment shall indicate on the DMI the information regarding pantograph and power supply.
+The information regarding lowering and raising of the pantograph and opening/closing of the circuit breaker shall be provided separately and in combinations.
+The ETCS on-board shall be capable of receiving information regarding air tightness from the trackside.
+It shall be possible to send plain text messages from track to train.
+When the plain text message appears on the DMI, the driver shall be alerted.
+The onboard equipment shall display plain text messages as received.
+The character set used shall support different languages.
+It shall be possible to send fixed text messages from track to train
+Fixed text messages shall be provided in the language selected by the driver
+Information shall be shown on the DMI
+The ETCS on-board shall be capable of sending to the trackside train integrity information detected by a system outside ETCS
+The driver shall be able to confirm the train integrity to the RBC manually. The confirmation requires the train to be stationary.
+The on board shall be capable of sending train data to the trackside after confirmation by the driver, or when entering the RBC area
+It shall be possible to revoke a Movement Authority that has already been issued to a train in a co-operative way between RBC and train.
+The co-operative revocation of the MA shall be possible to a new target location, proposed from RBC.
+The new target location shall be checked for acceptance by the on board.
+If a train cannot stop at the proposed new target location it shall reject the request and keep the old target location.
+The Reversing function shall only be possible in one active cab which is not closed at any time during the procedure.
+Reversing shall be possible as defined by a value given with the MA
+The driver shall be able to use the Reversing function without needing to re-confirm the train data.
+Reversing shall be supervised to a distance and speed set as National Values
+The distance supervised can be extended from the trackside.
+Once the train starts reversing the MA shall be cancelled.
+The train shall be able to automatically pass from one RBC area to another without driver intervention.
+If the train is equipped with two operational radios there shall be no performance penalty as a result of a transition from one RBC to another (train spacing and train speed).
+If the train is equipped with only one operational radio, passing from one RBC to another shall still be possible but might result in a performance penalty.
+If there are failures of the trainborne equipment which compromise the safety of train supervision, the ETCS trainborne equipment shall immediately command the brake and bring the train to a stop.
+The occurrence of a failure shall be displayed on the DMI.
+In ETCS with RBC this restriction on performance shall, if possible be transmitted to the RBC.
+The system shall support point-to-point voice calls between any two call parties.
+The system shall allow a user to make public emergency point-to-point voice calls
+The system shall support broadcast voice calls
+It shall only be possible for the user who initiated the call to talk, other users can only listen.
+The system shall support group voice calls.
+Group voice calls provide voice communications between a number of users in a pre-defined local area, all of whom are members of the same call group.
+The composition of call groups shall be able to be modified within the network. A single user shall be able to be a member of one or more call groups.
+The local area over which group calls are implemented shall be able to be modified within the network. 
+The system shall support multi-party voice communications between up to six different parties.
+Any of the parties involved in a multi-party voice call shall be able to talk simultaneously. 
+The network should support the transmission of point-to-point and point-to-multipoint text messages from the ground to mobile users. 
+The network should support the receipt of mobile-originated text messages by the round.
+If the text message facility is implemented, it shall not interfere with the ability of users to make or receive high priority voice or data calls.
+The network shall support point-to-point data communications. 
+The network shall support data rates of at least 2.4 kbit/s.
+Higher data rates will be required by some data applications in order to provide the necessary performance and acceptable transmission times.
+The priority scheme for calls described in section 10.2 is also valid for data applications. 
+The network should support fax transmissions between the ground and mobile users. 
+Where fax functionality is provided, it shall be possible to interrupt the fax to make or receive a high priority voice or data call. 
+Where ERTMS/ETCS level 2 or 3 is implemented, the network shall be capable of supporting data communications for that train control system. 
+The communications requirements for ERTMS/ETCS are included in the document Summary of ERTMS Communications Requirements Communications for train control may be characterised as low data rate per train; however, in some areas there will be a high density of trains requiring simultaneous communications.
+The priority scheme for calls described in section 10.2 is also valid for train control applications.
+It shall be possible for the equipment to display the identity of the called or calling party in the form of a standard telephone number. 
+It shall be possible to display the identity of the called or calling party as a textual description of their function. 
+It should be possible for the network to prevent the identity of certain users from being displayed on the mobile, either when being called, calling or both. 
+The network shall provide a mechanism whereby calls may be assigned one of a number of different priority levels.			
+This mechanism shall allow calls with a higher assigned priority to override (pre-empt) existing calls of a lower priority. 
+Pre-empted calls will be discontinued and the new call of a higher priority shall be connected instead. 
+The group of users who may access the facilities of the EIRENE network shall be limited. 			
+Any user who is not within the list of allowed EIRENE users shall not be able to gain access to any of the functions and services provided by the network. 
+It shall be possible for an incoming call or data message for one user to be forwarded to another user using functionality provided by the network. 				
+In the case of voice calls, it shall be possible for the user who is attempting to forward a call to converse with the intended recipient prior to forwarding. 
+The network shall allow the user to temporarily exit from an existing call by putting the call on hold. 
+It shall be possible for the user to re-join the call which is on hold at any time. 
+The network shall provide the ability to inform a user, who is involved in an existing call, of attempts by other users to contact them. 
+Where network services are chargeable, it should be possible for the network to provide information about call rates and on-going call charges. 
+It may be necessary to supplement this Functional Requirements Specification with special requirements for supporting the train control application. Further information on the communications requirements to support ERTMS can be found in the Summary of ERTMS Communication Requirements document .
+For network planning, the coverage level is defined in terms of time and area where the minimum signal criteria are achieved. 
+The level of coverage should be at least 95% of the time over 95% of the designated coverage area for a radio installed in a vehicle with an external antenna. 
+The network shall support all EIRENE-compliant mobiles. 				
+The land-based part of the system shall provide communications for mobiles when stationary and when travelling at speeds up to the maximum allowable line speed or (Network selection requirements for mobiles have been moved to sections 5, 6 and 7). 
+Network interconnection is subject to a bilateral agreement between network operators. The interconnection between the networks must, as a minimum, be compliant with applicable open specifications. 
+During the process of moving from one GSM-R network to another, the system must minimise the inconvenience to the user. 
+Call set-up time requirements are dependent mainly upon priority. 
+The required call set-up times shall be achieved in 95% of cases. 
+Call set-up times for 99% of cases shall not be more than 1.5 times the required call set-up time. 
+Set-up times shall include the time required for any translation of functional numbers internal to the EIRENE network. 
+Where fixed network users are involved in a group or broadcast call, fixed network users will be pre-defined and will not change during the course of the call. 
+Any group or broadcast calls initiated in a given location shall be broadcast over an associated area based on the location of the call originator, and also to any fixed network numbers associated with the originating location. 
+The definition of each broadcast or group call area should take into account factors such as the speed of trains on the line (stopping distance) and the operational control areas. 
+It is acceptable that mobiles which move out of the call area during the call be dropped from the call. 
+Mobiles configured for reception of railway emergency calls entering into a call area 
+where a railway emergency call is ongoing shall automatically join this call. 
+Cab Radios configured for reception of a call to all drivers in the same area entering an area where a call to all drivers in the same area is ongoing shall automatically join this call unless involved in a higher priority call or involved in a call of the same priority. 
+Requirement needs further technical specification changes before field implementation can be achieved. 
+It shall be possible to operate all mobiles in the frequency bands around 900 MHz, allocated for use by the railways, and in the public GSM networks. 
+Mobile equipment shall function correctly when travelling at speeds from 0 km/h to 
+Where there are mandatory requirements for human-machine interface attributes that are not defined in this specification, the decision for the way of presentation is a national issue. In any case, these national solutions must not conflict with those of the CENELEC Standard, in particular for the actions required from the drivers of trains passing the borders. 
+In normal operation of a mobile radio unit, it is expected that a combination of the above environmental conditions will be experienced. 
+Any environmental and physical requirements stated may be superseded by national requirements if the national standards provide a higher level of environmental and physical protection. However, stricter national standards shall not prevent the use of other EIRENE mobiles in that country. 
+All design, testing and installation of EIRENE mobile radio equipment shall comply with the quality procedures defined in ISO 9001 . Climatic conditions 
+Any pressure pulses caused by vehicles passing, entering or leaving tunnels shall not affect the normal operation of EIRENE mobile equipment. Physical conditions 
+All EIRENE mobile equipment shall be capable of being operated on board rolling stock. 
+The batteries to be used in the mobile equipment shall have sufficient capacity to support typical railway use. 
+EIRENE mobiles will generate electromagnetic emissions. It is the responsibility of national railways operating EIRENE networks to ensure that EIRENE equipment does not interfere with the normal operation of any on-train or ground-based systems. 
+Once a call has been established the connected parties shall be able to communicate. 
+A Push-To-Talk function shall be provided for use during group calls. 
+Picking up the handset shall transfer the communication to the handset and reduce the loudspeaker volume to its minimum level. 
+A Push-To-Talk function shall be provided for use during group calls. 
+The use of Push-To-Talk for all types of communications is acceptable if needed for ergonomic reasons or to avoid the noise of the cab being transmitted to the other party. 
+If the radio system cannot give a unique identity for a given type of controller, the identity could be obtained using external systems as defined in 11.4.7. 
+Once an appropriate destination has been obtained, the radio shall attempt to establish a call to this destination. The functional identity shall be displayed to the controller. 
+An audible and visual indication shall be provided to the driver that the call is proceeding. 
+When the call is connected to the controller, an audible and visual indication is to be provided to the driver. The call shall be connected to the loudspeaker at the pre-set value. 
+The functional identity of the connected party, if available, shall be displayed to the driver. 
+If the functional identity of the connected party contains an alphanumeric description, this shall also be displayed. 
+If the system is not able to connect the call, an audible and visual indication shall be provided to the driver that the call was not received by the controller. This shall also indicate if the called party was busy or if the network could not connect the call. 
+It shall be possible for a driver to initiate and participate in group voice calls between drivers in a pre-defined geographical area. 
+A driver shall be able to initiate the establishment of a call to other drivers with a minimum of action (eg a single keystroke). 
+The group identity shall be displayed on the Cab radios of the participating drivers. 
+An audible and visual indication shall be provided to the driver that the call is proceeding. 
+Once connected, the driver shall be able to communicate with other driver by using the Push-To-Talk button on the handset. An indication shall be provided to the driver as a reminder of the need to use the Push-To-Talk button on the handset if he wants to talk. 
+The call shall be connected to the loudspeaker until the driver picks up the handset. 
+The call shall continue until terminated by the calling driver, an authorised controller or the network. 
+If the train moves out of the group call area whilst the call is in progress, an audible and visual indication of the loss of call shall be provided to the driver. 
+If the system is not able to connect the call, an audible and visual indication shall be provided to the driver. 
+It shall be possible for a driver to initiate Railway emergency calls (see section 13).  
+If a train-borne recorder is connected to the Cab radio, details of the activation, termination and any failures of the emergency function shall be sent to the train-borne recorder as each event occurs. 
+A continuous visual and short audible indication (from 0 to 20 seconds, for trials: 5 seconds) that the emergency function has been activated shall be provided in the cab. (Note that when the handset is off-hook, the audible indication shall be sounded from the loudspeaker at a low volume, but shall not be sounded from the handset.) 
+Once the Railway emergency call is connected and the audible indication is finished, an indication shall be provided to the driver as a reminder of the need to use the Push-To-Talk button on the handset if he wants to speak. The call shall be connected to the loudspeaker until the driver picks up the handset. 
+If the train moves out of the call area whilst the call is in progress, it will leave the call and an audible and visual indication of the loss of call shall be provided to the driver. 
+Once the call is terminated, the continuous visual alarm indication in the cab shall cease. 
+If the system is not able to connect the call, an audible and visual indication shall be provided to the driver. 
+If a driver is disconnected from the multi-driver call, a clear indication shall be given. 
+The setting up and closing down of a multi-driver call shall be simplified using automation or guidance through the steps required. 
+In each cab, the call shall be connected to the loudspeaker whilst the handset is on-hook. 
+If any part of the call fails, an audible and visual indication shall be provided in the appropriate cab. 
+If the call fails in the lead traction vehicle, the lead driver will be responsible for re- establishing the call. If the call fails to any other cab, the driver in that cab will call the lead cab and request re-establishment of the call. 
+For calls between a controller and the lead cab, it shall be possible to add the controller to the multi-driver call. Either the lead driver calls the controller or the controller calls the lead driver. In the latter case, the controller is automatically added into the multi-driver call. Functional identity of the controller shall be displayed in the leading cab.
+It shall be possible for the driver to contact members of on-board train staff using a 
+point-to-point voice call. 
+The driver shall then be prompted to select the train staff with which he wishes to communicate. 
+On many trains, staff may be connected by intercom or internal telephone rather than by radio. It is required that, in these cases, the Cab radio shall be integrated with internal communication systems such that the appropriate means of connection (wire or radio) will be determined automatically. 
+An audible and visual indication of an incoming call shall be provided.  
+The functional identity (which may contain an alphanumeric description) of the calling party, when available, shall be displayed. 
+Point-to-point calls that are not automatically answered (see table 10-1) shall only be answered once the driver accepts the call. 
+Once the driver has accepted the standard point-to-point call, it shall be connected appropriately, eg if the driver has accepted the call by lifting the handset, then the call shall be routed to the handset. 
+Receive incoming group or broadcast voice call 
+An audible and visual indication of the incoming call shall be provided when a Cab radio receives a group or broadcast call. 
+The group identity of the voice group call (VBS or VGCS) shall be displayed.  
+Group or broadcast calls shall automatically be connected to the loudspeaker if the handset is not in use, or to the handset if the handset is off hook. 
+The driver shall be informed if a broadcast call is ongoing by a visual indication displayed on the MMI. 
+It is not possible for the driver to speak as part of the call when receiving a broadcast call. 
+If the call is a group call, the driver shall be required to request permission before being able to speak as part of the call by lifting the handset and pushing the Push-To-Talk (PTT) button. 
+During a group call, a visual indication shall be displayed on the drivers MMI to remind the driver of the need to use the PTT button. 
+The driver can not speak in a group call until permission is granted by the network after pushing the PTT button. 
+In a group call, an audible and visual indication of whether the request to talk was successful shall be provided. The driver shall then be able to speak as part of the call whilst the PTT button is pressed. 
+If the train moves out of the group or broadcast call area whilst the call is in progress, an audible and visual indication of the loss of call shall be provided to the driver. 
+Receive incoming Railway emergency call 
+Reception of this call proceeds as for a standard group or broadcast call, except that a distinctive audible and visual indication shall be provided in the cab. 
+If a train-borne recorder is connected to the Cab radio, details of an incoming Railway emergency call shall be transmitted to the train-borne recorder for recording
+An automatic confirmation shall be generated by the Cab radio at the end of the Railway emergency call. 
+Automatic confirmation of receipt of Railway emergency calls will be used to provide a means of determining which trains have received a Railway emergency call (see section 13). 
+The Cab radio shall provide a means for the driver to terminate calls which he is authorised to terminate (ie all calls except Railway emergency calls not initiated by the driver and shunting group calls). 
+For group or broadcast calls, a means to leave the call without terminating the call shall be provided. 
+The Cab radio system shall be able to receive incoming text messages (see section 12 for details). 
+The Cab radio shall support a shunting mode of operation that provides a link assurance tone to reassure users of the integrity of the communication link (see section 14). 
+A means to enter and leave shunting mode shall be provided.  
+The functionality to enter and leave shunting mode shall not be available when there are on-going calls involving the Cab radio. 
+The link assurance tone shall be provided via the loudspeaker.  
+If the Cab radio is equipped with an additional security device, this audible indication may be muted for the drivers convenience. In this case, the security device alerts the driver if the link has failed or if it is cancelled. 
+Enter/leave direct mode 
+It should be possible for the Cab radio to be used without the network service (if it should fail or if there is no authorised network coverage), such that local open channel communications are still possible. This mode of operation is termed direct mode (see section 15). 
+If direct mode is implemented, a means to enter and leave direct mode shall be provided. 
+If the radio is in direct mode and the normal network service returns, the user shall be provided with an audible and visual indication. 
+Monitor calls to other on-train users/devices using the Cab radio 
+Not all communications using the Cab radio will involve the driver. Where these calls involve the Cab radio, the driver shall be provided with an indication that the Cab radio is busy. 
+For voice calls using the Cab radio not involving the driver as a called or calling party, the driver shall have the possibility to listen to the audio output of the communication.  
+For voice communications, if the driver picks up the handset, the radio shall allow him to join the communication. 
+The driver shall be able to terminate communications (voice or data) by selecting another call. 
+At the point of successful connection, the Cab radio will be able to receive all calls made using the Cab radios telephone number, engine number or appropriate group call numbers (including Railway emergency calls). 
+Powering down the Cab radio shall cause the disconnection of the Cab radio from the mobile network. 
+When switched off, the radio shall retain any numbers which are stored at the time the radio is switched off. 
+The MMI on/off control shall be designed to prevent accidental activation/ deactivation. 
+The time should be able to be varied between 0 and 240 minutes, as a maintenance function, allowing the radio to power up in a consistent state following minor operational procedures or power interruptions. 
+It shall be possible to present radio related prompts and information in a number of different languages. 
+By default, prompts and information shall be displayed in the language selected by the train owner (as stored within the system). 
+It shall be possible for the user to display a list of available languages and select the language in which radio related prompts and information are displayed both at turn on and during a journey (eg where a change of drivers may occur). 
+The languages to be supported will be a matter for each national railway to decide.  
+The radio shall support at least ten different languages.  
+Adjust loudspeaker volume 
+By default, the loudspeaker volume shall be set to a pre-determined level suitable for the operating environment (as stored within the system). 
+It shall be possible for the driver to increase and decrease the loudspeaker volume within the adjustment range selected. 
+When the handset is picked up, the loudspeaker shall continue to operate, but at a reduced volume level. 
+Using a simple MMI action, it shall be possible for the driver to view a prioritised list of all authorised mobile radio networks (see section 10.5). 
+When presented with this list, it shall be possible for the driver (using simple MMI actions) to select the required mobile radio network manually, whereupon the Cab radio shall attempt to attach to this selected network. 
+The manual network selection function shall not be available when there are on-going voice calls involving the Cab radio. 
+A visual confirmation of the new network identity shall be given to the driver when a manually initiated network change has been completed successfully. 
+Directed network selection is suitable for crossing international borders. 
+The Cab radio should be capable of selecting the mobile radio network automatically from a list of suitable networks (see section 10.5). 
+If automatic network selection is implemented, it shall be possible for the driver to activate and deactivate automatic network selection. 
+Automatic network selection shall not be used for international border crossing. 
+If directed network selection and/or automatic network selection are implemented, the driver shall be informed by means of an audible and visual indication of the new network identity whenever a network change takes place without user intervention. 
+Manual network selection is suitable for crossing international borders. 
+If directed network selection is implemented, input from the external device shall initiate the network change regardless of the identity of the current network and how it was selected. 
+Automatic network selection is not suitable for use in areas where there is a risk that the Cab radio will change to a foreign network unpredictably. 
+The Cab radio should be capable of selecting the mobile radio network as directed by input from an external device (eg a balise). 
+If directed network selection is implemented and voice calls are ongoing at the time when the external device attempts to trigger a network change, an audible and visual indication shall be given to the driver and network change shall be deferred until the call is terminated or until coverage of the current network is lost. 
+Directed network selection is suitable for crossing international borders. 
+The Cab radio should be capable of selecting the mobile radio network automatically from a list of suitable networks (see section 10.5). 
+If automatic network selection is implemented, it shall be possible for the driver to activate and deactivate automatic network selection. 
+Automatic network selection shall not be used for international border crossing. 
+Automatic network selection is not suitable for use in areas where there is a risk that the Cab radio will change to a foreign network unpredictably. 
+If directed network selection and/or automatic network selection are implemented, the driver shall be informed by means of an audible and visual indication of the new network identity whenever a network change takes place without user intervention. 
+Where the driver is required to enter the train number information, the information entered shall be shown on the display and require confirmation by the driver before further actions are possible. 
+If an automated request is initiated (option 2), the driver shall be able to accept or reject the train number returned by the network. 
+Where ERTMS/ETCS and radio systems are available and the driver is required to enter the train number as part of the initialisation procedure, this task shall be carried out only once on the ERTMS/ETCS system and the entered number transmitted to the radio system. 
+Data entry may be from either system depending on the operating procedures agreed between the train operator and the railway infrastructure operator. 
+The driver shall be warned (by audible and visual indications) if a train with the same train number is already registered on the same network. 
+A means to override the currently registered train number shall be provided to the newly registering driver. 
+The driver of the previously registered train shall be informed (by audible and visual indications) that his train number has been overridden by another driver. 
+Where a change of train number is required during the course of a trains journey, it shall be possible for the driver to initiate the change or override the automatic change. 
+Non leading drivers shall be able to indicate to the system their location in the train during the registration procedure (2nd driver, 3rd driver etc). 
+The drivers functional number shall be automatically registered/deregistered when the train number is registered/deregistered. 
+The functional number of other on-train users who may be addressed through the Cab radio via the on-train bus shall be registered/deregistered automatically at the same time as the registration/deregistration of the drivers functional number. 
+Where an on-train bus is connected to the Cab radio, deregistration of functional numbers can be performed on an individual basis and also by the train driver, by one action for all users (including the driver), at the end of the journey when the train number is no longer associated with the train. 
+Register and deregister stock number (engine/coach number) 
+There shall be a fixed relationship between the telephone numbers of radios installed in the locomotive/coach and the stock number, which shall remain even if the radio is changed. 
+The Cab radio shall have a reconfigurable list of stored numbers that may be used to perform abbreviated dialling to named user identities. 
+It shall be possible for the driver to find and display stored numbers and their information. 
+It should be possible for the driver to store and overwrite numbers and their details in the Cab radio. 
+The actions required from the driver will be as simple as possible.  
+It shall be possible to initiate tests of the radio to provide the driver with a reasonable 
+level of certainty that the radio and MMI are working. 
+The result of the tests shall be displayed in a similar format to the self-test when MMI is powered on. 
+Handle incoming/outgoing calls to/from appropriate on-train users or devices 
+The Cab radio system may be required to be able to handle incoming and outgoing calls not only to and from the driver, but also to and from other on-train users and devices (conductor, public address system, data systems, etc) via appropriate interfaces and ports. 
+For data applications, calls shall be possible even if the driver MMI is switched off. 
+The Cab radio may need to conserve battery power when the radio is powered up but the MMI is switched off. 
+The Cab radio may be required to set up calls from a number of different sources. 
+Therefore, the radio shall provide a priority function for calls from different sources in order to handle contention for the radio. 
+In order to meet other call priorities, established calls shall be able to be either put on hold or cleared down (pre-empted). 
+The Cab radio shall be capable of handling contention between calls of differing priorities. 
+An outgoing call request of higher priority than an established call shall take precedence over the established call. 
+Where pre-emption occurs, an advisory indication may be provided to the pre-empted parties. 
+Priority call handling facilities shall be provided such that the performance requirements defined in sections 3.4 and 10.2 can be met. 
+Upon the request of the driver, the Cab radio should be able to perform a suite of run- time diagnostic tests on all physical interfaces. 
+If run-time diagnostics are implemented, failure of an interface shall be reported to the driver via the display. 
+If run-time diagnostics are implemented, all failures should be available to be recorded in a train-borne recorder. 
+If run-time diagnostics are implemented, diagnostic tests shall not interfere with normal operation of the Cab radio. 
+Railways will require facilities to support the use of automatic test equipment with mobile radios. 
+Ease of maintenance should be taken into account in the design and installation of radio equipment. For example, maintenance access to antennas on vehicles should be provided. 
+Requirements on electromagnetic emissions for the Cab radio are to be more stringent than those defined for other radio types due to close proximity to other train-mounted control and protection equipment, and higher transmission power. 
+Radio equipment installed in a drivers Cab shall not obstruct the drivers vision or otherwise hinder the safe driving of the train. 
+The design of the equipment shall make it possible to install it within a cab complying with the requirements of UIC fiche 651 concerning the layout of cab equipment . 
+All call related functions shall be possible with the handset on or off the hook. 
+The driver shall be able to adjust the brightness of buttons, indicator lights and displays according to the ambient lighting in the cab. 
+The driver shall be able to adjust the contrast of the display. 
+The emergency call button shall be red and shall be protected against accidental use. 
+Any displays shall be clearly readable from a normal drivers position, assuming a normal reading distance. 				
+Displayed characters shall have a minimum height of 5mm. 
+The standard set of audible and visual indications specified in the CENELEC Standard for the Driver-Machine Interface for ERTMS shall be implemented in the Cab radio system. 
+Some Cab radios may need to be operated by staff wearing gloves and controls may need to be suitable for use in a wide range of conditions, eg splash proof and suitable for viewing in direct sunlight and in darkness. 
+Where there is a risk that stored numbers or other set-up details may be accidentally changed, facilities should be provided on the Cab radio in order to prevent this happening. 
+Cab radios shall provide a means of preventing tampering. 
+If contact with the mobile radio network is lost, then the Cab radio shall give an audible and visual indication. 
+A driver safety device (DSD) interface should be provided in traction units that are equipped with a DSD in order to support the transmission of a DSD alarm. 
+If such an interface is implemented, it shall be capable of being connected to a device complying with UIC fiche 641 concerning automatic vigilance devices used in international traffic. 
+The activation of the driver safety device shall automatically trigger the Cab radio to send a data message. 
+DSD alarm information shall be transmitted to the primary controller. 
+Additional information may also be provided if available from external systems. 
+On-train mobiles shall provide a standardised interface to ERTMS/ETCS. 
+In addition, individual railways may have requirements to interface to national control/command systems. 
+Other interfaces may be provided in the Cab radio system. 
+The General purpose radio shall be capable of use as a standard telephone, such that the user is able to call any valid number subject to call restrictions enforced by the network.  
+The facility for a given General purpose radio to send a Railway emergency call (see section 13) shall be determined as a management function. 
+A special MMI action shall be required for a General purpose radio user to send a Railway emergency call. 
+It shall not be possible for any General purpose radio user to send a Railway emergency call by dialling a short code or telephone number. 
+An audible and visual indication of an incoming call shall be provided. 
+Where available, the functional identity of the calling party shall be displayed. 
+Receive incoming group or broadcast voice call 
+A short audible and visual indication of the incoming call shall be provided. 
+The group identity of the voice group call (VBS or VGCS) shall be displayed. 
+If the call is a broadcast call, the user shall be informed that he cannot speak as part of the broadcast call.
+If the call is a group call, the user has to request permission to speak during the call by using the Push-To-Talk (PTT) function. 
+In a group call, a visual indication shall be provided to remind the user of the need to use the PTT function. 
+The user may not speak in a group call until permission is granted by the network after using the PTT function. 
+In a group call, an audible and visual indication of whether the request was successful shall be provided. The user may then talk whilst the PTT function is used. 
+If the user moves out of the group or broadcast call area whilst the call is in progress, an audible and visual indication of the loss of call shall be provided to the user. 
+Reception of this call (if implemented) shall proceed as for a standard group or broadcast call except that a distinctive audible and visual indication shall be provided. 
+The radio shall provide a means for the user to terminate calls which he is authorised to terminate (ie all calls except broadcast or group calls not initiated by the user). 
+At this point, the radio will be able to receive all calls initiated using the telephone number or appropriate group call number.  
+When switched off, the radio shall retain any settings and numbers which are stored at the time the radio is switched off. 
+Prompts and messages shall be capable of being displayed in at least 10 languages (each railway will choose which languages will be implemented). 
+The user shall be able to select his preferred language for the display; this setting shall be retained by the radio. 
+When the radio is first powered on, the language that appears on the display shall be the default one set by the national railway. 
+Where more than one mobile radio network is available for use by a mobile, the selection of the network to use shall be automatic (see section 10.5).  
+When the mobile changes network automatically, a visual and audible indication shall be given. 
+It shall be possible for a user to override the automatic network selection manually. This function shall not be available during calls. 
+Where a change of functional number is required, it shall be possible for the user to initiate the change. 
+It shall be possible for the user to find and display stored numbers and their information. 
+It shall be possible for the user to store and/or overwrite numbers and their details in the radio. 
+A standard data interface should be provided to allow a computer to be connected to the radio. 
+The General purpose radio should be small, compact and easy to carry. 
+It should be possible for a user to change the battery without the use of tools. 
+The weight of the General purpose radio including battery should not exceed 250g. 
+Changing the battery should not result in losing data stored in the radio. 
+The MMI should be suitable for use both by day and night. 
+The on/off control should be designed to prevent accidental activation/deactivation. 
+A Push-To-Talk function shall be provided. The Push-To-Talk function does not need to be a dedicated button. 
+Stored numbers and other set-up details should be protected against accidental alteration. 
+If the ability to initiate Railway emergency calls is implemented in the radio, accidental initiation of a Railway emergency call shall be prevented. 
+A visual and audible indication shall be given when the remaining capacity of the battery is such as to enable only 10 minutes of full duplex call time. 
+A network service availability indication shall be provided to the user. 
+A visual indication shall be provided to the user if the network service is no longer available. 
+An audible indication should be provided to the user if the network service is no longer available. 
+The Operational radio shall be capable of use as a standard telephone, such that the user is able to call any valid number subject to call restrictions enforced by the network. 
+Once an appropriate number has been obtained, the radio shall attempt to establish a call to this number with railway operation priority. 
+An audible and visual indication shall be provided to the user that the call is proceeding. 
+When the call is connected to the controller, an audible and visual indication shall be provided to the user. 
+The functional identity of the connected party, if available, shall be displayed to the user. 
+Where available, an alphanumeric description of the identity of the connected party shall be displayed. 
+If the system is not able to connect the call, an audible and visual indication shall be provided to the user. 
+The Railway emergency call shall be able to be initiated using a single red button (see section 13). 
+It should be possible, as a maintenance function, to enable/disable the emergency call function. 
+An audible and visual indication of an incoming call shall be provided.  
+Where available, the functional identity of the calling party shall be displayed.  
+A short audible and visual indication of the incoming call shall be provided.   
+The group identity of the voice group call (VBS or VGCS) shall be displayed.  
+If the call is a broadcast call, the user shall be informed that he cannot speak as part of the broadcast call. 
+If the call is a group call, the user has to request permission to speak during the call by using the Push-To-Talk (PTT) function. 
+In a group call, a visual indication shall be provided to remind the user of the need to use the PTT function.  
+The user may not speak in a group call until permission is granted by the network after using the PTT function. 
+In a group call, an audible and visual indication of whether the request was successful shall be provided. The user may then talk whilst the PTT function is used. 
+If the user moves out of the group or broadcast call area whilst the call is in progress, an audible and visual indication of the loss of call shall be provided to the user. 
+Reception of this call shall proceed as for a standard group or broadcast call except that a distinctive audible and visual indication shall be provided. 
+The Operational radio should provide facilities to support shunting mode as described in section 14. 
+If shunting mode is implemented, a means to enter and leave shunting mode shall be provided. 
+If shunting mode is implemented, the functionality to enter or leave shunting mode shall not be available whilst there are on-going calls involving the Operational radio. 
+If shunting mode is implemented, the link assurance tone shall be provided via the loudspeaker. 
+A means to enter/leave the direct mode of operation should be provided
+At this point the radio should be able to receive all calls initiated using the telephone number or appropriate group call number. 
+When switched off, the radio shall retain any settings and numbers which are stored at the time the radio is switched off. 
+Prompts and messages shall be capable of being displayed in at least 10 languages (each railway will choose which languages will be implemented). 
+The user shall be able to select his preferred language for the display; this setting shall be retained by the radio. 
+When the radio is first powered on, the language that appears on the display shall be the default one set by the national railway. 
+Where more than one mobile radio network is available for use by a mobile, the selection of the network to use shall be automatic (see section 10.5). 
+When the mobile changes network automatically, a visual and audible indication shall be given.  
+It shall be possible for a user to override the automatic network selection manually. This function shall not be available during calls. 
+Where a change of functional number is required, it shall be possible for the user to initiate the change. 
+It shall be possible for the user to find and display stored numbers and their information. 
+It shall be possible for the user to store and/or overwrite numbers and their details in the radio. 
+A standard data interface should be provided to allow a computer to be connected to the radio. 
+The Operational radio shall comply with the basic standards defined for all EIRENE mobile equipment in section 4.3 and this section. The Operational radio is specified to allow its use in the operating environment experienced on the operational railway (eg shunting and maintenance).  
+The Operational radio shall be of a rugged design suitable for use in the railway environment by operational railway personnel. 			
+Controls shall be designed such that they are suitable for use by people wearing gloves. 		
+Controls shall be designed for use in a wide range of conditions, eg splash proof and suitable for viewing in direct sunlight and in darkness. 
+It should be possible for a user to change the battery without the use of tools. 
+The weight of the Operational radio including battery should not exceed 800g.Electrical 
+It shall be possible to change the battery without losing data stored in the radio. 			
+The Operational radio should be suitable for use with a car adapter kit.  
+The MMI shall be suitable for use by day and night. 
+The display shall be capable of displaying at least 6 lines, each of 20 characters. (M )
+Four buttons should be provided for designated stored numbers. (This facility is required for calls to local controllers, etc.) 
+The emergency button shall be designed to avoid accidental use. 
+If shunting mode is implemented, the link assurance button shall be designed to avoid accidental use. 
+A dedicated Push-To-Talk button shall be provided. 
+A visual and audible alarm shall be given when the remaining capacity of the battery is such as to enable only 10 minutes of full duplex call time. 
+A visual indication shall be provided to the user if the network service is no longer available.
+An audible indication should be provided to the user if the network service is no longer available. 
+Detailed specification of controller equipment and the interface between such equipment and the EIRENE network is at the discretion of the railway operator. 
+It should be possible for calls to be answered automatically according to incoming call priority as defined
+The functionality required by other types of controllers is essentially the same as for primary controllers, but the control area will differ and the call set-up subsystem may be integrated into their own function management system. 
+At the detailed level, different controllers may have specific addressing needs, eg catering controllers will need to call specific vehicles in a train.  
+The communications architecture will be dictated by local circumstances. The definition of this interface is beyond the scope of EIRENE. 
+The controller equipment must be designed to function correctly in a railway operating environment, such as control centres and signal boxes. 
+International standardisation of numbering plans is needed to ensure interworking between networks. Furthermore, standardised allocation of numbers to subscribers will facilitate schemes for identification, barring, etc. 
+The EIRENE system shall enable users to originate and receive calls by functional number. 
+Each mobile shall be identified by a unique telephone number. 
+The use of train numbers to address trains shall not result in any ambiguities. 
+Every on-train function shall be identified by a unique standard number. 
+The use of engine/coach numbers to address trains shall not result in any ambiguities. 
+Every on-engine/coach function shall be identified by a unique standard number. 
+The numbering for other teams shall be treated in the same way as maintenance teams
+Group call service areas shall be freely configurable within the operational responsibility of each railway network. 
+In some countries, train numbers are alphanumeric. Support for such numbers is not required for interoperability.  
+Telephone numbers can be defined on a national basis, but codes for certain functions shall be used on an international basis in order to allow interoperability. 
+To provide interoperability between the fixed railway networks within the EIRENE network, standardisation of UIC group numbering will be required. 
+In network boundary areas, the pre-defined local area shall be allocated on a bilateral basis. 				
+Authorised users within the EIRENE network shall be able to receive calls from calling parties outside the EIRENE network. 
+In order to provide interoperability, priorities shall be allocated consistently across all EIRENE networks, as shown in the following table. 
+The lowest priority ongoing call shall be pre-empted before that of a higher priority.				
+In the case where an EIRENE mobile attempts to make a Railway emergency call over a public network, the ability to pre-empt lower priority calls (particularly public emergency calls) may be inhibited, unless a special agreement is in place.  
+A mobile may be a member of a number of groups. It shall be possible to activate or deactivate the mobiles subscription to these groups. 
+Activating a group on the mobile shall allow a user to receive a call from that group. 
+Deactivating a group on the mobile shall prevent a user receiving calls from that group. 
+All mobiles with Railway emergency group call subscription shall be prevented from deactivating the emergency group whilst operational. 
+Where EIRENE facilities are not available within the currently selected network, the user shall be given a visible indication. 		
+The access matrix defines which subscribers are able to contact which other subscribers within the EIRENE network. 
+If required, a railway may make additional restrictions to the access matrix. 
+An addressing scheme shall be provided which permits users to be identified by numbers corresponding to their functional roles rather than by numbers tied to the terminal equipment that they are using. 
+It shall be possible to assign up to a minimum of 3 functional numbers to an EIRENE user at any one time. 
+Only one EIRENE user shall be assigned to a given functional number at any one time. 
+A user shall be able to set up a functional number on one network, and cancel the number from another network. 
+The functional number shall remain valid as a user roams from one network to another. 
+The functional addressing scheme shall be independent of specific configurations of mobile and terminal equipment.
+It shall be possible to call EIRENE users by functional numbers from a wide range of terminals (EIRENE and non-EIRENE). 
+The functional addressing scheme should permit calls to be routed from a controller to an international train within the control area without reference to any EIRENE system other than that providing service to the international train. 
+Functional numbers must be unique within the domain of operation. Since the number must be independent of networks, each number must be unique across all networks (including implementation of EIRENE facilities on public networks). 
+The functional number shall consist of numeric characters only.  
+If alphanumeric numbers are applied by a national railway, the railway will be responsible for the translation to unique numeric functional numbers compatible with the EIRENE specification. 
+The functional identity of the called user shall be presented to the user initiating a call and the functional identity of the initiator shall be presented to the user receiving a call. 
+If the user initiating the call has more than one functional identity, the user shall be able to select, prior to call establishment, which functional identity is presented to the receiving user. 
+In the case of Cab radio, when a train number is assigned as a functional identity, this shall take priority over other Cab radio functional identities, and shall be the functional identity for the Cab radio to be displayed to other users. 
+The functional identity shall be presented to the user in a form which can be readily understood (eg driver of train abcd rather than abcd01 or xyz shunting team 3 rather than xyz03). 
+Three procedures can be identified for managing the relationship between the functional number and the telephone number by the mobile user as defined below. 
+The functional addressing scheme shall be supported by a straightforward procedure for registration of functional numbers. This procedure shall be carried out by the user on commencement of the functional role. 
+The functional number registration facility shall be supported by all EIRENE user equipment. 
+It shall be possible to register up to ten functional numbers to items of equipment physically connected to the Cab radio within 30 seconds. 
+The registration procedure shall provide a means to prevent mis-allocation of functional numbers during registration. 
+Duplicate functional numbers (eg two trains with the same train number) shall be prevented. 
+The system shall provide a means to recover consistent data sets following a system failure during which functional addressing facilities are lost. During this recovery period, the system shall not permit the use of unverified functional numbers. 
+The functional addressing scheme shall be supported by a straightforward procedure for deregistration of functional numbers. This procedure shall be carried out by the user at the end of the functional role. 
+The functional number deregistration facility shall be supported by all EIRENE user equipment. 
+It shall be possible to deregister up to ten functional numbers to items of equipment physically connected to the Cab radio within 30 seconds. 
+To allow roaming between EIRENE networks, the system shall support a procedure for the re-registration of functional numbers after selection of a new network. 
+This procedure shall be carried out without manual intervention.  
+After automatic re-registration is performed, the new registration details shall be displayed to the user. 
+Location dependent addressing shall be provided to route calls for a given function to a destination number that is dependent upon the users location. 
+When operating with location dependent addressing, no manual action shall be required to update the system when a mobile moves between locations. 
+The location dependent addressing scheme shall be available to all mobiles. 
+As a minimum, the location information used by the EIRENE system shall be derived from that available from the network itself (eg current cell or base station serving the mobile). 
+It should be possible to transfer text messages between ground and mobile through the EIRENE system.  
+In order to ensure interoperability, the service is optional for the ground and mandatory for the Cab radio. 
+If a message is safety related, the safety mechanisms will be included at the application level and do not concern the EIRENE system. 		 
+The maximum length of a message segment shall be 96 characters. A message can include several segments. 
+The transfer time for each message segment should be less then 30 seconds for 95% of messages.
+The text message facility shall not interfere with the ability of users to use the radio. 
+A standard data interface between the mobile and the application module shall be provided. 
+This section covers the use of the EIRENE radio system for Railway emergency calls. This section also describes the facility for confirmation of such emergency calls and storage of confirmation for post-incident analysis. 
+This section describes the handling of high priority voice calls for railway operational emergencies and does not cover public emergency calls (ie handling of 112 calls). 
+The type of call initiated shall be determined automatically, based upon the mode of operation of the radio. 				
+If the mobile is in shunting mode, the emergency call button shall initiate a shunting emergency call, otherwise the call shall be a Train emergency call. 
+The Train emergency call shall be sent to all drivers and controller within an area, which is pre-defined to meet operational requirements. The predefined areas for emergency calls shall include, where necessary, parts of one or more network. 
+The appropriate ERTMS/ETCS RBC should be informed when a Train emergency call is initiated. 
+The Shunting emergency call shall be sent to all users involved in shunting operations in the shunting area. 
+The Shunting emergency call shall automatically take priority over the link assurance signal. 
+A Railway emergency call shall be able to be initiated by using a simple MMI action (eg a single MMI action for the Cab and Operational radios). 
+A connection of Railway emergency priority (see section 10.2) shall be established to a pre-determined set of receiving mobiles and controller. 
+If the system is not able to connect the call, the system shall automatically keep trying to connect the call for 30 seconds. 
+During this period the user shall be provided with an audible and visual indication that the system is trying to connect the call. 
+After the 30 second period, if the connection was unsuccessful, the system shall provide another audible and visual indication that it was unable to connect the call. 
+An audible indication of 5 seconds (to be confirmed by trials) shall be provided to originating and receiving users that the emergency function has been activated. 
+Different indications at the originating and receiving terminal may be provided.  
+A continuous visual indication that the emergency function has been activated shall be provided at the originating and all receiving terminals. 
+In the event that a train enters the affected area after the warning stage is complete, the same audible and visual indications shall be provided. 
+A speech connection shall be established immediately following the warning tone, to allow the originator of the emergency call, to give information concerning the nature of the emergency. 
+Speech should be possible to allow a controller receiving the warning tone to give information. 
+Additionally, speech should be possible to allow other mobile users receiving the warning tone to give information. 
+The information shall be received by the same set of users who received the warning tone. 
+If the radio moves out of the area whilst the emergency call is in progress, an audible and visual indication of the loss of the call shall be provided to the user. 
+Authorised EIRENE mobiles shall be able to receive a Railway emergency call at any time while the mobile is powered up. 
+For post-incident analysis, it is important that the origination and reception of Railway emergency calls by mobiles is confirmed by a message sent to a ground-based central location (and also recorded in the on-train recording device). 
+The confirmation shall be generated automatically without input from the user. 
+The confirmation message shall commence at the end of the call or if the radio moves out of the call area. 
+If the radio loses contact with the network, the mechanism shall commence as soon as possible on regaining communications, for up to a maximum of 5 minutes without achieving contact. 
+The confirmation message shall be received at the central location with a 99% probability of success within 5 minutes of call termination. 
+The performance of the confirmation procedure shall not be dependent upon the current use of the mobile and shall not overload the network. 
+Shunting mode is the term used to describe the application that will regulate and control user access to facilities and features in the mobile while it is being used for shunting communications. 
+There is a requirement to regulate the membership of shunting groups to prevent uncontrolled membership. 
+The shunting call shall be a group call and shall have Railway operation priority
+Throughout the duration of the shunting group call, it shall be possible for any member of the shunting group to speak to all other members of the group, using the 
+During the transmission of the link assurance signal, only the originator of the link assurance signal shall be able to speak to all other members using the PTT function. 
+The shunting communication shall be protected from unintentional and unauthorised access. 
+It shall be possible for all mobile members of the shunting group (except the driver) to transmit a link assurance signal. 
+Within the shunting group, it shall be possible for only one member of the group to transmit the link assurance signal at any time. 
+Operational radios used for shunting shall enable the link assurance signal to be activated and de-activated by the shunting group member. 
+The link assurance signal should be used to reassure the driver of the integrity of the member at the head of the shunting movement. 
+The link assurance signal shall be used to provide an audible indication to all group members. For the driver, this indicates that the radio link is operational. 
+It shall be possible for any member of the shunting group (including a driver) to transmit a shunting emergency call to all shunting groups in the area. 
+It shall be possible for all shunting drivers and shunting group members to receive a shunting emergency call from any equipment capable of taking part in shunting communications. The shunting emergency call shall cause the audible link assurance signal to be interrupted. 			
+If a user, other than the shunting leader, attempts to make another call whilst being an active member of a shunting group, the attempt shall be ignored. 
+If the radio is used by the team leader for a shunting group call (ie initiated the shunting group call), switching the radio off shall result in the termination of the shunting group call. 
+It shall only be possible for the shunting leader to communicate with a person external to the ongoing shunting communication. This may be initiated by either the shunting leader or the external user. In the latter case, in order to avoid disturbing a shunting movement, the shunting leader should be informed by a visual and audible indication. 
+The shunting leader can then choose the moment when he takes or rejects the call. 
+The shunting leader shall then be able to allow the external user to join the shunting communication.  
+National railways will be responsible for limiting the availability of equipment that is capable of taking part in shunting communications to persons that are authorised to engage in such communications. 
+The link assurance signal is a means to provide end-to-end confirmation between users that a voice communication link remains intact. This facility is required principally for the safe conduct of pushing manoeuvres to assure continuing availability of the radio channel while a shunting worker is guiding a train driver. 
+The link assurance signal shall consist of an intermittent audio tone (between 800 and 850Hz). The tone shall be of one second duration, followed by an interval of two seconds.
+In order to fulfil the requirements of some railways, it should be possible to provide an alternative means of link assurance indication.	
+The link assurance signal shall be deactivated upon receipt of a shunting emergency call.
+All members of the shunting group, other than the initiator of the link assurance signal, shall be unable to speak during the transmission of the link assurance signal. However, they shall be able to initiate a shunting emergency call at any time.				
+Implementation of direct mode is optional. Where the facility is provided, the following requirements are mandatory.
+Citizens can register their complaints with police and then based on the evidence, facts and following investigation, police shall take the complaint forward. The Registration module acts as an interface between the police and citizens and it eases the approach, interaction and information exchange between police and complainants.
+After a complaint is initiated, police initiates the investigation process. The Investigation module of the CCTNS facilitates the investigation process and introduces operational efficiencies by automating most of the tasks that take place after initial entries are made during Registration.
+Interfacing with the courts during the prosecution of cases is an integral part of the responsibilities of police personnel. A designated constable from each police station constantly interfaces with the courts. The Prosecution module of the CCTNS aids this interfacing by providing a platform to record entries of the court interactions. 
+The Search module of the CCTNS gives police personnel the ability to execute a basic or advanced search on cases. Using the search functionality, police personnel can search for a particular person, type of crime, modus operandi, property etc. It also gives the user the ability to customize the results view by criminal/accused or by cases. It makes reporting easy for police by enabling them to execute different types of queries such as monthly reporting, RTI related etc.
+The Citizen Interface module of the CCTNS acts as a conduit for the information exchange between citizens and police units/personnel. Citizens can use it as a tool to get information or acknowledgements from police. The police in turn can use it to respond to citizens with very little turnaround time. It improves overall productivity by helping citizens and police to cut short the drudgery of large amounts of paperwork.
+The Navigation module of the CCTNS provides role based landing pages which help in navigating through the CCTNS application. It shows information such as cases assigned, alerts, pending tasks etc hence helping police personnel to plan better and execute with greater efficiency.
+The Configuration module of the CCTNS helps keep the application configured according to the states’ requirements in addition to keeping data elements/rules up to date. With a proper configuration, information such as act and sections, state specific data, castes, tribes, property information etc. can be created updated and deleted.
+The functional requirements for each of the modules are provided as A1 to A7 in separate enclosures.
+The solution should provide detailed context-sensitive help material for all the possible actions and scenarios on all user interfaces in the application.
+The solution should provide detailed context-sensitive help material for all the possible actions and scenarios on all user interfaces in the application.
+The solution should provide an interface for the user to log any defects or enhancement requests on the application and track thereafter.
+The solution should send alerts (e.g., email, SMS) to the user if the user chooses to whenever any action has been taken on the alert.
+The solution should enable the user to track the submitted defect or enhancement request.
+The solution should enable the help-desk user to view the reports on the submitted defects or enhancement requests category-wise, status-wise, and age- wise.
+The support solution should be accessible to the users both from within the application and also outside the application through a browser interface.
+Once the audit trail functionality has been activated, the System must track events without manual intervention, and store in the audit trail information about them.
+The System must maintain the audit trail for as long as required, which will be at least for the life of the case to which it refers.
+The System must ensure that audit trail data is available for inspection on request, so that a specific event can be identified and all related data made accessible, and that this can be achieved by authorised external personnel who have little or no familiarity with the system.
+The System must be able to export audit trails for specified cases (without affecting the audit trail stored by the System). This functionality can be used by external auditors who wish to examine or analyse system activity.
+The System must be able to capture and store violations (i.e. A user’s attempts to access a case to which he is denied access), and (where violations can validly be attempted) attempted violations, of access control mechanisms.
+The System should be able to provide reports for actions on cases organised by workstation and (where technically appropriate) by network address.
+The System must allow the user to limit access to cases to specified users or user groups.
+The system should provide for role-based control for the functionality within the system
+The System must allow a user to be a member of more than one group.
+The System must allow only admin-users to set up user profiles and allocate users to groups.
+The System should allow a user to stipulate which other users or groups can access cases.
+The System must allow changes to security attributes for groups or users (such as access rights, security level, privileges, password allocation and management) to be made only by super-user.
+If a user performs a quick or advanced search, the System must never include in the search result list any record which the user does not have the right to access.
+If the System allows users to make unauthorised attempts to access cases, it must log these in the audit trail.
+Any access to cases, and all other activities involving the cases and related documents or data should also need to be stored in the audit trail to ensure legal admissibility and to assist in data recovery.
+All error messages produced by the System must be meaningful, so that they can be appropriately acted upon by the users who are likely to see them. Ideally, each error message will be accompanied by explanatory text and an indication of the action(s) which the user can take in response to the error.
+The System must employ a single set of user interface rules, or a small number of sets to provide a familiar and common look and feel for the application.
+The System must be able to display several entities (cases, suspects) simultaneously.
+The interfaces must be made customizable or user-configurable to the extent possible. (e.g., the displayed columns in the table, move, resize, modify the appearance). Such configurations must be saved in the user profile.
+The System user interface must be suitable for users with special needs; that is, compatible with specialist software that may be used and with appropriate interface guidelines
+The System must provide End User and Administrator functions which are easy to use and intuitive throughout.
+Frequently-executed System transactions must be designed so that they can be completed with a small number of interactions (e.g. mouse clicks).
+The user interfaces should be designed to make them user-intuitive.
+The user interfaces of the system should comply with Standard ISO 9241.
+ICT accessibility: ISO 9241-20 shall be the standard for guidance on ICT accessibility. Application user interfaces to meet its requirements and recommendations. Software accessibility ISO 9241-171 shall be the standard for guidance on software accessibility. User interfaces should meet its requirements and recommendations. Content accessibility WCAG 1.0 shall be the standard used for guidance on content accessibility. The application logo to be available on all pages as a link to the home page.
+Providing text equivalents for non-text media objects: All non-text media objects, such as graphical images or video, should be provided with alternative equivalent textual descriptions and/or with equivalent text-based functionality.
+Making navigation self-descriptive: Navigation should be designed to help users understand where they are, where they have been and where they can go next. General guidance on achieving self-descriptiveness is given in ISO 9241-110.
+Showing users where they are: Each presentation segment (page or window) should provide the user with a clear and sufficient indication of where he or she is in the navigation structure and of the current segment position with respect to the overall structure.
+Offering alternative access paths: Alternative access paths for navigating to a specific unit of content should be offered to support different navigation strategies.
+Minimizing navigation effort: The number of navigation steps needed to reach a certain piece of content should be minimized as long as different mental models, navigation strategies and tasks of the user are taken into account.
+Splash screens should be avoided unless they provide useful content or feedback about the application state to the user. If a splash screen is used, a navigation option to skip it should be offered.
+Avoiding opening unnecessary windows: Additional windows such as new browser windows or pop-up windows should only be opened if this supports the user’s task. Opening new windows can distract, confuse or impede users for a variety of reasons. They can superimpose the primary window, hiding relevant information. They could make it cognitively more difficult to understand the navigation structure with negative effects on both usability and accessibility. They also require additional user actions for closing unwanted windows.
+Vertical scrolling should be minimized. This may be done by placing important information at the top and providing links to information that is further down the page. Horizontal scrolling should be avoided wherever possible.
+Designing for input device independence: User interfaces should be designed to allow activation of controls by a variety of input devices. The ability to choose between different input devices for activating controls such as links, fields and buttons is important both for users who prefer a certain input mode, mobile users and users with disabilities. In general, device independence can be achieved if the functionality is operable via a keyboard.
+Making user interfaces robust: User interfaces should be designed to be as robust as possible in the face of changing technology. This encompasses being able to present content containing newer technologies by older user agents as well as designing content to be usable with future technologies.
+Acceptable opening / download times: Application pages should be designed and implemented so that there are acceptable opening times and download times for the expected range of technical contexts of use (e.g. bandwidth between the application and the user). This is particularly important for frequently accessed pages or pages that are important for user navigation and exploration, such as the home page.
+Minimizing user errors: Potential user errors as well as the effort needed to recover from errors should be minimized.
+Providing clear error messages: The content of error messages shown on the pages or special error pages should clearly state the reason why the error occurred and, if possible, actions the user can take to resolve the error. Users expect error messages to be in the same language as the user interface.
+Using appropriate formats, units of measurement or currency: When designing user interfaces for use by diverse groups, input and output of information elements such as currency, units of measurement, temperatures, date and time, phone numbers, address or postal codes should be designed so that they are usable.
+Making text resizable by the user: Text should be able to be resized by the user, using functions provided by the user agent or other appropriate means i.e. see ISO 9241-171.
+Text quality: The quality of textual content with respect to spelling and grammar should be sufficient so as not to impede readability.
+Writing style: The reading and understanding of the textual content on the screen should be supported by suitable means, including the use of short sentences, the division of the text into shorter chunks or the presentation of content items in the form of bullet points.
+Supporting text skimming: Fast skimming of text should be supported by the provision of clear links, bulleted lists, highlighted keywords, logical headings, and short phrases and sentences.
+Readability of text: Text presented on the pages should be readable taking into account the expected display characteristics and spatial arrangement. ISO 9241-303 shall be consulted for screen text legibility requirements.
+Distinguishable within-page links: Within-page links should be clearly distinguishable from other links that lead to a different page. EX. Within-page links are shown with dashed rather than solid underlines
+Avoiding link overload: Text pages containing large proportions of links should be formatted so that the presence of links does not impede the readability of the text.
+Using familiar terminology for navigation links: Navigation links — particularly links representing the main navigation structure — should be labelled with terms that are familiar to the user, based on his/her general knowledge, prior experience in the application domain or experience of using other systems.
+Using descriptive link labels: The target or purpose of a link should be directly indicated by its label, avoiding generic labels such as “go” or “click here” except where the purpose of the link is clear from its context on the page or the labels have commonly understood semantics in the particular application domain. Using appropriate terminology specific to the user’s tasks and information needs is important for making the content easy to understand.
+Marking links opening new windows: Links that open new browser windows or pop-up windows should be clearly marked.
+Distinguishing navigation links from controls: Navigation links should be clearly distinguishable from controls activating some action. Typical action types in user interfaces include manipulating application data, performing searches, communication actions, such as opening a new e-mail window or starting a chat function, and presentation-related actions, such as sorting a list of search results.
+Providing printable document versions: If a document is either too long, dispersed over several pages or in a specific layout that is not suitable for online reading, a printer-friendly version of the document should be provided that prints the content in a form acceptable to the user (e.g. in the expected layout, paper format, or orientation).
+Use of “white space”: “White space” on a page i.e. space filled only with the background color should be used in such a way that it does not impair the visual skimming of the page. While white space is an important means of visually organizing the different content elements on a page, if the distance between the blocks of information displayed becomes too large, rapid skimming of the page can be impeded.
+Selecting appropriate page lengths The length of a page should be selected so as to support the primary purpose and use of the page. Short pages are generally more appropriate for homepages, navigation pages, or overview pages that need to be read quickly. Longer pages can be more appropriate when users want to read the content without interruptions or when the page needs to match a paper counterpart.
+Using colour: Colour should be used with care, taking into account human capabilities and restrictions in perceiving colour, and not as the only means of conveying information. Color should never be the only means of coding. Some users may have difficulties in perceiving certain colors or color combinations (color-blindness).
+Using frames with care: If frames are used, care should be taken to avoid possible problems, for example, those involving the use of the back button, bookmarking of pages, or scrolling of information. When frames are used, it is important to title each frame, and to describe its purpose and how frames relate to one another other.
+Providing alternatives to frame-based presentation: If frames are used, an alternative way of presenting relevant information without frames should be provided. Providing alternative text-only pages: When style sheets and/or frames are turned off it should be possible for the user to read and understand the page; alternatively, the user should be provided with an equivalent alternative text-only page.
+Consistent page layout: Pages should be designed using consistent layout schemes, supporting the user in finding similar information at the same position on different pages. Overall layout schemes apply to all pages and are preferable when all pages have a similar structure. Frequently, however, different pages have different purposes and types of content. In such cases, pages can usually be grouped in different categories, using one layout scheme for each category consistently.
+Placing title information consistently: Page titles should be placed in a consistent location on the different pages.
+Observing principles of human perception When designing application pages, the general principles of human perception should be taken into account. The International Standards mentioned below shall be consulted for guidance. Practical guidelines for presenting information to the user are to be found in ISO 9241-12. Guidance on selecting and using different forms of interaction techniques is to be found in ISO 9241-14 to ISO 9241-17. ISO 9241-14 gives guidance about menus, ISO 9241-15 about command dialogues, ISO 9241-16 about direct manipulation and ISO 9241-17 about forms. In addition, when designing multimedia information presentations, the design principles and recommendations described in ISO 14915-1 to ISO 14915-3 should be taken into account. Appropriate content presentation also plays a key role in accessibility.
+Linking back to the home page or landmark pages: Each page should contain a link leading to the home page of the application or to a landmark page that is easy to recognize for the user.
+Providing a site map: A separate navigation overview such as a site map should be provided for application showing the structure of the site in an overview form.
+Consistency between navigation components and content: If navigation components (or overviews) are shown in conjunction with associated content, consistency between the navigation component and the content shown should be maintained by indicating in the navigation component (e.g. highlighting) the topic currently visible in the content area.
+Placing navigation components consistently: Navigation components should be placed consistently on the pages or in the framesets in the pages of the application.
+Individualization and user adaptation : Adapting the content and the navigation of a user interface to individual users or user groups can be a useful mechanism for providing information that is of interest to the users and for making access to relevant information more efficient. User adaptation can also be important for making the user interface more accessible. Different approaches can be used for achieving these goals, like providing users with means for customizing the user interface to their personal needs i.e. individualization designing content and navigation differently for varying user groups or roles i.e. such as employees of different levels, citizens etc, monitoring the user’s behaviour and adapting to the user’s goals that are inferred from the behaviour observed, recommending information that is potentially more relevant or interesting to the specific user, based on the behaviour of all users or a user group.
+Taking account of the users’ tasks and information needs: When providing different access paths or navigation structures for different user groups, the tasks and information needs of these user groups should be taken into consideration.
+Making individualization and adaptation evident: It should be made evident to the user when individualization and/or adaptation are used.
+Making user profiles evident: If predefined user profiles or user-specified profiles are used for individualizing or adapting content, the profile currently used should be made evident. If profiles are used, it is important to provide users with information about this concept and its implications.
+Allowing users to see and change profiles: If user-specified profiles are used, users should be able to see, modify and delete that profile on demand.
+The user interfaces of the system should follow the guidelines specified under www.usability.gov
+The planned downtime for the System must not exceed <xx> hours per <rolling three month period>.
+The System is considered to be down if any user is unable to perform any normal System function and if this failure is attributed to any component of the System other than the workstation.
+Unplanned downtime for the System must not exceed <xx hours/minutes> per <rolling three month period>.
+The number of incidents of unplanned downtime for the System must not exceed <x> per <rolling three month period>.
+In the event of any software or hardware failure, it must be possible to restore the System (with inline synchronization) within no more than <xx> hours.
+The System must provide adequate response times for commonly performed functions under both standard and peak conditions
+The System must be able to perform a simple search within 5-8 seconds and a advanced search (multiple search criteria) within 10-15 seconds regardless of the storage capacity or number of cases in the system. In this context, performing a search means returning a result list. It does not include retrieving the records themselves.
+The System must be able to retrieve and display within 5-8 seconds the case which has been accessed within the previous 2 months, regardless of storage capacity or number of cases in the system. This requirement is intended to allow for rapid retrieval of frequently-used cases, on the understanding that frequency of use is typically correlated with recent use.
+The System must be able to retrieve and display within 20 seconds the case which has not been accessed within the previous 2 months, regardless of storage capacity or number of cases in the system. This requirement is intended to allow for cases where cases used infrequently are stored on slower media than more active records.
+The System be scaleable and must not have any features which would preclude use in small or large police stations, with varying numbers of cases handled.
+The system should support multilingual interface
+The system should be designed in manner that operational data is not lost in case of any failure of equipment or communication network.
+The system should work even in an offline mode with the critical functionality
+The system should be designed to have satisfactory performance even in Police Stationsconnected on low-bandwidth
+The system should be implemented using Service Oriented Architecture (SOA) and have a modular design
+The system should be developed on Open Standards
+The system should be built on a common User Access and Authentication Service toensure Single-Sign on for the end-user
+The system should be developed for a centralized deployment and maintenance
+The system should be developed to be deployed in a 3-tier datacenter architecture
+The system should be designed to have a n-tier architecture with the presentation logic separated from the business logic that is again separated from the data-access logic
+The system should be extensible to provide access to the interfaces through PDA’s andmobile data terminals
+The system should adopt standardized formats and common metadata elements
+The system should be designed for access through browser-based systems and mustimpose minimal requirements on the client device
+The system must support multiple types of communication services for remote access
+The system should have capability to support public access to a subset of data andfunctionality
+The system should support multi-tier authentication where required
+The system should support SSL encrypted connections
+The system should support secure virtual private network connections
+The system should use HTTPS as the communication protocol, i.e., HTTP over an encrypted secure socket layer (SSL)
+The system should run on multiple browsers
+The system should support selective encryption of the stored data
+The system should ensure secure transmission of data over the network and utilize SSL and 2-way digital signatures
+System shall display the hyperlinks and descriptions for the user to perform the desired functions as specified in the related UIS.
+The User shall be able to view the hyperlinks and descriptions listed.
+The User shall be able to choose a function by clicking the hyperlink.
+The system shall display the desired operational page for the user after clicking the hyperlink.
+A user with admin privileges shall be able to Add/Create a new user and associate theuser with specified role(s) in the system.
+The system shall display an error message if the new user is found in the [system name]system.
+The system shall display an error message if the new user is not active in the ActiveDirectory.
+The system shall display the xxx tab as the default tab.
+The user shall be able to create/add a new user manually or from a template.
+The user record shall inherit all specified role(s) settings in the template when the userrecord is created from the user template
+The user shall be able to add additional roles manually while creating/adding a new userfrom a user template.
+The system shall save the user info to the database with specified roles associated withdivisions for the newly created/added user.
+The system shall perform a search on the [system name] user display name and username columns in the user tables to find the user and verify the user’s existence.
+The system shall perform a search in the Active Directory to verify the status of the user— Active/Inactive within the company—when the user attempts to create/add a new userin the [system name] system.
+The system shall generate a standard confirmation message after saving data andwarning/caution messages after the cancel or close button is clicked.
+The user must have the flexibility to click any tab to commence the adding process,although the xxx Tab shall display as the default tab.
+All required fields as specified in the UIS must be marked with a red asterisk alerting theuser to fill the required fields in.
+The user shall be able to save data after creating/adding a new user or cancel data toabort the process.
+The system shall clear up data if the user chooses to click the Cancel button in the midstof creating/adding a new user.
+The system shall direct the user to the xxx Page if the user chooses to click the closebutton without entering any data.
+The user must associate at least one role, division, designator code, and lab location atthe time of creating/adding a new user.
+The user must fill in the required fields—User Name and Display Name—in the User Information section at the time of creating/adding a new user.
+The system shall generate a standard error/warning message after the user attempts tosave data without associating one of each of the following criteria—xxx—and/or withoutfilling in the required fields in the User Information section.
+The Project Team must demonstrate mockups of UI changes to project stakeholders earlyin the development process.
+The Project Team must permit reasonable adjustment to the user interfaces of newfunctionality by project stakeholders when project schedule permits those adjustments.
+The Project Team shall schedule updates to the production environment only on Tuesdaysbetween 7pm and 7am. (Example)
+The Project Team must perform applicable and appropriate testing against new functionality prior to releasing that functionality/build to the production environment.
+The project Team must allow a reasonable time to conduct User Acceptance Testing (UAT)against the built functionalities prior to deploying the product to the production environment.
+The Development Team shall define coding standards for the application and follow thosestandards consistently.
+The Development Team shall be required to adjust existing source code to follow acceptedcoding standards only if that source code must be modified.
+The system shall log errors, warnings, and informational messages to an external log file onthe application server.
+The Development Team shall be required to adjust existing source code to use the externallog file only if that source code must be modified to implement another requirement.
+The system shall log an error message to the external data file when the user is directed tothe [SYSTEM NAME] error page.
+The system shall send a notification email to a Client Services email distribution list if theuser is directed to the xxx error page.
+The Development Team shall develop functionalities using the xx language and on thesupported .NET 3.5 Platform.
+The Development Team shall utilize established open source frameworks instead ofproprietary custom components wherever appropriate.
+The system shall continue to depend upon and use a single SQL Server 2008 database.
+The Technical Owner/Lead shall provide signoff before any [SYSTEM NAME] build can bedeployed to the production environment.
+The Development Team shall perform weekly integrations of the [SYSTEM NAME] systemand deploy these system updates to the Staging environment.
+The Development Team shall label every scheduled [SYSTEM NAME] build in the sourcecontrol system.
+The Development Team shall perform scheduled [SYSTEM NAME] builds using codechecked out of source control using the label as defined and specified.
+The Development Team shall develop and then send out release notes via e-mail to all
+Project Team after each [SYSTEM NAME] build deployed to the Staging environment.
+The Technical Lead shall perform code reviews of every system change before those changes may be committed to source control.
+The QA/QC Team must perform regression testing against all scheduled builds.
+The system shall provide the capability to open a pop-up window displaying informationabout the specific page along with links to supporting help topics upon selecting each Helplink.
+The system shall display “[system name] Overview” page located under the Getting Startedsection of Help as default help topic page that will load upon selecting Help hypertext link.
+The system must allow users to easily navigate through each of the help topics by selectinga corresponding hypertext link provided in the left frame of the pop-up Help window.
+The system shall display the [company name] logo in the top, right side of the screen oneach of the help pages.
+The system must exhibit each of the help pages using the same color scheme andbackground as specified.
+The system shall provide searching ability to the users to quickly find specific topic materialthrough the online help tool.
+The system shall provide an index to the users for a more in-depth search of topic contentsthrough the online help tool.
+The system shall provide a Glossary for industry-related terms associated with [company name] and the [system name] system to the users through the online help tool.
+The system shall retain existing HIPAA compliance capabilities.
+The system shall follow HIPAA compliance capabilities in new functionality introduced to the system.

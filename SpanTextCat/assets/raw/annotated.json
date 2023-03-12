@@ -1,0 +1,221 @@
+{
+    "_input_hash": 2092507399,
+    "_task_hash": 208484880,
+    "_timestamp": 1676984069,
+    "_view_id": "blocks",
+    "accept": [
+        "BOTH"
+    ],
+    "answer": "accept",
+    "config": {
+        "choice_style": "single"
+    },
+    "meta": {
+        "pattern": ""
+    },
+    "options": [
+        {
+            "id": "NONE",
+            "text": "NONE"
+        },
+        {
+            "id": "PRECONDITION",
+            "text": "PRECONDITION"
+        },
+        {
+            "id": "POSTCONDITION",
+            "text": "POSTCONDITION"
+        },
+        {
+            "id": "BOTH",
+            "text": "BOTH"
+        }
+    ],
+    "spans": [
+        {
+            "end": 52,
+            "label": "PRECONDITION",
+            "start": 0,
+            "token_end": 8,
+            "token_start": 0
+        },
+        {
+            "end": 136,
+            "label": "POSTCONDITION",
+            "start": 54,
+            "token_end": 22,
+            "token_start": 10
+        }
+    ],
+    "text": "In order to fulfil the requirements of some railways, it should be possible to provide an alternative means of link assurance indication.",
+    "tokens": [
+        {
+            "end": 2,
+            "id": 0,
+            "start": 0,
+            "text": "In",
+            "ws": true
+        },
+        {
+            "end": 8,
+            "id": 1,
+            "start": 3,
+            "text": "order",
+            "ws": true
+        },
+        {
+            "end": 11,
+            "id": 2,
+            "start": 9,
+            "text": "to",
+            "ws": true
+        },
+        {
+            "end": 18,
+            "id": 3,
+            "start": 12,
+            "text": "fulfil",
+            "ws": true
+        },
+        {
+            "end": 22,
+            "id": 4,
+            "start": 19,
+            "text": "the",
+            "ws": true
+        },
+        {
+            "end": 35,
+            "id": 5,
+            "start": 23,
+            "text": "requirements",
+            "ws": true
+        },
+        {
+            "end": 38,
+            "id": 6,
+            "start": 36,
+            "text": "of",
+            "ws": true
+        },
+        {
+            "end": 43,
+            "id": 7,
+            "start": 39,
+            "text": "some",
+            "ws": true
+        },
+        {
+            "end": 52,
+            "id": 8,
+            "start": 44,
+            "text": "railways",
+            "ws": false
+        },
+        {
+            "end": 53,
+            "id": 9,
+            "start": 52,
+            "text": ",",
+            "ws": true
+        },
+        {
+            "end": 56,
+            "id": 10,
+            "start": 54,
+            "text": "it",
+            "ws": true
+        },
+        {
+            "end": 63,
+            "id": 11,
+            "start": 57,
+            "text": "should",
+            "ws": true
+        },
+        {
+            "end": 66,
+            "id": 12,
+            "start": 64,
+            "text": "be",
+            "ws": true
+        },
+        {
+            "end": 75,
+            "id": 13,
+            "start": 67,
+            "text": "possible",
+            "ws": true
+        },
+        {
+            "end": 78,
+            "id": 14,
+            "start": 76,
+            "text": "to",
+            "ws": true
+        },
+        {
+            "end": 86,
+            "id": 15,
+            "start": 79,
+            "text": "provide",
+            "ws": true
+        },
+        {
+            "end": 89,
+            "id": 16,
+            "start": 87,
+            "text": "an",
+            "ws": true
+        },
+        {
+            "end": 101,
+            "id": 17,
+            "start": 90,
+            "text": "alternative",
+            "ws": true
+        },
+        {
+            "end": 107,
+            "id": 18,
+            "start": 102,
+            "text": "means",
+            "ws": true
+        },
+        {
+            "end": 110,
+            "id": 19,
+            "start": 108,
+            "text": "of",
+            "ws": true
+        },
+        {
+            "end": 115,
+            "id": 20,
+            "start": 111,
+            "text": "link",
+            "ws": true
+        },
+        {
+            "end": 125,
+            "id": 21,
+            "start": 116,
+            "text": "assurance",
+            "ws": true
+        },
+        {
+            "end": 136,
+            "id": 22,
+            "start": 126,
+            "text": "indication",
+            "ws": false
+        },
+        {
+            "end": 137,
+            "id": 23,
+            "start": 136,
+            "text": ".",
+            "ws": false
+        }
+    ]
+}
