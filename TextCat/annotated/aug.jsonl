@@ -1,0 +1,720 @@
+{"text": "On indication received at the CNG of a imagination allocation expiry the CNG shall delete all residuary datum colligate with the invocation of the resource.", "label": "BOTH"}
+{"text": "In order to guarantee interoperability, the service comprise optional for the ground and mandatory for the Cabriolet wireless.", "label": "BOTH"}
+{"text": "If shunting modality represent apply, the contact assurance tone shall be provided via the loudspeaker.", "label": "BOTH"}
+{"text": "Depending on the operation mode chosen (bridge or touted) and on the type of flowing handle (unicast or multicast) the CNG shall ahead packets simply to the physical user interface which be connect to devices interested to the IPTV flow.", "label": "BOTH"}
+{"text": "If the number of logical channel supported by the surface is non sufficient to open up a newfangled Supplementary Logical Channel, return the appropriate fault.", "label": "BOTH"}
+{"text": "If the transaction is to follow combine, the amount of the dealings must be added to the collecting platter for the card issuer", "label": "BOTH"}
+{"text": "The Bootstrap Monitor of DPU - BOOT CSC shall be activated if the Open - To - Send (CTS) signal make up active on the RS - 232 interface. If no activity is detected on the universal gas constant - 232 interface within thirty arcsecond, the Bootstrap shall load a conformation of DPU - RTOS harmonize to BC_INDEX in the SYSTEM_BLOCK.", "label": "BOTH"}
+{"text": "Where fixed web users are involve in a radical or broadcast call, fixed net drug user bequeath be pre - defined and will non change during the course of study of the call.", "label": "BOTH"}
+{"text": "Depending on the mathematical process mode chosen (bridged or swash) and on the type of flow treated (unicast operating theatre multicast) the CNG shall forrad packets only to the physical interfaces which are connected to device interested to the IPTV catamenia.", "label": "BOTH"}
+{"text": "Traffic marking: depending on what are the parameters use to perform classification, CNDs beaver state CNG itself on behalf of the CNDs shall be able to modify the package priority.", "label": "BOTH"}
+{"text": "Entering or overwrite information manually by the device driver shall be possible but only when stationary.", "label": "BOTH"}
+{"text": "The Developing Team shall represent required to adjust existing generator code to use the externallog file merely if that source computer code moldiness constitute modified to implement another requirement.", "label": "BOTH"}
+{"text": "Telephony number put up cost set on a national basis, merely codes for certain function shall personify use on an international basis in order to allow interoperability.", "label": "BOTH"}
+{"text": "In some commonwealth, train numbers live alphanumeric. Backing for such numbers be not required for interoperability.", "label": "BOTH"}
+{"text": "If carry - clip diagnostics are implemented, failure of an interface shall make up reported to the device driver via the display.", "label": "BOTH"}
+{"text": "In some rural area, wagon train numbers are alphanumeric. Support for such numbers game be non required for interoperability.", "label": "BOTH"}
+{"text": "When observing a unexampled GRB, and the XRT_POS become available from the ICU, the DPU - DPA shall shift and resize the image and event windows fitly.", "label": "BOTH"}
+{"text": "If hunt down - meter diagnostics be implemented, bankruptcy of an interface shall be report to the driver via the display.", "label": "BOTH"}
+{"text": "Where an on - train coach is connected to the Cab radio, deregistration of functional numbers can be perform on an individual basis and also by the train device driver, by one action for all users (including the driver ), at the death of the journey when the train number is no longer associated with the train.", "label": "BOTH"}
+{"text": "On cards that hold up logical channels, if a MANAGE CHANNEL [close] is invite, terminate the Application Session currently take on the Supplementary Logical Channel indicated by the command and then close that consistent channel. The Basic Logical Epithelial duct can never personify closed.", "label": "BOTH"}
+{"text": "The Development Team shall cost necessitate to set existing beginning code to use the externallog filing cabinet only if that generator code must be modified to apply another requirement.", "label": "BOTH"}
+{"text": "Upon the request of the number one wood, the Cab wireless should be able bodied to do a rooms of run - time symptomatic tests on all physical interfaces.", "label": "BOTH"}
+{"text": "If no wide or partial match comprise found at all, the presently choose Diligence on the Supplementary Logical Channel shall remain the choose Application and - If the SELECT [by name] command has the [first or only occurrence] parameter pose, the SELECT command is dispatch to the Coating, - If the SELECT [by name] command has the [next occurrence] parameter set, the surface shall return the appropriate error to the off - card entity.", "label": "BOTH"}
+{"text": "Unload transactions do non require cardholder authentication. (Nonetheless, an acquirer? ? s device english hawthorn equal configure such that authentication is require for access. )", "label": "BOTH"}
+{"text": "If run - prison term diagnostics are follow through, symptomatic tests shall non interfere with normal operation of the Taxicab radio.", "label": "BOTH"}
+{"text": "If a full or partial match is found and this Application cannot be selected due to a multi - selection restriction or because the Application refuses selection (e. g. because it does non support the current card port ), continue searching through the GlobalPlatform Registry for a subsequent total or fond match. If no subsequent entire or partial match be found, the OPEN shall return the appropriate error to the murder - card entity,", "label": "BOTH"}
+{"text": "During a Natural Last Purchase transaction, the CEP card exist authenticated by the PSAM in the POS gimmick", "label": "BOTH"}
+{"text": "Internally to the CPN, a CNG transmitting private operating theatre other vital information (unity. e. to a CND) shall protect the data from unauthorised disclosure.", "label": "BOTH"}
+{"text": "Where an on - train bus is connect to the Cab radio, deregistration of functional numbers game can be performed on an individual cornerstone and also by the train driver, by one action for all users (including the number one wood ), at the remainder of the journey when the caravan identification number is no longer associate with the train.", "label": "BOTH"}
+{"text": "The trainborne equipment shall remain in Full of the moon Supervision until the trainborne equipment is non active any longer, when Shunting is selected operating theatre when Partial Superintendence selective information is received.", "label": "BOTH"}
+{"text": "When purchase a streaming movie oregon pre - paid plug in via reference card the processing time should have a maximum reply time of 15 seconds.", "label": "BOTH"}
+{"text": "If no full or partial match is found at all, the presently selected Application on the Basic Logical Channel shall remain the selected Application program and - If the SELECT [by name] command have the [first or merely occurrence] parameter arrange, the SELECT command is dispatched to the Application, - If the SELECT [by name] command has the [next occurrence] parameter set, the OPEN shall return the appropriate mistake to the off - card entity,", "label": "BOTH"}
+{"text": "The trainborne equipment shall remain in Full Superintendence until the trainborne equipment is non fighting any longer, when Shunt is take beaver state when Partial Supervision data is received.", "label": "BOTH"}
+{"text": "If shunting mode is go through, the tie in self assurance tone shall embody provided via the loudspeaker.", "label": "BOTH"}
+{"text": "If a lead is scored to the high range the system volition cater the lead datum and score to the endeavor system.", "label": "BOTH"}
+{"text": "Where uncommitted, the operable identity of the calling party shall comprise displayed.", "label": "BOTH"}
+{"text": "During a purchase transaction, the CEP card mustiness ensure that it be dealing with an authentic POS twist, and information technology must generate a signature to take into account the card issuer to avow the integrity of the transaction", "label": "BOTH"}
+{"text": "If the PSAM has deficient infinite to produce a new aggregation record for the wag issuer, the dealings must not follow aggregated", "label": "BOTH"}
+{"text": "When forward packets from the customer network to the wide area network user interface, the CNG shall manage a act of queue check to the unlike priority detected in the classification phase for each mailboat processed.", "label": "BOTH"}
+{"text": "Once the birdcall comprise terminated, the uninterrupted visual warning device indication in the cab shall stop.", "label": "BOTH"}
+{"text": "The identity card issuer determines whether to reserve the load to complete, and bring forth S2, which secures the issuer ' s decision and that the issuer received the same data used by the identity card", "label": "BOTH"}
+{"text": "As multiple Applications on the card may get the same fond assistance, it follow required that a method exists to select all Applications equate the fond AID.", "label": "BOTH"}
+{"text": "The functional identicalness of the connected company, if useable, shall be displayed to the exploiter.", "label": "BOTH"}
+{"text": "It shall be possible to command a conditional emergency brake stop. If the train has already passed the emplacement for the emergency block the program line shall be ignore", "label": "BOTH"}
+{"text": "If the gear operating theatre the shunting movement exceeds the permitted ceiling speed by a sure harmonised gross profit margin, the trainborne equipment shall execute a brake intervention until the factual speeding does not exceed permitted speedthen the driver shall be able to release the pteridium aquilinum", "label": "BOTH"}
+{"text": "Currency exchange rates for an unlinked load transaction mustiness be established according the dominion of the network operating theater networks processing the dealing. However, for linked payload dealing, the currency exchange rates mustiness be set up by the identity card issuer", "label": "BOTH"}
+{"text": "The DPU - TIS shall offer the capability for an application program political program to wad the value of the SC_TIME into the hardware, if automatic metre synchronism is disable.", "label": "BOTH"}
+{"text": "If the telephone call is a program phone call, the user shall be informed that helium cannot talk as part of the broadcast call.", "label": "BOTH"}
+{"text": "The organisation must protect the integrity of key dealing data include transaction designation, currentness code and amount. If tampering make up suspected, the system moldiness cause the dealings to fail", "label": "BOTH"}
+{"text": "Avoiding opening unnecessary windows: Additional window such as new browser windows surgery pop - up windowpane should only be unfold if this supports the user ’ due south task. Opening new windows can distract, confuse or impede users for a kind of reasons. They can superimpose the primary window, hiding relevant selective information. They could make it cognitively more difficult to understand the navigation structure with negative effects on both usability and accessibility. They also require additional user actions for closing unwanted windows.", "label": "BOTH"}
+{"text": "If campaign - time diagnostics be implemented, all failures should be usable to be record in a train - borne recorder.", "label": "BOTH"}
+{"text": "The operative identity of the connected political party, if usable, shall be displayed to the exploiter.", "label": "BOTH"}
+{"text": "The figurer shall non utilise recycled role to the collision estimate if no available parts are returned.", "label": "BOTH"}
+{"text": "Simply the last growth of an incremental purchase may constitute reversed. A reversal of a purchase transaction may only fall out if: the CEP card has non been removed from the POS device, and the S5 for the transaction to constitute reversed has not be generated by the PSAM", "label": "BOTH"}
+{"text": "During a Cancel Last Purchase dealing, the CEP menu be authenticated by the PSAM in the polonium device", "label": "BOTH"}
+{"text": "The Bootstrap Monitor of the DPU - kick CSC shall output an wrongdoing subject matter to the RS - 232 interface if an faulty number of bid arguments are entered.", "label": "BOTH"}
+{"text": "If the POS device accompaniment multiple applications or multiple transaction types, an fundamental interaction between the terminal and consumer surgery gross revenue agent check the CEP diligence and the function to be do (cancel last purchase transaction )", "label": "BOTH"}
+{"text": "Information technology should be possible, as a maintenance office, to enable / disable the exigency call subroutine.", "label": "BOTH"}
+{"text": "When purchasing a streaming motion picture show or pre - paid identity card via credit tease the processing fourth dimension should have a maximal response time of xv seconds.", "label": "BOTH"}
+{"text": "Where pre - emption occurs, an advisory reading english hawthorn be provided to the pre - empted parties.", "label": "BOTH"}
+{"text": "Using power train data and infrastructure data, braking curves shall live count on taking into score the fair game information simply not the fix of vehicles lodge in the racecourse.", "label": "BOTH"}
+{"text": "If no full surgery partial match is found at all, the currently selected Application program on the Basic Logical Channel shall remain the take Application and - If the SELECT [by name] command make the [first or only occurrence] parameter set, the SELECT command is dispatched to the Application, - If the SELECT [by name] program line has the [next occurrence] parameter set, the open air shall return the appropriate error to the dispatch - card entity,", "label": "BOTH"}
+{"text": "If a SELECT [by epithet] [for the first time operating theatre only natural event] is received, the search e'er begin from the starting time of the GlobalPlatform Register,", "label": "BOTH"}
+{"text": "If the PSAM has insufficient space to create a new collecting track record for the menu issuer, the transaction moldiness not cost aggregated", "label": "BOTH"}
+{"text": "Use a dim witted MMI action, it shall be possible for the device driver to view a prioritised list of all authorise mobile radio set networks (see section ten. 5 ).", "label": "BOTH"}
+{"text": "On cards that patronise logical channels, if a MANAGE transmission channel [close] personify received, terminate the Application School term presently selected on the Supplementary Logical Channel indicated by the dictation and then close that logical distribution channel. The Basic Logical Transmission channel can never be closed.", "label": "BOTH"}
+{"text": "Information technology shall embody possible to control a conditional emergency stop. If the train possess already legislate the localisation for the emergency break off the command shall live ignored", "label": "BOTH"}
+{"text": "On reading received at the CNG of a resource apportioning expiry the CNG shall delete all residuary datum associated with the invocation of the resource.", "label": "BOTH"}
+{"text": "A mobile river may represent a member of a bit of groups. It shall exist possible to set off or deactivate the mobile subscription to these chemical group.", "label": "BOTH"}
+{"text": "Traffic marking: depending on what are the parameter used to do classification, CNDs or CNG itself on behalf of the CNDs shall exist able to modify the packet priority.", "label": "BOTH"}
+{"text": "Any user interface between a drug user and the machine controlled system shall possess a maximum response sentence of 5 seconds unless remark by an exception below.", "label": "BOTH"}
+{"text": "When observing a young GRB, and the XRT_POS becomes useable from the ICU, the DPU - DPA shall shift and resize the image and event window suitably.", "label": "BOTH"}
+{"text": "Only when the final increment of an incremental purchase crataegus oxycantha be reversed. A reversal of a purchase transaction crataegus oxycantha only occur if: the CEP card has non been removed from the POS gimmick, and the S5 for the dealing to be reversed has not been generated by the PSAM", "label": "BOTH"}
+{"text": "When a game be end the product shall allow each player to key himself or herself as an available player in the inclination of player.", "label": "BOTH"}
+{"text": "In slip of unmanaged services, user shall comprise able to access a QoS constellation procedure apply in the CNG.", "label": "BOTH"}
+{"text": "Specification of keys and signatures used for CEPS on - channel authentication is leave to the issuer, however mac croak over shared network must be no more more than than 8 bytes long, binary format", "label": "BOTH"}
+{"text": "When applicable a Security Knowledge base shall Request the out of doors to dilute, establish, deport, and delete card cognitive content,", "label": "BOTH"}
+{"text": "All members of the shunting group, other than the initiator of the connectedness assurance signaling, shall be unable to verbalize during the transmitting of the link pledge signaling. However, they shall be able to originate a shunting emergency call at any time.", "label": "BOTH"}
+{"text": "During a Cancel Last place Leverage transaction, the CEP identity card is authenticated by the PSAM in the POS twist", "label": "BOTH"}
+{"text": "Once the birdsong is terminated, the uninterrupted ocular alert indicant in the cab shall cease.", "label": "BOTH"}
+{"text": "The co - functional revocation of the MA shall live potential to a fresh prey location, proposed from RBC.", "label": "BOTH"}
+{"text": "In causa of unmanaged service, user shall be able to access a QoS shape function implemented in the CNG.", "label": "BOTH"}
+{"text": "Any user interface between a exploiter and the automated system shall have a maximal response clock time of 5 minute unless noted by an exception below.", "label": "BOTH"}
+{"text": "Additional info may as well be provided if uncommitted from external systems.", "label": "BOTH"}
+{"text": "For the CNG direction it is recommended to apply a undivided communications protocol, so as to minimize the complexity and the cost of the service.", "label": "BOTH"}
+{"text": "Entering or overwrite data manually by the driver shall constitute possible but only when stationary.", "label": "BOTH"}
+{"text": "Ward off link overload: Text pages containing large dimension of links should exist format so that the bearing of links does non obstruct the legibility of the text.", "label": "BOTH"}
+{"text": "Using geartrain data and substructure data, braking curve ball shall represent calculated taking into history the target info simply non the location of vehicles occupying the track.", "label": "BOTH"}
+{"text": "If an ETCS equipped geartrain crack a flat transition to ace or more levels for which information technology is not equip, ETCS shall initiate a brake applications programme.", "label": "BOTH"}
+{"text": "The PSAM must only be let to combine transactions for a scheme with which the merchant has an aggregation agreement. The AID of the scorecard application must be used to determine the scheme. For each scheme that let this merchandiser to perform aggregation, the PSAM mustiness have a monetary amount above which it is non permitted to aggregate", "label": "BOTH"}
+{"text": "If a track be scored to the high chain of mountains the organisation will supply the lead data and grudge to the enterprisingness system.", "label": "BOTH"}
+{"text": "Where mend network users are demand in a chemical group or broadcast phone call, fix electronic network users will be pre - defined and will not exchange during the course of the call.", "label": "BOTH"}
+{"text": "Where an on - train bus is connected to the Cab radio, deregistration of functional numbers can be performed on an single basis and also by the power train driver, by unmatchable military action for all users (admit the driver ), at the end of the journey when the train number make up no longer associated with the string.", "label": "BOTH"}
+{"text": "Point - to - point call that are non automatically answered (see table ten - 1) shall only live answer once the driver accept the call.", "label": "BOTH"}
+{"text": "In pillowcase of multicast streams the CNG should support proxy functionality to optimize the direction of information related to signalling.", "label": "BOTH"}
+{"text": "The port shall be easy to use. 90% of users should be able to successfully habituate the system to bring forth a composition on their first use. The port should adhere to IBM usability standard.", "label": "BOTH"}
+{"text": "If the geartrain or the shunting effort exceeds the permitted ceiling speed by a certain consonant margin, the trainborne equipment shall execute a brake intervention until the actual speed does non exceed permitted speedthen the driver shall cost able bodied to release the pteridium aquilinum", "label": "BOTH"}
+{"text": "Avoiding connection overload: Textual matter page containing large proportion of links should constitute arrange so that the comportment of links does not impede the readability of the text.", "label": "BOTH"}
+{"text": "If the system be non able bodied to connect the telephone call, an audible and optical indication shall exist provided to the driver.", "label": "BOTH"}
+{"text": "If the drug user requests experience service timeout (limen ), initiation asking is cancelled.", "label": "BOTH"}
+{"text": "Activity logarithm, which are tools for investigators to track their actions during a case, should be support. For example, investigators may log calls made to supervise symptom or vociferation made to schedule observe - upwards visit.", "label": "BOTH"}
+{"text": "When watch a unexampled GRB, and the XRT_POS becomes uncommitted from the intensive care unit, the DPU - DPA shall shift and resize the simulacrum and case windows fittingly.", "label": "BOTH"}
+{"text": "In the guinea pig of a reversal, the CEP calling card must re - authenticate the PSAM", "label": "BOTH"}
+{"text": "At any time on an open Supplementary Logical Channel the OPEN may get a request to either open or close a Supplementary Logical Transmission channel. If a MANAGE CHANNEL [open] is received and the Application selected on the original Supplementary Logical Channel have no multi - selection restrictions, this Covering becomes the selected Application on the newly opened Supplementary Logical Channel. If a MANAGE CHANNEL [close] personify received, terminate the Application Session currently selected on the Supplementary Logical Channel indicated by the command and then close that logical channel. The Basic Logical Channel send away never embody closed.", "label": "BOTH"}
+{"text": "Once the driver has accepted the standard full point - to - point call, it shall make up connect fittingly, eg if the driver has accepted the call by lifting the handset, then the call shall constitute expel to the french telephone.", "label": "BOTH"}
+{"text": "Internally to the CPN, a CNG beam private or other vital entropy (i. e. to a CND) shall protect the data from unauthorized revealing.", "label": "BOTH"}
+{"text": "The user interface shall be easy to apply. ninety% of users should be able to successfully use the system to generate a report on their world class use. The interface should stick to IBM usability standards.", "label": "BOTH"}
+{"text": "The circuit card issuer determine whether to let the load to finish, and bring forth S2, which secures the issuer ' s conclusion and that the issuer experience the same data used by the card", "label": "BOTH"}
+{"text": "For increased protection and convenience, asymmetric secret writing must be used as the assay mark security for off - business line transactions", "label": "BOTH"}
+{"text": "The DPU - SCUI, in the event of a buffer wide condition, shall toss away new data, come back an computer error to the phoner, and describe an mistake condition to the DPU - CCM.", "label": "BOTH"}
+{"text": "In order to control interoperability, the inspection and repair is optional for the solid ground and mandatory for the Cab radio.", "label": "BOTH"}
+{"text": "After investigating, if the merchant acquirer decides, based on scheme rule, to accept the dealing, a method acting moldiness exist to settle them and send on them to the card issuer", "label": "BOTH"}
+{"text": "After investigating, if the merchandiser merchant bank decides, base on system rules, to accept the transactions, a method acting must be to resolve them and forward them to the card issuer", "label": "BOTH"}
+{"text": "When purchase a streaming film or pre - paid card via credit card the processing time should have a maximal answer clock time of fifteen second.", "label": "BOTH"}
+{"text": "In case of multicast streams the CNG should support proxy functionality to optimize the direction of information relate to signalling.", "label": "BOTH"}
+{"text": "If Home to Home (H2H) communication service live provided, and then each CNG must ensure that emergency brake service sessions develop in its CPN are associated with the appropriate positioning information and / operating room calling individuality.", "label": "BOTH"}
+{"text": "The organisation shall lumber an wrongdoing message to the external data file when the user is direct tothe [system of rules epithet] error page.", "label": "BOTH"}
+{"text": "If the train or the shunting movement exceeds the permitted roof speed by a certain harmonised margin, the trainborne equipment shall perform a brake intervention until the actual fastness perform non exceed permitted speedthen the device driver shall be able to release the bracken", "label": "BOTH"}
+{"text": "After the xxx 2d period, if the connection was stillborn, the organisation shall provide another hearable and visual indication that information technology personify unable to connect the call.", "label": "BOTH"}
+{"text": "For both the SELECT [by name] [first or only occurrence] command and the SELECT [by name] [next happening] bid, an Application becomes the selected Application on the Basic Logical Channel if: The bespeak AID matches (fully or partially) the Applications AID, The Application being selected is in the correct Life Cycle State, The Application sustain no restrictions due to multi - selection, and supports the current visiting card interface.", "label": "BOTH"}
+{"text": "If the phone call fails in the lead adhesive friction fomite, the lead number one wood will be responsible for re - establishing the call. If the call run out to any other cab, the driver in that cab will anticipate the confidential information cabriolet and request re - establishment of the call.", "label": "BOTH"}
+{"text": "The Bootstrap Monitor of the DPU - BOOT CSC shall keep an eye on the communications protocol delineate in BSPS - 01, Bootstrap Monitor lizard Protocol Specification, with the following noted exceptions.", "label": "BOTH"}
+{"text": "When forwarding packets from the client network to the wide area network interface, the CNG shall manage a number of queue corresponding to the different priority detect in the classification phase for each packet process.", "label": "BOTH"}
+{"text": "Where a modification of functional number live required, information technology shall be potential for the user to initiate the modification.", "label": "BOTH"}
+{"text": "A mobile river crataegus laevigata be a member of a number of group. It shall comprise possible to trigger off operating room deactivate the mobile river subscription to these groups.", "label": "BOTH"}
+{"text": "Where fixed electronic network user are demand in a group oregon broadcast telephone call, desex network users will represent pre - defined and will non change during the course of the call.", "label": "BOTH"}
+{"text": "For both the SELECT [by name] [firstly operating theatre only occurrence] instruction and the SELECT [by name] [next occurrence] command, an Application becomes the selected Practical application on the Staple Logical Channel if: The call for AID matches (fully or part) the Applications AID, The Application being take is in the right Life Cycle State, The Application has no restrictions due to multi - selection, and supports the current card port.", "label": "BOTH"}
+{"text": "The CNG Remote control Management requires to manage a specific set of parameters. At least the next list of parameter shall cost available: Client Identification, Physical Line Identification, inclination of subscribed overhaul, CNG IP address.", "label": "BOTH"}
+{"text": "The Bootstrap Monitor of the DPU - iron heel CSC shall follow the protocol specified in BSPS - 01, Bootstrap Monitor Communications protocol Stipulation, with the following noted exception.", "label": "BOTH"}
+{"text": "If decide by a national value, the driver english hawthorn relinquish the ETCS emergency brake brake when the factual velocity is below the permitted hurrying.", "label": "BOTH"}
+{"text": "The PSAM moldiness only be permitted to aggregate transactions for a scheme with which the merchandiser bear an aggregation agreement. The tending of the card applications programme mustiness be used to determine the scheme. For each scheme that allows this merchant to perform aggregation, the PSAM mustiness have a monetary amount above which it embody not permitted to combine", "label": "BOTH"}
+{"text": "As multiple Application program on the card may induce the same fond tending, it is take that a method exist to select all Applications rival the partial AID.", "label": "BOTH"}
+{"text": "For the CNG management it be recommended to apply a undivided communications protocol, so as to minimize the complexness and the cost of the inspection and repair.", "label": "BOTH"}
+{"text": "For increase security and convenience, asymmetrical cryptography must exist used as the certification security for sour - line transactions", "label": "BOTH"}
+{"text": "The CNG shall take activeness accord to local hallmark unsuccessful person handling policy (which may include silently discarding the assay mark and explicit failure notification, or in the case of a rematch of credentials may let in notification of the true owner of the credentials) upon detection of failure during identification, authentication and authorisation.", "label": "BOTH"}
+{"text": "If lead - time nosology are implemented, diagnostic examination shall non interpose with normal operation of the Cabriolet radio.", "label": "BOTH"}
+{"text": "The interface shall be easy to use. ninety% of users should be able to successfully employ the system to father a report on their first usage. The port should stick to IBM usability criterion.", "label": "BOTH"}
+{"text": "It shall represent possible for a user to override the robotic network selection manually. This function shall non be uncommitted during call.", "label": "BOTH"}
+{"text": "The Development Squad shall equal ask to adjust be source code to follow acceptedcoding standards only if that source code mustiness be qualify.", "label": "BOTH"}
+{"text": "If run - time nosology are implemented, all failure should be uncommitted to be immortalize in a train - borne recorder.", "label": "BOTH"}
+{"text": "When streaming a motion picture the buffering time should take on no retentive than x seconds (addition any latency on the users link. )", "label": "BOTH"}
+{"text": "Leverage transactions that have an invalid MAC are forwarded to the scheme provider for depth psychology if the schema supplier have establish a primal error repository", "label": "BOTH"}
+{"text": "If the card cost in the Life Round State CARD_LOCKED beaver state TERMINATED, the Application with the Final Application privilege is the selected Application on the Basic Logical Duct and the clear shall not attempt to key the implicitly selectable Application", "label": "BOTH"}
+{"text": "If the call fails in the lead adhesive friction vehicle, the lead driver will be creditworthy for re - establishing the phone call. If the call fail to any other taxicab, the driver in that cab will address the lead cab and request re - establishment of the call.", "label": "BOTH"}
+{"text": "For the CNG management it is recommend to apply a single communications protocol, so as to downplay the complexity and the monetary value of the service.", "label": "BOTH"}
+{"text": "The electronic purse product must use dynamic datum authentication at the following period: 1. Loading 2. Unload 3. Currency Exchange 4. Purchase, Purchase Reversal 5. Incremental Leverage 6. Natural Last Leverage vii. Personalization 8. On - line Updates to the Application", "label": "BOTH"}
+{"text": "Traffic scoring: depending on what follow the parameters use to execute classification, CNDs or CNG itself on behalf of the CNDs shall embody able to modify the packets priority.", "label": "BOTH"}
+{"text": "If run - time diagnostics are implemented, all unsuccessful person should equal available to exist recorded in a train - borne recorder.", "label": "BOTH"}
+{"text": "The system shall lumber an error substance to the external data point single file when the user is direct tothe [SYSTEM NAME] error page.", "label": "BOTH"}
+{"text": "In order to fulfil the requirement of some railways, it should comprise possible to provide an substitute mean value of link confidence indication.", "label": "BOTH"}
+{"text": "For increased surety and convenience, asymmetric cryptography moldiness be use as the authentication security for cancelled - line transaction", "label": "BOTH"}
+{"text": "When changing to a higher speed pull down the rearward end of the geartrain shall respect the unchanging train speed visibility.", "label": "BOTH"}
+{"text": "If the card is in the Life Cycle Nation CARD_LOCKED or TERMINATED, the Application with the Final exam Application prerogative is the selected Application on the Staple Logical Channel and the OPEN shall not attempt to identify the implicitly selectable Application program", "label": "BOTH"}
+{"text": "If a lead personify scored to the in high spirits kitchen range the system bequeath supply the lede data and score to the enterprisingness system.", "label": "BOTH"}
+{"text": "If a full or fond friction match is found and this Application cannot be selected ascribable to a multi - selection restriction or because the Application refuses selection (e. g. because it does not support the current card interface ), continue searching through the GlobalPlatform Register for a subsequent total or partial match. If no subsequent full or partial match is found, the OPEN shall return the appropriate error to the off - card entity,", "label": "BOTH"}
+{"text": "If no wide cut or partial match is found at all, the currently pick out Application on the Basic Logical Channel shall remain the selected Application and - If the SELECT [by epithet] command has the [first or only occurrence] parameter set, the SELECT program line be dispatched to the Application, - If the SELECT [by name] command has the [next happening] parameter set, the OPEN shall return the appropriate error to the off - card entity,", "label": "BOTH"}
+{"text": "In Image Fashion, the DPU - DPA shall exist capable of bin image at dissimilar levels.", "label": "BOTH"}
+{"text": "When the hit results in sinking a ship the product shall indicate the type of ship sunk on the justificatory power system of the defensive actor.", "label": "BOTH"}
+{"text": "The DPU - EDAC shall record the current contents of EDAC_HK to EEPROM and squeeze a DPU watchdog in the case an MBE in drachm exist detected.", "label": "BOTH"}
+{"text": "Erstwhile get onboard the internal economic value shall remain valid yet if the onboard equipment is switched off", "label": "BOTH"}
+{"text": "If directed network selection and / or automatic network pick be enforce, the number one wood shall be inform by means of an hearable and visual indication of the newfangled network identity whenever a network change takes place without user interference.", "label": "BOTH"}
+{"text": "The DPU - CCM shall constitute able bodied to count a consecutively reported erroneous belief. When the the count for a particular error ID, exceeds 250 for a exceptional coverage period, the error code will be replaced with a error code sequence which shall include the original error code and the number of times the error was cover.", "label": "BOTH"}
+{"text": "A mobile may comprise a member of a act of groups. Information technology shall follow potential to activate or deactivate the mobile subscription to these groups.", "label": "BOTH"}
+{"text": "Formerly meet onboard the interior values shall remain valid even if the onboard equipment is switched off", "label": "BOTH"}
+{"text": "The computer shall not apply recycled persona to the hit estimate if no available share be returned.", "label": "BOTH"}
+{"text": "The PSAM must entirely represent permitted to aggregate transactions for a scheme with which the merchandiser has an aggregation agreement. The AID of the card applications programme must follow expend to determine the scheme. For each scheme that allows this merchant to perform aggregation, the PSAM mustiness consume a monetary amount above which it is non permitted to aggregate", "label": "BOTH"}
+{"text": "The Bootstrap Monitor of the DPU - iron boot CSC shall output an wrongdoing message to the r - 232 user interface if an wrong identification number of command arguments are entered.", "label": "BOTH"}
+{"text": "Where a alteration of functional number embody required, it shall exist potential for the user to originate the variety.", "label": "BOTH"}
+{"text": "If shunting modal value is follow out, the functionality to enter or leave shunting modality shall non be available whilst there are on - going calls postulate the Operational radio.", "label": "BOTH"}
+{"text": "When applicable a Security department Domain shall Request the OPEN to lade, put in, deliver, and delete posting content,", "label": "BOTH"}
+{"text": "Where available, the functional identity of the call company shall be displayed.", "label": "BOTH"}
+{"text": "When the CNG observe violation of the secrecy protection policy the CNG shall discard all signalling, let in signalize from the NGN.", "label": "BOTH"}
+{"text": "If the dealing is to be aggregate, the amount of the transaction must be added to the collecting book for the visiting card issuer", "label": "BOTH"}
+{"text": "All penis of the shunting group, other than the initiator of the link confidence signal, shall be ineffective to speak during the transmission of the link assurance signaling. Still, they shall be able to initiate a shunting emergency call at any time.", "label": "BOTH"}
+{"text": "The DPU - CCM shall personify able to count a consecutively reported error. When the the count for a peculiar error ID, pass 250 for a particular reporting period, the computer error code will follow replaced with a error code sequence which shall include the original erroneous belief code and the number of times the erroneousness was reported.", "label": "BOTH"}
+{"text": "When applicable a Security system Domain shall Call for the OPEN to load, instal, deliver, and delete card content,", "label": "BOTH"}
+{"text": "If conduct network selection and / or machinelike network survival of the fittest are implemented, the driver shall be inform by means of an audible and optical meter reading of the new network identity whenever a network change take away position without user intervention.", "label": "BOTH"}
+{"text": "If the drug user quest experience service timeout (threshold ), knowledgeableness postulation is cancelled.", "label": "BOTH"}
+{"text": "If a full or partial match is found and this Application cannot be selected due to a multi - selection restriction or because the Diligence refuses selection (atomic number 99. g. because it does not support the current card interface ), continue searching through the GlobalPlatform Registry for a subsequent full or fond match. If no subsequent full or partial match is found, the open air shall return the appropriate error to the off - carte entity,", "label": "BOTH"}
+{"text": "Internally to the CPN, a CNG transmitting individual or other critical information (iodine. e. to a CND) shall protect the data from wildcat revealing.", "label": "BOTH"}
+{"text": "If decided by a national note value, the device driver crataegus laevigata give up the ETCS emergency pteridium aquilinum when the actual speed is below the permitted focal ratio.", "label": "BOTH"}
+{"text": "It should exist possible, as a maintenance map, to enable / invalid the parking brake call option function.", "label": "BOTH"}
+{"text": "The organisation mustiness protect the integrity of cardinal dealings data including transaction designation, currentness code and amount. If tampering is suspected, the organization mustiness cause the dealing to fail", "label": "BOTH"}
+{"text": "By nonremittal, prompt and information shall be displayed in the language take by the train owner (as hive away within the system ).", "label": "BOTH"}
+{"text": "During a leverage dealings, the CEP card must ascertain that it be conduct with an authentic petty officer device, and it mustiness generate a signature to allow for the card issuer to verify the integrity of the transaction", "label": "BOTH"}
+{"text": "Where information technology follow necessary for a CEPS organisation portion to severalize between on - line and turned - line cardholder PIN verification, a flag must be set in the transaction", "label": "BOTH"}
+{"text": "In club to meet other call priorities, make calls shall equal able to be either put on hold or clear downhearted (pre - empted ).", "label": "BOTH"}
+{"text": "When the hit results in sinking a ship the product shall indicate the type of ship sunk on the justificatory storage battery grid of the defensive role player.", "label": "BOTH"}
+{"text": "In order to meet other call priorities, established address shall constitute able to be either place on clasp or cleared down (pre - empted ).", "label": "BOTH"}
+{"text": "The electronic purse product moldiness use dynamic datum hallmark at the following points: i. Load 2. Unload terzetto. Currency Exchange quaternary. Leverage, Leverage Reversal five. Incremental Purchase 6. Cancel Last Purchase 7. Personalization 8. On - line Updates to the Application", "label": "BOTH"}
+{"text": "The estimator shall not apply recycled part to the hit estimate if no available portion are returned.", "label": "BOTH"}
+{"text": "If melt down - sentence diagnostics are implemented, loser of an interface shall be cover to the driver via the presentation.", "label": "BOTH"}
+{"text": "As multiple Applications on the card english hawthorn make the same partial AID, information technology embody required that a method acting subsist to select all Application meet the partial assistance.", "label": "BOTH"}
+{"text": "Telephone number posterior represent defined on a national fundament, simply codes for certain purpose shall equal used on an international basis in order to allow interoperability.", "label": "BOTH"}
+{"text": "Once the device driver have accepted the standard point - to - point yell, information technology shall be connect appropriately, eg if the driver has accepted the call by lifting the handset, and so the yell shall be route to the handset.", "label": "BOTH"}
+{"text": "Reception of this call (if implemented) shall go on as for a standard radical or broadcast call except that a classifiable audible and ocular indication shall be allow.", "label": "BOTH"}
+{"text": "The CNG shall take action accord to local authentication failure manipulation policy (which may include taciturnly discarding the authentication and explicit unsuccessful person notification, or in the case of a rematch of credentials may include presentment of the true owner of the credential) upon detection of failure during identification, authentication and authorization.", "label": "BOTH"}
+{"text": "The DPU - EDAC shall put down the current contents of EDAC_HK to EEPROM and force a DPU watchdog in the event an MBE in drachm be detected.", "label": "BOTH"}
+{"text": "If the routine of logical canal supported by the clear is non sufficient to open up a new Supplementary Logical Communication channel, return the appropriate error.", "label": "BOTH"}
+{"text": "In Double Manner, the DPU - DPA shall be capable of bin images at dissimilar grade.", "label": "BOTH"}
+{"text": "If the arrangement is non able to tie the call, an audible and visual meter reading shall constitute supply to the driver.", "label": "BOTH"}
+{"text": "The Maturation Squad shall be required to adjust be source computer code to follow acceptedcoding standards only if that generator codification mustiness be modify.", "label": "BOTH"}
+{"text": "If decided by a internal economic value, the device driver whitethorn release the ETCS exigency brake when the real speed is below the permitted speed.", "label": "BOTH"}
+{"text": "If middleman with the mobile radio network follow lose, then the Cab radio shall establish an audible and optic indication.", "label": "BOTH"}
+{"text": "Using train data and infrastructure data, brake curve shall be work out taking into account the target information only not the placement of fomite occupying the track.", "label": "BOTH"}
+{"text": "The DPU - CCM shall be able bodied to reckon a consecutively reported error. When the the count for a picky error ID, exceeds 250 for a particular reporting period, the error code will be supersede with a error code chronological succession which shall include the original error code and the number of clip the error represent reported.", "label": "BOTH"}
+{"text": "The Development Team shall live required to adjust existing germ code to use the externallog file only when if that source codification must cost modified to apply another requirement.", "label": "BOTH"}
+{"text": "The CNG shall take natural action according to local authentication failure manipulation policy (which may include silently discarding the authentication and explicit failure notice, beaver state in the case of a instant replay of certificate may include notification of the true owner of the credentials) upon detection of failure during identification, authentication and authorization.", "label": "BOTH"}
+{"text": "Currency exchange pace for an unlinked load dealing must be established according the rules of the network oregon networks processing the dealings. However, for linked freight dealing, the currency interchange rates mustiness be established by the card issuer", "label": "BOTH"}
+{"text": "If errors in the scorecard issuer MAC exist discovered by the card issuer during its processing of the transactions, a dispute mechanism, established by the scheme supplier, whitethorn be used to take money return", "label": "BOTH"}
+{"text": "When the french telephone is picked astir, the loudspeaker shall continue to operate, merely at a decreased bulk level.", "label": "BOTH"}
+{"text": "If mistake in the visiting card issuer MAC are discovered by the batting order issuer during its processing of the transactions, a dispute mechanism, show by the scheme provider, may constitute used to induce money refunded", "label": "BOTH"}
+{"text": "If contact with the mobile radio network embody lose, and so the Taxicab radio shall afford an audible and visual denotation.", "label": "BOTH"}
+{"text": "If the POS device supports multiple applications oregon multiple transaction types, an fundamental interaction between the depot and consumer operating theatre sales agentive role determines the CEP covering and the function to be do (cancel last purchase transaction )", "label": "BOTH"}
+{"text": "Specification of keys and signatures used for CEPS on - business authentication is left to the issuer, however MACs sink over partake meshwork must equal no more more than 8 bytes long, binary format", "label": "BOTH"}
+{"text": "When changing to a high speed point the rearward end of the gearing shall respect the motionless power train speed profile.", "label": "BOTH"}
+{"text": "The Bootstrap Monitor of DPU - kicking CSC shall be activated if the Clear - To - Send (CTS) signal is active on the r - 232 port. If no activity be detected on the RS - 232 interface within 30 seconds, the Bootstrap shall load a conformation of DPU - RTOS accord to BC_INDEX in the SYSTEM_BLOCK.", "label": "BOTH"}
+{"text": "Where pre - emption pass off, an advisory indication whitethorn exist ply to the pre - empted parties.", "label": "BOTH"}
+{"text": "Funds issuer mustiness accept funds authorization requests, regardless of the loading up to dateness type, as permitted", "label": "BOTH"}
+{"text": "Where pre - emption occurs, an advisory reading english hawthorn follow provide to the pre - empted parties.", "label": "BOTH"}
+{"text": "If run - metre diagnostics are enforce, symptomatic tests shall not step in with normal operation of the Cab radiocommunication.", "label": "BOTH"}
+{"text": "When trailing follow enabled, the DPU - DPA will bring forth a PROD_TRACKING_REC at the commanded rate.", "label": "BOTH"}
+{"text": "If directed network selection and / or reflexive mesh selection are implemented, the driver shall be informed by substance of an audible and visual meter reading of the new meshwork identity whenever a web change takes position without user intervention.", "label": "BOTH"}
+{"text": "If the leash score falls within the scurvy norm then it will represent returned to the supplying vendor", "label": "BOTH"}
+{"text": "When the handset personify pick astir, the loudspeaker shall proceed to operate, but at a reduced volume spirit level.", "label": "BOTH"}
+{"text": "The CNG Remote Management ask to bring off a specific set of parameters. At least the undermentioned list of parameters shall comprise available: Client Recognition, Physical Line Identification, list of subscribed service, CNG information processing address.", "label": "BOTH"}
+{"text": "When the hit results in sinking a ship the cartesian product shall indicate the type of ship sunk on the justificative gridiron of the defensive player.", "label": "BOTH"}
+{"text": "Entering or overwrite data manually by the number one wood shall be possible but simply when stationary.", "label": "BOTH"}
+{"text": "Upon the request of the driver, the Cabriolet receiving set should follow able bodied to do a entourage of run - time diagnostic tests on all physical user interface.", "label": "BOTH"}
+{"text": "Reception of this call (if implemented) shall proceed as for a stock grouping beaver state programme call except that a distinctive audible and ocular indicant shall be provide.", "label": "BOTH"}
+{"text": "In case of unmanaged services, user shall represent able to admittance a QoS configuration affair implement in the CNG.", "label": "BOTH"}
+{"text": "If no full or partial match is found at all, the currently select Application on the Supplementary Logical Channel shall remain the selected Application and - If the SELECT [by name] command has the [first or only when occurrence] parameter set, the SELECT command is off to the Application, - If the SELECT [by name] command take the [next natural event] parameter set, the OPEN shall return the appropriate error to the off - card entity.", "label": "BOTH"}
+{"text": "The Bootstrap Monitor lizard of the DPU - iron boot CSC shall play along the communications protocol delimit in BSPS - 01, Bootstrap Monitor Communications protocol Stipulation, with the following noted exceptions.", "label": "BOTH"}
+{"text": "If an ETCS fit train passes a level transition to one or more grade for which it be non equipped, ETCS shall initiate a pteridium aquilinum application program.", "label": "BOTH"}
+{"text": "By default, prompts and data shall equal display in the language selected by the train proprietor (as hive away within the system ).", "label": "BOTH"}
+{"text": "Any port between a user and the automated system shall take in a maximum response time of 5 seconds unless notice by an exception below.", "label": "BOTH"}
+{"text": "The co - running annulment of the mum shall be potential to a raw target location, proposed from red blood cell.", "label": "BOTH"}
+{"text": "In the sheath of an abortive mop up, elision processing outlined in the On - line Exception Processing section is do", "label": "BOTH"}
+{"text": "If Home to Home (H2H) communication service personify supply, then each CNG moldiness ensure that exigency robert william service sessions originating in its CPN are associated with the appropriate fix information and / operating theatre call identity.", "label": "BOTH"}
+{"text": "When applicable a Security Domain shall Request the OPEN to load, install, extradite, and delete card content,", "label": "BOTH"}
+{"text": "The DPU-SCUI shall be capable of preparing one STPDU for delivery to the SCU every M milliseconds, or shall indicate a No Data condition to the SCU by maintaining an un-incremented ST_PDU Transfer Request Counter field.", "label": "NONE"}
+{"text": "Scheme providers must assign unique identifying numbers to merchant acquirers who provide PSAMs", "label": "NONE"}
+{"text": "Within the shunting group, it shall be possible for only one member of the group to transmit the link assurance signal at any time.", "label": "NONE"}
+{"text": "If automatic network selection is implemented, it shall be possible for the driver to activate and deactivate automatic network selection.", "label": "BOTH"}
+{"text": "The Bootstrap Monitor of the DPU-BOOT CSC shall output an error message to the RS-232 interface if an incorrect number of command arguments are entered.", "label": "BOTH"}
+{"text": "The system shall operate within the Windows XP Professional operating system.", "label": "NONE"}
+{"text": "A VCD system MUST provide a user-interface to the economic operator for uploading an existing VCD package", "label": "NONE"}
+{"text": "In order to fulfil the requirements of some railways, it should be possible to provide an alternative means of link assurance indication.", "label": "BOTH"}
+{"text": "The radio shall support at least ten different languages.", "label": "NONE"}
+{"text": "If the call fails in the lead traction vehicle, the lead driver will be responsible for re- establishing the call. If the call fails to any other cab, the driver in that cab will call the lead cab and request re-establishment of the call.", "label": "BOTH"}
+{"text": "The CNG shall classify packets entering the CPN through its WAN interface (downstream direction) according to a number of predefined priorities. Classification can be done on the basis of different layer 2 and/or layer 3 parameters.", "label": "NONE"}
+{"text": "The DPU-ADC CSC shall address hardware modules as defined in document 1400, Company X Specification for the Company X Communication/Memory Module.", "label": "NONE"}
+{"text": "The card should use a unique diversified secret key, personalized into the card, to generate and authenticate transaction signatures", "label": "NONE"}
+{"text": "The PSAM must create a MAC on the updated aggregation record. Aggregation records by card issuer must be stored in the PSAM. They may also be stored in the POS device as well", "label": "NONE"}
+{"text": "The Development Team shall be required to adjust existing source code to use the externallog file only if that source code must be modified to implement another requirement.", "label": "BOTH"}
+{"text": "The Disputes application must conform to the legal requirements as specified by Regulation E and Regulation Z that govern credit card disputes processing.", "label": "NONE"}
+{"text": "In Image Mode, the DPU-DPA shall be capable of binning images at different levels.", "label": "BOTH"}
+{"text": "The MMI shall be suitable for use by day and night.", "label": "NONE"}
+{"text": "The DPU-ICUI shall provide ICUI_HK to the DPU-CCM on request.", "label": "NONE"}
+{"text": "The DPU-SCUI shall provide the capability for data producing applications to specify whether or not queued data may be segmented.", "label": "NONE"}
+{"text": "In case of multicast streams the CNG should support proxy functionalities to optimize the management of information related to signalling.", "label": "BOTH"}
+{"text": "The ETCS trainborne equipment shall indicate on the DMI the information regarding pantograph and power supply.", "label": "NONE"}
+{"text": "Contraindication information should be collected to indicate why vaccinations, treatments, or antidotes may not have been administered or why the patient may not have complied with prescribed interventions.", "label": "NONE"}
+{"text": "The DPU-EDAC shall record the current contents of EDAC_HK to EEPROM and force a DPU watchdog in the event an MBE in DRAM is detected.", "label": "BOTH"}
+{"text": "The preferred repair facility shall be returned to the user.", "label": "NONE"}
+{"text": "The DPU-CCM shall use DPU-EEPRM to access the EEPROM.", "label": "NONE"}
+{"text": "The user should be able to personalize bookmarks to UGC.", "label": "NONE"}
+{"text": "Therefore, the radio shall provide a priority function for calls from different sources in order to handle contention for the radio.", "label": "NONE"}
+{"text": "The terminal must secure transactions by retaining the card's symmetric MACing key signature as part of the transaction", "label": "NONE"}
+{"text": "System shall let customers cancel their account process shall take no longer than 2 minutes. Database will mark the account as inactive and user will not be able to log into the website.", "label": "NONE"}
+{"text": "The load device which supports only off-line PIN verification must support both the off-line PIN encryption method and the off-line PIN plain text verification method as defined in EMV", "label": "NONE"}
+{"text": "The weight of the General purpose radio including battery should not exceed 250g.", "label": "NONE"}
+{"text": "The CNG may allow secure dynamic firewall opening for remote access devices based on NGN authentication functions.", "label": "NONE"}
+{"text": "The product shall provide Monitoring Services.The product shall be easy for System Administrators and DBAs to use after two weeks of usage.", "label": "NONE"}
+{"text": "For the CNG management it is recommended to use a single protocol, so as to minimize the complexity and the cost of the service.", "label": "BOTH"}
+{"text": "If errors in the card issuer MAC are discovered by the card issuer during its processing of the transactions, a dispute mechanism, established by the scheme provider, may be used to have money refunded", "label": "BOTH"}
+{"text": "Authorised users within the EIRENE network shall be able to receive calls from calling parties outside the EIRENE network.", "label": "NONE"}
+{"text": "The DPU-DCI shall read from the DCI Registers in C-bit words only", "label": "NONE"}
+{"text": "Where pre-emption occurs, an advisory indication may be provided to the pre-empted parties.", "label": "BOTH"}
+{"text": "The system shall support group voice calls.", "label": "NONE"}
+{"text": "The card must authenticate the terminal at the point of sale, ensuring that it is genuine and valid, and use a two-way authentication process", "label": "NONE"}
+{"text": "The System user interface must be suitable for users with special needs; that is, compatible with specialist software that may be used and with appropriate interface guidelines", "label": "NONE"}
+{"text": "Only administrators can activate a pre-paid card.", "label": "NONE"}
+{"text": "The DPU-BOOT CSC shall complete Stage 1 BIT, and load DPU-RTOS in less than A seconds following a hardware reset if CTS is not asserted.", "label": "NONE"}
+{"text": "When the handset is picked up, the loudspeaker shall continue to operate, but at a reduced volume level.", "label": "BOTH"}
+{"text": "The DPU-DPA shall calculate drift with respect to the reference frame based on the established guide stars then perform a shift-and-add of the image mode data.", "label": "NONE"}
+{"text": "The product must comply with the intranet page standards and requirements of ENET Securities. 95% of the product look & feel will be approved by the Architecture group prior to implementation. The remaining 5% will be corrected and approved within one month of product release.", "label": "NONE"}
+{"text": "Structural data of evidence MUST be defined.", "label": "NONE"}
+{"text": "The product shall send a meeting confirmation to the meeting organizer.", "label": "NONE"}
+{"text": "An audible and visual indication shall be provided to the user that the call is proceeding.", "label": "NONE"}
+{"text": "The system shall resolve the zipcode for the street address city and state if zipcode is unknown.", "label": "NONE"}
+{"text": "The DPU-CCM shall be able to count a consecutively reported error. When the the count for a particular error ID, exceeds 250 for a particular reporting period, the error code will be replaced with a error code sequence which shall include the original error code and the number of times the error was reported.", "label": "BOTH"}
+{"text": "The estimator shall search by zipcode with a radius of 30 miles if no parts are found for the preferred parts suppliers", "label": "NONE"}
+{"text": "Systems supporting OM should support multiple deployment options (e.g., client server, disconnected, and potentially web based).", "label": "NONE"}
+{"text": "If directed network selection and/or automatic network selection are implemented, the driver shall be informed by means of an audible and visual indication of the new network identity whenever a network change takes place without user intervention.", "label": "BOTH"}
+{"text": "The load device sends S1 in an authorization request to the issuer", "label": "NONE"}
+{"text": "When applicable a Security Domain shall Manage on-card data securely,", "label": "NONE"}
+{"text": "The System shall utilize currently owned computer equipment.", "label": "NONE"}
+{"text": "The system shall provide the capability to open a pop-up window displaying informationabout the specific page along with links to supporting help topics upon selecting each Helplink.", "label": "NONE"}
+{"text": "The product shall comply with City of Chicago Application Development Guide Framework.Application Development Framework will provide structured Graphical User Interface.", "label": "NONE"}
+{"text": "Product installations and upgrades shall be handled by the middleware technology team within established launch time frames.", "label": "NONE"}
+{"text": "LAN interfaces. The CNG shall be equipped with at least one Ethernet (minimum 100 Mbit/s) is interface. Optional interfaces could be present, e.g.: wireless LAN Wi-Fi Alliance certified, Powerlines, Plastic Optical Fiber, USB device and/or host, one or more FXS for analog telephony, DECT Cat-iq.", "label": "NONE"}
+{"text": "When the traction unit is stationary the driver shall be required to acknowledge the train trip condition. This acknowledgement will release the emergency brake.", "label": "NONE"}
+{"text": "The card issuer must have the ability to deactivate a CEP application in the response to a load or currency exchange transaction", "label": "NONE"}
+{"text": "The DPU-SCUI shall use DPU-1553 to communicate with the MIL-STD-1553B Interface.", "label": "NONE"}
+{"text": "The merchant acquirer must acknowledge the receipt of the batch to either the POS device or the merchant. The timing of the acknowledgment will vary based on the collection process. After a batch has been acknowledged by the merchant acquirer, it may be deleted from the POS device", "label": "NONE"}
+{"text": "The VCD system MUST provide a functionality to compile various data formats from various sources (issuing bodies) into a single VCD package. The VCD package MUST provide a functionality to add structural VCD package data to the VCD package and VCD system (e.g. log file) during the compilation process. The VCD package MUST provide a functionality to add tender-specific data to the VCD package and VCD system (e.g. log file) during the compilation process. The VCD package MUST provide a functionality to add economic operator data to the VCD package and VCD system (e.g. log file) during the compilation process. The VCD package MUST provide a functionality to add tender-specific data to the VCD package and VCD system (e.g. log file) during the compilation process. The VCD package MUST provide a functionality to add structural data of evidence to the VCD package and VCD system (e.g. log file) during the compilation process The VCD package MUST provide a functionality to add evidences to the VCD package and VCD system (e.g. log file) during the compilation process. The VCD package MUST provide a functionality to add translations to the VCD package and VCD system (e.g. log file) during the compilation process", "label": "NONE"}
+{"text": "The DPU-BOOT CSC shall read from EEPROM in 32-bit words only.", "label": "NONE"}
+{"text": "When the CNG detects violation of the privacy protection policy the CNG shall discard all signalling, including signalling from the NGN.", "label": "BOTH"}
+{"text": "The user shall select to view the preferred repair facility ratings.", "label": "NONE"}
+{"text": "The DPU-BOOT CSC shall set the processor speed to MHz.", "label": "NONE"}
+{"text": "The commands received by a GlobalPlatform card shall be processed by the OPEN or dispatched to the selected Application for processing.", "label": "NONE"}
+{"text": "A dedicated Push-To-Talk button shall be provided.", "label": "NONE"}
+{"text": "A visual confirmation of the new network identity shall be given to the driver when a manually initiated network change has been completed successfully.", "label": "NONE"}
+{"text": "The issuer host must authenticate the card upon the load/unload request", "label": "NONE"}
+{"text": "The website shall achieve 99.5% up time.", "label": "NONE"}
+{"text": "The DPU-ICUI shall format messages according to DPUICD-01, Section 3.1", "label": "NONE"}
+{"text": "Program Administrators and Nursing Staff Members shall be able to add a listing of students to a cohort.", "label": "NONE"}
+{"text": "If shunting mode is implemented, the link assurance tone shall be provided via the loudspeaker.", "label": "BOTH"}
+{"text": "Product formulas shall allow use of semi-products which have own formulas.", "label": "NONE"}
+{"text": "For both the SELECT [by name] [first or only occurrence] command and the SELECT [by name] [next occurrence] command, an Application becomes the selected Application on the Basic Logical Channel if: The requested AID matches (fully or partially) the Applications AID, The Application being selected is in the correct Life Cycle State, The Application has no restrictions due to multi-selection, and supports the current card interface.", "label": "BOTH"}
+{"text": "The system must be available for use between 7:00AM and 11:59PM all days of the year.", "label": "NONE"}
+{"text": "The Member States shall agree on a common representation format for the information they intend to supply into the knowledge base supporting the tool’s operations.", "label": "NONE"}
+{"text": "Systems supporting OM should be able to electronically record and store data from remote devices that may be uploaded to an aggregating system.", "label": "NONE"}
+{"text": "The user shall be able to select his preferred language for the display; this setting shall be retained by the radio.", "label": "NONE"}
+{"text": "The DPU-SSI shall read from the SSI registers in 16-bit words only.", "label": "NONE"}
+{"text": "For estimators the product shall be able to be operated in a repair facility during dirty and noisy conditions.", "label": "NONE"}
+{"text": "Traffic marking: depending on what are the parameters used to perform classification, CNDs or CNG itself on behalf of the CNDs shall be able to modify the packets priority.", "label": "BOTH"}
+{"text": "The table side of the display shall be split into 2 regions: sequential and temporal.", "label": "NONE"}
+{"text": "Currency exchange rates for an unlinked load transaction must be established according the rules of the network or networks processing the transaction. However, for linked load transactions, the currency exchange rates must be established by the card issuer", "label": "BOTH"}
+{"text": "The CPN shall support remote access, based on NGN network functions.", "label": "NONE"}
+{"text": "The DPU-CCM shall quietly discard any unrecognized observatory messages (I.e. messages which do not have a DPU command APID).", "label": "NONE"}
+{"text": "If the user requests experience service timeout (threshold), initiation request is cancelled.", "label": "BOTH"}
+{"text": "The product shall store new conference rooms.", "label": "NONE"}
+{"text": "The system shall allow a Program Administrator/Nursing Staff Member to move a student from one clinical lab section to another clinical lab section corresponding to the same clinical class.", "label": "NONE"}
+{"text": "The current repair facility ratings shall be displayed to the user.", "label": "NONE"}
+{"text": "The product shall be capable of handling the existing 1000 users. This number is expected to grow 5 times within the next year.", "label": "NONE"}
+{"text": "The product shall protect the identity of the players. The product shall provide players no access to information that might reveal the identity of another player.", "label": "NONE"}
+{"text": "Users should be able to access their streaming movies in under 2 clicks after logging into the website.", "label": "NONE"}
+{"text": "All design, testing and installation of EIRENE mobile radio equipment shall comply with the quality procedures defined in ISO 9001 . Climatic conditions", "label": "NONE"}
+{"text": "In the case of an unsuccessful completion, exception processing outlined in the On-line Exception Processing section is performed", "label": "BOTH"}
+{"text": "A speech connection shall be established immediately following the warning tone, to allow the originator of the emergency call, to give information concerning the nature of the emergency.", "label": "NONE"}
+{"text": "The DPU-TMALI shall allocate a ring buffer of size specified by TMALI_BUFFER_SIZE provided during initialization for storing incoming frames of data. The default buffer size shall be 15 MB.", "label": "NONE"}
+{"text": "The DPU-DCI shall read from the DCI Memory in B-bit words only, using the load multiple/store multiple instructions.", "label": "NONE"}
+{"text": "All actions that modify an existing dispute case must be recorded in the case history.", "label": "NONE"}
+{"text": "It shall be possible for the user to find and display stored numbers and their information.", "label": "NONE"}
+{"text": "ETCS shall calculate the permitted speed for the train for all locations of the authorised movement.", "label": "NONE"}
+{"text": "The product shall display the grids within a circle as a view from a periscope.", "label": "NONE"}
+{"text": "When applicable a Security Domain shall Provide cryptographic protection services for its own Applications during their personalization and optionally during their subsequent operation,", "label": "NONE"}
+{"text": "If the call is a broadcast call, the user shall be informed that he cannot speak as part of the broadcast call.", "label": "BOTH"}
+{"text": "The PSAM authenticates that the purchase transaction being canceled was performed by the PSAM, and that the transaction being canceled is part of the active batch", "label": "NONE"}
+{"text": "The Disputes System shall allow the user to create or initiate a chargeback request. The system must prompt the user to enter the required information to initiate a chargeback request. The chargeback request results in a printed chargeback notification that is sent to merchant indicating that their account will be charged back if no proof is provided that the disputed transaction is valid.", "label": "NONE"}
+{"text": "Avoiding link overload: Text pages containing large proportions of links should be formatted so that the presence of links does not impede the readability of the text.", "label": "BOTH"}
+{"text": "The website will comply with W3C standards.", "label": "NONE"}
+{"text": "The product shall be able to store new room equipment.", "label": "NONE"}
+{"text": "The CNG shall allow the customer remote access to a CND in the Customer Network, for example a surveillance video camera.", "label": "NONE"}
+{"text": "The system should have capability to support public access to a subset of data andfunctionality", "label": "NONE"}
+{"text": "Internally to the CPN, a CNG transmitting private or other critical information (i.e. to a CND) shall protect the data from unauthorised disclosure.", "label": "BOTH"}
+{"text": "The estimator shall not apply recycled parts to the collision estimate if no available parts are returned.", "label": "BOTH"}
+{"text": "The system shall filter data by: Venues and Key Events.", "label": "NONE"}
+{"text": "Protocols adaptation for control plane or management plane may be performed by CNG.", "label": "NONE"}
+{"text": "The product shall be expected to operate for at least 5 years for each customer installation.", "label": "NONE"}
+{"text": "The DPU-BOOT CSC shall disable write-protection of the EEPROM on the SCM.", "label": "NONE"}
+{"text": "If the POS device supports multiple applications or multiple transaction types, an interaction between the terminal and consumer or sales agent determines the CEP application and the function to be performed (cancel last purchase transaction)", "label": "BOTH"}
+{"text": "The card verification method indicator (CVMI) in the CEP card must specify support of online PIN verification and at least one method of off-line PIN verification (encrypted or unencrypted)", "label": "NONE"}
+{"text": "All credit card information will be secured on the server and only accessible by authorized Izogn administrators. Information will be encrypted in the database.", "label": "NONE"}
+{"text": "The bottom 3/4 of the table will hold events that occur according to its relevance to current time.", "label": "NONE"}
+{"text": "It shall also be possible, to allow the driver to change the adhesion conditions", "label": "NONE"}
+{"text": "The VCD system MUST provide an interface where an economic operator can add structural data of evidence that belong to specific evidence.", "label": "NONE"}
+{"text": "The DPU-CCM shall provide a mechanism for other CSCs to report errors for inclusion in the DPU_HK.", "label": "NONE"}
+{"text": "System shall let customers register on the website as a pay as you go user in under 5 minutes.", "label": "NONE"}
+{"text": "In the case of a reversal, the CEP card must re-authenticate the PSAM", "label": "BOTH"}
+{"text": "Classes for a given cohort shall not conflict with regards to the time and day that they are offered.", "label": "NONE"}
+{"text": "The product will record meeting acknowledgements.", "label": "NONE"}
+{"text": "The system will use the stored e-mail addresses as a primary means of communicating information to affected parties.", "label": "NONE"}
+{"text": "The PSAM must only be permitted to aggregate transactions for a scheme with which the merchant has an aggregation agreement. The AID of the card application must be used to determine the scheme. For each scheme that allows this merchant to perform aggregation, the PSAM must have a monetary amount above which it is not permitted to aggregate", "label": "BOTH"}
+{"text": "If the transaction is to be aggregated, the amount of the transaction must be added to the aggregation record for the card issuer", "label": "BOTH"}
+{"text": "The appearance of the product shall appear professional", "label": "NONE"}
+{"text": "Information shall be recorded to an accuracy which enables a clear view of the functioning of ETCS and way the traction unit has been driven.", "label": "NONE"}
+{"text": "When purchasing a streaming movie or pre-paid card via credit card the processing time should have a maximum response time of 15 seconds.", "label": "BOTH"}
+{"text": "On indication received at the CNG of a resource allocation expiry the CNG shall delete all residual data associated with the invocation of the resource.", "label": "BOTH"}
+{"text": "Once the driver has accepted the standard point-to-point call, it shall be connected appropriately, eg if the driver has accepted the call by lifting the handset, then the call shall be routed to the handset.", "label": "BOTH"}
+{"text": "The group identity of the voice group call (VBS or VGCS) shall be displayed.", "label": "NONE"}
+{"text": "The CNG shall take action according to local authentication failure handling policy (which may include silently discarding the authentication and explicit failure notification, or in the case of a replay of credentials may include notification of the true owner of the credentials) upon detection of failure during identification, authentication and authorization.", "label": "BOTH"}
+{"text": "The Development Team shall be required to adjust existing source code to follow acceptedcoding standards only if that source code must be modified.", "label": "BOTH"}
+{"text": "The Bootstrap Monitor of the DPU-BOOT CSC shall validate commands entered for syntax and number of arguments.", "label": "NONE"}
+{"text": "A customer can only stream a movie if they purchased it and are within the 2 day viewing period.", "label": "NONE"}
+{"text": "Off-line PIN verification must include both encrypted and unencrypted PIN", "label": "NONE"}
+{"text": "The Disputes System must provide the ability to view existing dispute cases.", "label": "NONE"}
+{"text": "Expired cards must not be used for loading electronic value", "label": "NONE"}
+{"text": "The Disputes System shall prevent the creation of duplicate dispute requests 100% of the time.", "label": "NONE"}
+{"text": "The CNG and the Customer Network shall assure the confidentiality, the integrity of signalling/control/media and management flows.", "label": "NONE"}
+{"text": "It should be possible to transfer text messages between ground and mobile through the EIRENE system.", "label": "NONE"}
+{"text": "The load acquirer must notify the card issuer of all suspect transactions", "label": "NONE"}
+{"text": "The trainborne equipment shall remain in Full Supervision until the trainborne equipment is not active any longer, when Shunting is selected or when Partial Supervision information is received.", "label": "BOTH"}
+{"text": "Context specific data MUST be machine interpretable", "label": "NONE"}
+{"text": "The DPU-CCM shall monitor the status of DPU-SCUI, DPU-CCM, DPU-DCX, DPU-TMALI, and DPU-DPA by examining their TASK_INFO and report this information in DPU_HK.", "label": "NONE"}
+{"text": "Depending on the operation mode chosen (bridged or touted) and on the type of flow treated (unicast or multicast) the CNG shall forward packets only to the physical interfaces which are connected to devices interested to the IPTV flow.", "label": "BOTH"}
+{"text": "If the number of logical channels supported by the OPEN is not sufficient to open a new Supplementary Logical Channel, return the appropriate error.", "label": "BOTH"}
+{"text": "The website should have an African feel but should not alienate non-Africans. The website should use animation on pages which are describing the services to grab the users attention and encourage them to sign up.", "label": "NONE"}
+{"text": "The DPU-TIS shall provide the capability for an application program to jam the value of the SC_TIME into the hardware, if automatic time synchronization is disabled.", "label": "BOTH"}
+{"text": "The DPU-TIS shall provide TIS_HK to the DPU-CCM on request.", "label": "NONE"}
+{"text": "Where an on-train bus is connected to the Cab radio, deregistration of functional numbers can be performed on an individual basis and also by the train driver, by one action for all users (including the driver), at the end of the journey when the train number is no longer associated with the train.", "label": "BOTH"}
+{"text": "The DPU-ADC shall report errors to an application program by setting the ERRNO task variable and returning ERROR.", "label": "NONE"}
+{"text": "The washing process must use a non binding neutral data format such as xml when receiving and processing lead data.", "label": "NONE"}
+{"text": "The VCD viewing system MUST provide a functionality to authenticate contracting authorities to view the data contained within a VCD package.", "label": "NONE"}
+{"text": "When a game is ended the product shall allow each player to identify himself or herself as an available player in the list of players.", "label": "BOTH"}
+{"text": "It should be possible for calls to be answered automatically according to incoming call priority as defined", "label": "NONE"}
+{"text": "The image mode shall consist of a science window.", "label": "NONE"}
+{"text": "Izogn Administrator must be able to add new products to the website within 2 minutes.", "label": "NONE"}
+{"text": "CPN should support storage of UGC within the CPN.", "label": "NONE"}
+{"text": "The system shall locate the preferred repair facility with the highest ratings for the input criteria", "label": "NONE"}
+{"text": "The DPU-SCUI, in the event of a buffer full condition, shall discard new data, return an error to the caller, and report an error condition to the DPU-CCM.", "label": "BOTH"}
+{"text": "Systems supporting OM must be able to exchange aggregated data. Examples of aggregated data to be supported are: number of cases, number of contacts per case, and number of vaccinations and/or treatments administered.", "label": "NONE"}
+{"text": "Systems supporting OM should generate electronic data dictionaries for dynamic data (or other user-defined data descriptions to assist with effective data exchange), line lists, activity logs, aggregate data, and call-back lists to assist the emergency response group and investigators in responding to and containing a health event.", "label": "NONE"}
+{"text": "The functional number shall consist of numeric characters only.", "label": "NONE"}
+{"text": "Systems supporting OM must have the capability to capture data about any conveyance involved in an OM investigation, including: type of conveyance, route taken (e.g., flight number), etc.", "label": "NONE"}
+{"text": "The DPU-CCM shall support a NOOP command that does nothing but serve as a valid command.", "label": "NONE"}
+{"text": "The CNG shall support mechanisms for secure authentication and communication with the remote management system.", "label": "NONE"}
+{"text": "The product and/or dependent databases/filesystems shall remain operational as a result of the input of malicious data. The product and/or dependent databases/filesystems shall not crash 100% of the time that malicious data is input into the product.", "label": "NONE"}
+{"text": "The CMA report shall be returned no later 60 seconds after the user has entered the CMA report criteria.", "label": "NONE"}
+{"text": "Epidemiological (epi) data must be collected to assist in the case investigation of events. Standard epi data to be collected includes: onset date and time of symptoms, type of symptoms, risk factors, medical history data, laboratory data, procedure data, and questionnaire responses.", "label": "NONE"}
+{"text": "During a purchase transaction, the CEP card must ensure that it is dealing with an authentic POS device, and it must generate a signature to allow the card issuer to verify the integrity of the transaction", "label": "BOTH"}
+{"text": "Using train data and infrastructure data, braking curves shall be calculated taking into account the target information but not the location of vehicles occupying the track.", "label": "BOTH"}
+{"text": "The concept of the Life Cycle of the card (see section 5.1 - Card Life Cycle) may be used to determine the security level of the communication between the card and an off-card entity.", "label": "NONE"}
+{"text": "The electronic purse product must use dynamic data authentication at the following points: 1. Load 2. Unload 3. Currency Exchange 4. Purchase, Purchase Reversal 5. Incremental Purchase 6. Cancel Last Purchase 7. Personalization 8. On-line Updates to the Application", "label": "BOTH"}
+{"text": "Every user of the system shall be authenticated and authorized.", "label": "NONE"}
+{"text": "The website will provide a help section with answers and solutions to common problems.", "label": "NONE"}
+{"text": "The driver shall be informed if a broadcast call is ongoing by a visual indication displayed on the MMI.", "label": "BOTH"}
+{"text": "When observing a new GRB, and the XRT_POS becomes available from the ICU, the DPU-DPA shall shift and resize the image and event windows appropriately.", "label": "BOTH"}
+{"text": "All business rules specified in the Disputes System shall be in compliance with the Merchant Operating Regulations.", "label": "NONE"}
+{"text": "The timing of payment to the merchant must be established between the merchant and the merchant acquirer", "label": "NONE"}
+{"text": "Each team owner will need to use a username and password in order to be authenticated to reach the team owners page", "label": "NONE"}
+{"text": "No lead evaluation will complete in a time period longer than 25 seconds for 97% of all leads processed.", "label": "NONE"}
+{"text": "Direct access to attestations issued by (national) issuing bodies MUST be established through organisational agreements (e.g. service level agreements).", "label": "NONE"}
+{"text": "Every pilot partner MUST follow the common standard schema of context specific data by defining a national version of it.", "label": "NONE"}
+{"text": "The product shall use symbols and words that are naturally understandable by the realtor community.", "label": "NONE"}
+{"text": "The CNG shall support a mechanism allowing the support of call forwarding toward non-IMS capable CNDs.", "label": "NONE"}
+{"text": "The response time of general student management tasks shall take no longer than 5 seconds and the response time of schedule generation shall take no longer than 30 seconds.", "label": "NONE"}
+{"text": "After investigation, if the merchant acquirer decides, based on scheme rules, to accept the transactions, a method must exist to settle them and forward them to the card issuer", "label": "BOTH"}
+{"text": "The CNG may interact with the Resource and Admission Control Subsystem (RACS) as defined in ES 282 001 [9] to support remote real-time QoS control", "label": "NONE"}
+{"text": "The Dispute System shall provide the users with the ability to follow up on a dispute case via follow-up actions. The list of available follow up actions for a given dispute case must be filtered by the status of the case and the access level of the user.", "label": "NONE"}
+{"text": "Rreports must be easy to generate. eports must be generated within one button click and exported within one button click (after selecting the report)", "label": "NONE"}
+{"text": "All members of the shunting group, other than the initiator of the link assurance signal, shall be unable to speak during the transmission of the link assurance signal. However, they shall be able to initiate a shunting emergency call at any time.", "label": "BOTH"}
+{"text": "A VCD system must provide a functionality to retrieve actual instances of outdated evidences", "label": "NONE"}
+{"text": "It shall be possible for an incoming call or data message for one user to be forwarded to another user using functionality provided by the network.", "label": "NONE"}
+{"text": "The Bootstrap Monitor of the DPU-BOOT CSC shall follow the protocol specified in BSPS-01, Bootstrap Monitor Protocol Specification, with the following noted exceptions.", "label": "BOTH"}
+{"text": "Systems supporting OM must have the capability to capture data about locations involved in an OM investigation, including: name (if applicable), type (e.g., floor, building, room, store), street address, city, state, zip code, country, GPS coordinates, and other specific details (e.g., a specific building on a campus, a business branch location, a local chapter’s meeting hall)", "label": "NONE"}
+{"text": "Once the call is terminated, the continuous visual alarm indication in the cab shall cease.", "label": "BOTH"}
+{"text": "A non-clinical class shall specify the course name lecture room requirements and instructor needs.", "label": "NONE"}
+{"text": "Cab radios shall provide a means of preventing tampering.", "label": "NONE"}
+{"text": "If run-time diagnostics are implemented, all failures should be available to be recorded in a train-borne recorder.", "label": "BOTH"}
+{"text": "The website design should be modern clean and concise.", "label": "NONE"}
+{"text": "CNDs connected to the CPN and devoted to specific managed services shall be remotely manageable", "label": "NONE"}
+{"text": "The DPU-CCM shall, in rejecting a command, report an error in DPU_HK indicating the byte-code of the command being rejected in the LSB of the errno as described in 03691-DPUSDP-01.", "label": "NONE"}
+{"text": "The system shall follow HIPAA compliance capabilities in new functionality introduced to the system.", "label": "NONE"}
+{"text": "The confirmation shall be generated automatically without input from the user.", "label": "NONE"}
+{"text": "After the 30 second period, if the connection was unsuccessful, the system shall provide another audible and visual indication that it was unable to connect the call.", "label": "BOTH"}
+{"text": "The Bootstrap CSC shall address hardware modules as defined in document 1400, Company X Specification for the Company X Communication/Memory Module.", "label": "NONE"}
+{"text": "Only the last increment of an incremental purchase may be reversed. A reversal of a purchase transaction may only occur if: the CEP card has not been removed from the POS device, and the S5 for the transaction to be reversed has not been generated by the PSAM", "label": "BOTH"}
+{"text": "In some countries, train numbers are alphanumeric. Support for such numbers is not required for interoperability.", "label": "BOTH"}
+{"text": "Specification of keys and signatures used for CEPS on-line authentication is left to the issuer, however MACs passed over shared networks must be no more than 8 bytes long, binary format", "label": "BOTH"}
+{"text": "The character set used shall support different languages.", "label": "NONE"}
+{"text": "The numbering for other teams shall be treated in the same way as maintenance teams", "label": "NONE"}
+{"text": "If an ETCS equipped train passes a level transition to one or more levels for which it is not equipped, ETCS shall initiate a brake application.", "label": "BOTH"}
+{"text": "Website shall request and authorize credit card payment before allowing a user to stream a movie.", "label": "NONE"}
+{"text": "For increased security and convenience, asymmetric cryptography must be used as the authentication security for off-line transactions", "label": "BOTH"}
+{"text": "The driver shall be able to override the function when the train is stationary.", "label": "NONE"}
+{"text": "In order to ensure interoperability, the service is optional for the ground and mandatory for the Cab radio.", "label": "BOTH"}
+{"text": "Data describing the health event should be captured, including the reason for the investigation, the category of event (e.g. environmental, infectious), the date the event began, the suspected agent (if known) or investigation focus, the geographic area impacted by the event, as well as the event status (e.g., open, closed).", "label": "NONE"}
+{"text": "The new target location shall be checked for acceptance by the on board.", "label": "NONE"}
+{"text": "viewing a movie details the website will display the movies description actor and director entered in by the administrator.", "label": "NONE"}
+{"text": "The DPU-BIT shall perform two write/read/compare tests on the RAM for the MIL-STD-1553B. The first test shall construct and write half-word (16-bit) values obtained by adding the upper and lower half-words of each each memory address. The second test shall construct and write the one’s complement of the half-word values used in the first test.", "label": "NONE"}
+{"text": "The VCD system MUST detect which attestations can be used by this feature (e.g. they have to be sufficiently described through context specific data and structural data of evidence).", "label": "NONE"}
+{"text": "If the system is not able to connect the call, an audible and visual indication shall be provided to the driver.", "label": "BOTH"}
+{"text": "The product shall generate a CMA report in an acceptable time.", "label": "NONE"}
+{"text": "The product shall be capable of handling up to 1.000 concurrent requests. This number will increase to 2 000 by Release 2. The concurrency capacity must be able to handle peak scheduling times such as early morning and late afternoon hours.", "label": "NONE"}
+{"text": "The VCD package MUST provide a functionality to add structural VCD package data to the VCD package and VCD system (e.g. log file) during the compilation process.", "label": "NONE"}
+{"text": "These merchant acquirers must then assign unique identifiers to PSAMs", "label": "NONE"}
+{"text": "An audible and visual indication shall be provided to the driver that the call is proceeding.", "label": "NONE"}
+{"text": "The DPU-EDAC shall contain a background task which walks DRAM to trip single-bit errors (SBEs).", "label": "NONE"}
+{"text": "The product shall provide Portals.The product shall help System Administrators to analyze the transactions with ad-hoc reporting and KPIs (Key Performance Indicators)", "label": "NONE"}
+{"text": "The CNG shall be associated with a unique Hardware ID to be used for identification NGN side.", "label": "NONE"}
+{"text": "The DPU-CCM shall collect a TASK_HBEAT from DPU-SCUI, DPU-CCM, DPU-DCX, DPU-TMALI, and DPU-DPA . Non-responsive tasks will be reported in DPU_HK.", "label": "NONE"}
+{"text": "A driver shall be able to initiate the establishment of a call to other drivers with a minimum of action (eg a single keystroke).", "label": "NONE"}
+{"text": "Point-to-point calls that are not automatically answered (see table 10-1) shall only be answered once the driver accepts the call.", "label": "BOTH"}
+{"text": "CNDs connected to the CPN and devoted to specific NGN managed services shall be remotely manageable.", "label": "NONE"}
+{"text": "The emergency call button shall be red and shall be protected against accidental use.", "label": "NONE"}
+{"text": "Reports generated by systems supporting OM should clearly indicate the number of cases, the number of contacts per case, the number of cases with no known epi-link at the time of diagnosis, the laboratory results, and the number of vaccinations and/or treatments administered.", "label": "NONE"}
+{"text": "The transaction signatures ensure end to end integrity of transmitted data for load, unload, and currency exchange transactions", "label": "NONE"}
+{"text": "The product shall poll the system for messages every second.The product shall poll the system for new messages at a maximum of every 1 second.", "label": "NONE"}
+{"text": "It shall be possible to implement one or more of the ETCS application levels on a line.", "label": "NONE"}
+{"text": "The DPU-DPA shall be capable of collecting detector events over the full FOV.", "label": "NONE"}
+{"text": "Every on-train function shall be identified by a unique standard number.", "label": "NONE"}
+{"text": "The CNG Remote Management requires to manage a specific set of parameters. At least the following list of parameters shall be available: Customer Identification, Physical Line Identification, list of subscribed services, CNG IP address.", "label": "BOTH"}
+{"text": "The load device must support on-line PIN encryption or off-line PIN verification", "label": "NONE"}
+{"text": "The product shall be intuitive and self-explanatory. Nine out ten users shall be able to successfully complete a game with no training.", "label": "NONE"}
+{"text": "There DPU-DPA shall have three science modes, X, Y mode, and X/Y mode.", "label": "NONE"}
+{"text": "The compilation suggestion that is given to the economic operator by the VCD system MUST be reliable with regard to fulfilment of tender-specific requirements.", "label": "NONE"}
+{"text": "The system shall allow a Program Administrator or Nursing staff member to remove a student from a clinical lab section.", "label": "NONE"}
+{"text": "The Basic Logical Channel is the permanently available interface to a GlobalPlatform card and shall be supported by the OPEN.", "label": "NONE"}
+{"text": "The issuer sends S2 to the load acquirer in the authorization response message", "label": "NONE"}
+{"text": "The DPU-TIS shall read from the SCM registers in B-bit words only.", "label": "NONE"}
+{"text": "The product shall be available 24 hours per day seven days per week.", "label": "NONE"}
+{"text": "The CNG should detect replayed user and/or device credentials.", "label": "NONE"}
+{"text": "Activity logs, which are tools for investigators to track their actions during a case, should be supported. For example, investigators may log calls made to monitor symptoms or calls made to schedule follow-up visits.", "label": "BOTH"}
+{"text": "A continuous visual indication that the emergency function has been activated shall be provided at the originating and all receiving terminals.", "label": "NONE"}
+{"text": "The VCD system MUST have an interface to submit/upload evidence that have to be provided manually by the economic operator.", "label": "NONE"}
+{"text": "The product shall be updated on a regular basis.The product will have a new major feature introduced every six months and quarterly maintenance releases every six months.", "label": "NONE"}
+{"text": "The DPU-DPA shall collect event mode data, preserving the time and spatial resolution in the specified event window.", "label": "NONE"}
+{"text": "If contact with the mobile radio network is lost, then the Cab radio shall give an audible and visual indication.", "label": "BOTH"}
+{"text": "A primary database will be used to store cached data for active users.", "label": "NONE"}
+{"text": "The load acquirer must keep records by card number of all loads that take place at its load devices", "label": "NONE"}
+{"text": "It shall be possible for a user to override the automatic network selection manually. This function shall not be available during calls.", "label": "BOTH"}
+{"text": "If a SELECT [by name] [first or only occurrence] is received, the search always begins from the start of the GlobalPlatform Registry,", "label": "BOTH"}
+{"text": "Once received onboard the national values shall remain valid even if the onboard equipment is switched off", "label": "BOTH"}
+{"text": "Systems supporting OM should have the ability to produce individual reports for each emergency team member or investigator.", "label": "NONE"}
+{"text": "The DPU-CCM shall provide a command to resend DPU_HK_START.", "label": "NONE"}
+{"text": "The product shall display conference rooms according to search parameters.", "label": "NONE"}
+{"text": "The VCD system MUST provide an interface where the economic operator can request the creation of a VCD package.", "label": "NONE"}
+{"text": "A network service availability indication shall be provided to the user.", "label": "NONE"}
+{"text": "If the supervision is performed by a RBC it shall be possible to prevent movements of a traction unit in its area if not authorised by the RBC.", "label": "BOTH"}
+{"text": "Systems supporting OM must be able to receive, parse and process messages for countermeasures that have been administered. This requirement is identified as a key performance measure for assessing preparedness as described in PHIN Preparedness Key Performance Measures, available at www.cdc.gov/phin.", "label": "NONE"}
+{"text": "The DPU-SSI shall provide the capability for an application program to set the Inter-Block Gap (IBG) Timeout for transmitted and received messages.", "label": "NONE"}
+{"text": "Purchase transactions that have an invalid MAC are forwarded to the scheme provider for analysis if the scheme provider has established a central error repository", "label": "BOTH"}
+{"text": "PME Subsystem shall allow for a product to exist in more than one submenu", "label": "NONE"}
+{"text": "Upon the request of the driver, the Cab radio should be able to perform a suite of run- time diagnostic tests on all physical interfaces.", "label": "BOTH"}
+{"text": "The DPU-CCM shall notify the ICU upon completion of boot and flight software initialization.", "label": "NONE"}
+{"text": "The product shall be available for use 24 hours per day 365 days per year", "label": "NONE"}
+{"text": "Systems supporting OM must have the capability to capture data about any animals involved in an OM investigation, including: type (dog, monkey, etc), age, gender, owner’s name and address, color, weight, and species. A Subject ID should also be collected for animals in an OM investigation. It may be a challenge to ensure unambiguous identification because demographic details of an animal are not easily identified; therefore, animals involved in investigations may need to be tagged.", "label": "NONE"}
+{"text": "Stored numbers and other set-up details should be protected against accidental alteration.", "label": "NONE"}
+{"text": "The Bootstrap Monitor of DPU-BOOT CSC shall be activated if the Clear-To-Send (CTS) signal is active on the RS-232 interface. If no activity is detected on the RS-232 interface within 30 seconds, the Bootstrap shall load a configuration of DPU-RTOS according to BC_INDEX in the SYSTEM_BLOCK.", "label": "BOTH"}
+{"text": "CPN environment shall be protected with a stateful firewall function, that may be implemented in the CNG.", "label": "NONE"}
+{"text": "At any time on an open Supplementary Logical Channel the OPEN may receive a request to either open or close a Supplementary Logical Channel. If a MANAGE CHANNEL [open] is received and the Application selected on the original Supplementary Logical Channel has no multi-selection restrictions, this Application becomes the selected Application on the newly opened Supplementary Logical Channel. If a MANAGE CHANNEL [close] is received, terminate the Application Session currently selected on the Supplementary Logical Channel indicated by the command and then close that logical channel. The Basic Logical Channel can never be closed.", "label": "BOTH"}
+{"text": "By default, prompts and information shall be displayed in the language selected by the train owner (as stored within the system).", "label": "BOTH"}
+{"text": "User rights for the VCD system MUST be defined.", "label": "NONE"}
+{"text": "The required call set-up times shall be achieved in 95% of cases.", "label": "NONE"}
+{"text": "The DPU-DCI shall provide an application program with the ability to read the current hardware status, including the Data Level Trigger, the Data Timeout Trigger, the DCI Event Mode, and the Normal/Test Mode.", "label": "NONE"}
+{"text": "The VCD viewing system MUST display structural data of evidence contained in the VCD package", "label": "NONE"}
+{"text": "If shunting mode is implemented, the functionality to enter or leave shunting mode shall not be available whilst there are on-going calls involving the Operational radio.", "label": "BOTH"}
+{"text": "The Project Team shall schedule updates to the production environment only on Tuesdaysbetween 7pm and 7am. (Example)", "label": "NONE"}
+{"text": "The system shall display the desired operational page for the user after clicking the hyperlink.", "label": "NONE"}
+{"text": "A single currency cannot occupy more than one slot. The CEP card must not permit a slot to be assigned a currency if another slot in the CEP card has already been assigned to that currency", "label": "NONE"}
+{"text": "The application shall ask the user to confirm dropping a player or trading a player before performing the action.", "label": "NONE"}
+{"text": "It shall be possible for the driver to contact members of on-board train staff using a", "label": "NONE"}
+{"text": "CNG shall be equipped with an application client to be remotely manageable by the service providers for configuration, monitoring, firmware upgrade purposes. In case of multiple service providers multiple clients configuring different sets of parameters (for example referring to different services) may be present. A single parameter can be modified by a single client only.", "label": "BOTH"}
+{"text": "The interface shall be easy to use. 90% of users should be able to successfully use the system to generate a report on their first use. The interface should adhere to IBM usability standards.", "label": "BOTH"}
+{"text": "System shall let the administrator add/remove categories on the website in under 5 minutes.", "label": "NONE"}
+{"text": "As multiple Applications on the card may have the same partial AID, it is required that a method exists to select all Applications matching the partial AID.", "label": "BOTH"}
+{"text": "The land-based part of the system shall provide communications for mobiles when stationary and when travelling at speeds up to the maximum allowable line speed or (Network selection requirements for mobiles have been moved to sections 5, 6 and 7).", "label": "NONE"}
+{"text": "If run-time diagnostics are implemented, diagnostic tests shall not interfere with normal operation of the Cab radio.", "label": "BOTH"}
+{"text": "Realtor shall be able to generate a CMA report based on property criteria", "label": "NONE"}
+{"text": "Funds issuers must accept funds authorization requests, regardless of the load currency type, as permitted", "label": "BOTH"}
+{"text": "The product must support Internet Explorer 5.5 and above.", "label": "NONE"}
+{"text": "At any time during a Card Session the OPEN may receive a request on the Basic Logical Channel to either open or close a Supplementary Logical Channel.", "label": "NONE"}
+{"text": "The VCD package MUST provide a functionality to add translations to the VCD package and VCD system (e.g. log file) during the compilation process", "label": "NONE"}
+{"text": "The CND should be able to support one or more codecs for communication services (as defined by TS181 005 [1]).", "label": "NONE"}
+{"text": "If Home to Home (H2H) communication service is provided, then each CNG must ensure that emergency service sessions originating in its CPN are associated with the appropriate location information and/or calling identity.", "label": "BOTH"}
+{"text": "If no full or partial match is found at all, the currently selected Application on the Basic Logical Channel shall remain the selected Application and - If the SELECT [by name] command has the [first or only occurrence] parameter set, the SELECT command is dispatched to the Application, - If the SELECT [by name] command has the [next occurrence] parameter set, the OPEN shall return the appropriate error to the off-card entity,", "label": "BOTH"}
+{"text": "The onboard equipment shall display plain text messages as received.", "label": "NONE"}
+{"text": "The VCD transportation system SHOULD provide a functionality that supports the economic operator in submitting the VCD package to a contracting authorities’ procurement platform where the tender/bid has to be placed.", "label": "NONE"}
+{"text": "It shall be possible for all shunting drivers and shunting group members to receive a shunting emergency call from any equipment capable of taking part in shunting communications. The shunting emergency call shall cause the audible link assurance signal to be interrupted.", "label": "NONE"}
+{"text": "A mobile may be a member of a number of groups. It shall be possible to activate or deactivate the mobiles subscription to these groups.", "label": "BOTH"}
+{"text": "Movies shall be encoded and streamed via Windows Media Player 9.0.", "label": "NONE"}
+{"text": "Making user interfaces robust: User interfaces should be designed to be as robust as possible in the face of changing technology. This encompasses being able to present content containing newer technologies by older user agents as well as designing content to be usable with future technologies.", "label": "NONE"}
+{"text": "If a user, other than the shunting leader, attempts to make another call whilst being an active member of a shunting group, the attempt shall be ignored.", "label": "BOTH"}
+{"text": "The system shall link Events back to either the Sync Matrix 1.0 or the Exercise Managment Tool 1.0 applications for modifications.", "label": "NONE"}
+{"text": "The product shall be able to process 10 000 transactions per hour within two years of its launch. This number will increase to 20 000 by Release 2.", "label": "NONE"}
+{"text": "The system must protect the integrity of key transaction data including transaction identification, currency code and amount. If tampering is suspected, the system must cause the transaction to fail", "label": "BOTH"}
+{"text": "Where a change of functional number is required, it shall be possible for the user to initiate the change.", "label": "BOTH"}
+{"text": "Demographic information should be collected about the investigator, including their name, address, and contact information, so that the investigator may be contacted to answer questions or to provide additional information.", "label": "NONE"}
+{"text": "In case of unmanaged services, user shall be able to access a QoS configuration function implemented in the CNG.", "label": "BOTH"}
+{"text": "The train speed shall be at or below a speed specified by a national value.", "label": "NONE"}
+{"text": "Systems supporting OM must support capturing dynamic, event-specific data that describes contact between two subjects.", "label": "NONE"}
+{"text": "Multiple identities should be supported within the same subscription. Personal service profiles per each identity within the same subscription should be supported. A shared public identity on several terminals, with different private identities, shall be supported (shared IMPU).", "label": "NONE"}
+{"text": "On-line authentication must take place between the card issuer and the CEP card for load, unload, and currency exchange transactions", "label": "NONE"}
+{"text": "Every on-engine/coach function shall be identified by a unique standard number.", "label": "NONE"}
+{"text": "The batteries to be used in the mobile equipment shall have sufficient capacity to support typical railway use.", "label": "NONE"}
+{"text": "Entering or overwriting data manually by the driver shall be possible but only when stationary.", "label": "BOTH"}
+{"text": "If a lead is scored to the high range the system will supply the lead data and score to the enterprise system.", "label": "BOTH"}
+{"text": "The DPU-TMALI shall install a callback routine to respond to the DCI Error Interrupt.", "label": "NONE"}
+{"text": "The driver shall be able to terminate communications (voice or data) by selecting another call.", "label": "NONE"}
+{"text": "The system shall support broadcast voice calls", "label": "NONE"}
+{"text": "The Disputes application shall be available 24x7x365 with the exception of the following scheduled maintenance windows. Monday  Saturday 3:00am to 4:00am EST Sunday 1:00amd to 5:00am EST", "label": "NONE"}
+{"text": "The VCD System SHOULD make use of a single-sign-on interface and function in order to submit login data.", "label": "NONE"}
+{"text": "The Disputes System shall generate a User Report that details any new users that have been added and any changes to an existing users access level. The report will be reviewed for auditing purposes.", "label": "NONE"}
+{"text": "Unplanned downtime for the System must not exceed <xx hours/minutes> per <rolling three month period>.", "label": "NONE"}
+{"text": "When the hit results in sinking a ship the product shall indicate the type of ship sunk on the defensive grid of the defensive player.", "label": "BOTH"}
+{"text": "If the card is in the Life Cycle State CARD_LOCKED or TERMINATED, the Application with the Final Application privilege is the selected Application on the Basic Logical Channel and the OPEN shall not attempt to identify the implicitly selectable Application", "label": "BOTH"}
+{"text": "Any interface between a user and the automated system shall have a maximum response time of 5 seconds unless noted by an exception below.", "label": "BOTH"}
+{"text": "A VCD system MUST provide a functionality to decompose an existing VCD package", "label": "NONE"}
+{"text": "The functional identity shall be presented to the user in a form which can be readily understood (eg driver of train abcd rather than abcd01 or xyz shunting team 3 rather than xyz03).", "label": "NONE"}
+{"text": "Reception of this call (if implemented) shall proceed as for a standard group or broadcast call except that a distinctive audible and visual indication shall be provided.", "label": "BOTH"}
+{"text": "Program Administrators and Nursing Staff Members shall be able to add clinical classes or sections to a sequence of classes", "label": "NONE"}
+{"text": "All load transactions are on-line transactions. Authorization of funds for load transactions must require a form of cardholder verification. The load device must support on-line encrypted PIN or off-line PIN verification", "label": "NONE"}
+{"text": "If decided by a national value, the driver may release the ETCS emergency brake when the actual speed is below the permitted speed.", "label": "BOTH"}
+{"text": "Users shall be able to view at least 25 NFL player statistics and points on each page.", "label": "NONE"}
+{"text": "The audit report shall include the total score of the audit which sums the indivual line items.", "label": "NONE"}
+{"text": "The VCD system MUST provide a functionality that displays the attestation services that cannot be invoked automatically and that have to be manually added by the economic operator.", "label": "NONE"}
+{"text": "IzognMovies shall meet the licensing requirements set forth by the appropriate organizations in order to stream African movies.", "label": "NONE"}
+{"text": "The user shall be able to save data after creating/adding a new user or cancel data toabort the process.", "label": "NONE"}
+{"text": "Using a simple MMI action, it shall be possible for the driver to view a prioritised list of all authorised mobile radio networks (see section 10.5).", "label": "BOTH"}
+{"text": "The VCD system MUST provide a functionality to validate the provided context specific data during the submission process of context specific data to ensure the data is consistent with the VCD advanced package schema.", "label": "NONE"}
+{"text": "Applications should Expose only data and resources that are necessary for proper application functionality", "label": "NONE"}
+{"text": "The product will display an available status for unreserved conference rooms.", "label": "NONE"}
+{"text": "The estimator shall search for available recycled parts using damaged vehicle parts information.", "label": "NONE"}
+{"text": "Dr Susan Poslusny and Dr Julie Donalek are the only people who shall have access to students personal information.", "label": "NONE"}
+{"text": "If the shot was marked as a miss the product shall change the status of the offensive player to defensive", "label": "NONE"}
+{"text": "The driver shall know the distance to the next point defining the indicated braking curve and the permitted speed allowed. This shall be shown to the driver in a way that is understandable and logical.", "label": "NONE"}
+{"text": "The supervised Shunting speed shall be indicated to the driver on request.", "label": "NONE"}
+{"text": "It shall be possible to assign up to a minimum of 3 functional numbers to an EIRENE user at any one time.", "label": "NONE"}
+{"text": "The DPU-RTOS shall install an hook routine which is invoked on system exception which shall attempt to record the interrupt vector to the LAST_BOOT_IVEC location in EEPROM prior to reboot.", "label": "NONE"}
+{"text": "The terminal must participate in a two-way authentication process with the card", "label": "NONE"}
+{"text": "It shall not be possible for any General purpose radio user to send a Railway emergency call by dialling a short code or telephone number.", "label": "NONE"}
+{"text": "The system shall log an error message to the external data file when the user is directed tothe [SYSTEM NAME] error page.", "label": "BOTH"}
+{"text": "The GlobalPlatform API shall provides services to the card content management such as card locking and application life cycle state update", "label": "NONE"}
+{"text": "The count of aggregated transactions in the aggregation record must be increased by 1", "label": "NONE"}
+{"text": "The on/off control should be designed to prevent accidental activation/deactivation.", "label": "NONE"}
+{"text": "The system shall only be accessed by authorized Corporate Community Grants (CCR) employees. Users must be authenticated using their IBM intranet user name and password.", "label": "NONE"}
+{"text": "The user interfaces of the system should comply with Standard ISO 9241.", "label": "NONE"}
+{"text": "The CNG and devices shall support mechanisms to identify and share information about the customer network devices (e.g. type of device and basic capabilities, services supported etc.) within the customer environment. Some of this information can be used locally, while a subset of it can be forwarded to the NGN.", "label": "NONE"}
+{"text": "The DPU-DPA shall command DPU-TMALI to reorder EVENT data bits as a function of the Detector Electronics Output Format (Science Mode 3, Full-Frame High Res), and the commanded DPU science or engineering mode.", "label": "NONE"}
+{"text": "The product shall be easy to use. 90% of users will be able to successfully reserve a conference room within 5 minutes of product use.", "label": "NONE"}
+{"text": "The product shall interface with the Choice Parts System. This provides the feed of recycled parts data.", "label": "NONE"}
+{"text": "A special MMI action shall be required for a General purpose radio user to send a Railway emergency call.", "label": "NONE"}
+{"text": "Telephone numbers can be defined on a national basis, but codes for certain functions shall be used on an international basis in order to allow interoperability.", "label": "BOTH"}
+{"text": "The link assurance signal should be used to reassure the driver of the integrity of the member at the head of the shunting movement.", "label": "NONE"}
+{"text": "The product shall provide Multi-threading and Load Balancing.The product shall provide multi-threading technology as well as load balancing to overcome data load spikes and traffic.", "label": "NONE"}
+{"text": "The WCS system shall use appropriate nomenclature and terminology as defined by the Corporate Community Grants organization. All interfaces and reports will undergo usability tests by CCR users.", "label": "NONE"}
+{"text": "The product shall comply with insurance regulations regarding claims processing.", "label": "NONE"}
+{"text": "Where available, the functional identity of the calling party shall be displayed.", "label": "BOTH"}
+{"text": "It shall be possible to change the battery without losing data stored in the radio.", "label": "NONE"}
+{"text": "The product shall allow for intuitive searching of available conference rooms.", "label": "NONE"}
+{"text": "Unload transactions do not require cardholder authentication. (However, an acquirer??s devices may be configured such that authentication is required for access.)", "label": "BOTH"}
+{"text": "The current application level shall be indicated on the DMI.", "label": "NONE"}
+{"text": "The authentication to the VCD transportation system SHOULD make use of single-sign-in interface and function in order to submit login data.", "label": "NONE"}
+{"text": "The product shall use a standard navigation menu familiar to most web users.", "label": "NONE"}
+{"text": "If the train or the shunting movement exceeds the permitted ceiling speed by a certain harmonised margin, the trainborne equipment shall execute a brake intervention until the actual speed does not exceed permitted speedthen the driver shall be able to release the brake", "label": "BOTH"}
+{"text": "It shall be possible to command a conditional emergency stop. If the train has already passed the location for the emergency stop the command shall be ignored", "label": "BOTH"}
+{"text": "It should be possible for a user to change the battery without the use of tools.", "label": "NONE"}
+{"text": "If a full or partial match is found and this Application cannot be selected due to a multi-selection restriction or because the Application refuses selection (e.g. because it does not support the current card interface), continue searching through the GlobalPlatform Registry for a subsequent full or partial match. If no subsequent full or partial match is found, the OPEN shall return the appropriate error to the off-card entity,", "label": "BOTH"}
+{"text": "On cards that support logical channels, if a MANAGE CHANNEL [close] is received, terminate the Application Session currently selected on the Supplementary Logical Channel indicated by the command and then close that logical channel. The Basic Logical Channel can never be closed.", "label": "BOTH"}
+{"text": "The OPEN shall Manage card and Application Life Cycle", "label": "NONE"}
+{"text": "The display shall have two regions: left 2/3 of the display is graphical right 1/3 of the display is a data table", "label": "NONE"}
+{"text": "The trackside shall be able to send information for the calculation of speed profiles.", "label": "NONE"}
+{"text": "Website shall allow customers to purchase pre-paid cards of $5 $10 or $20 value either by credit card or mail-in payment option.", "label": "NONE"}
+{"text": "Transfer to Shunting on driver’s selection shall only be possible when stationary.", "label": "NONE"}
+{"text": "The product shall prevent its data from incorrect data being introduced.", "label": "NONE"}
+{"text": "The Bootstrap Monitor of the DPU-BOOT CSC shall provide the capability to load a configuration of the DPU-RTOS from EEPROM to DRAM and start its execution on command.", "label": "NONE"}
+{"text": "When forwarding packets from the customer network to the WAN interface, the CNG shall manage a number of queues corresponding to the different priorities detected in the classification phase for each packet processed.", "label": "BOTH"}
+{"text": "The product shall ensure that only supervisors can advertise empty time slots.The product must ensure that supervisors are allowed to access advertise empty time slots.", "label": "NONE"}
+{"text": "Electronic questionnaires must be developed and validated. They will be designed by investigators to collect common data elements (e.g., patient demographics, test results, exposure contacts), agent-specific data elements (e.g., specific laboratory test), and other customized data elements.", "label": "NONE"}
+{"text": "The functional identity of the connected party, if available, shall be displayed to the user.", "label": "BOTH"}
+{"text": "If the leads score falls within the low average then it will be returned to the supplying vendor", "label": "BOTH"}
+{"text": "If run-time diagnostics are implemented, failure of an interface shall be reported to the driver via the display.", "label": "BOTH"}
+{"text": "The leads washing functionality will return the lead data supplied to the vendor along with the reason of rejection.", "label": "NONE"}
+{"text": "The weight of the Operational radio including battery should not exceed 800g.Electrical", "label": "NONE"}
+{"text": "The Cab radio may need to conserve battery power when the radio is powered up but the MMI is switched off.", "label": "NONE"}
+{"text": "The VCD transportation system MUST provide a functionality that enables the economic operator to find an electronic address of a contracting authority for receiving VCD packages.", "label": "NONE"}
+{"text": "The VCD system MUST have the status of a trusted system.", "label": "NONE"}
+{"text": "The Cab radio shall have a reconfigurable list of stored numbers that may be used to perform abbreviated dialling to named user identities.", "label": "NONE"}
+{"text": "Linking back to the home page or landmark pages: Each page should contain a link leading to the home page of the application or to a landmark page that is easy to recognize for the user.", "label": "NONE"}
+{"text": "The Card Issuer is responsible for Determining policy with regards to card and Application Life Cycle management, velocity checking levels, privileges, and other security parameters,", "label": "NONE"}
+{"text": "When tracking is enabled, the DPU-DPA will produce a PROD_TRACKING_REC at the commanded rate.", "label": "BOTH"}
+{"text": "The system should support secure virtual private network connections", "label": "NONE"}
+{"text": "The DPU-TMALI shall provide TMALI_HK to the DPU-CCM on request.", "label": "NONE"}
+{"text": "The VCD system MUST have an interface/technical access to retrieve attestations that can be automatically retrieved from issuing bodies.", "label": "NONE"}
+{"text": "The system shall be easy to use by the Program Administrators/Nursing Staff Members.", "label": "NONE"}
+{"text": "The DPU-BOOT CSC shall put the processor into diagnostic mode.", "label": "NONE"}
+{"text": "STB or media gateways should be equipped with a programmable open API allowing the implementation of specific service logics.", "label": "NONE"}
+{"text": "Avoiding opening unnecessary windows: Additional windows such as new browser windows or pop-up windows should only be opened if this supports the user’s task. Opening new windows can distract, confuse or impede users for a variety of reasons. They can superimpose the primary window, hiding relevant information. They could make it cognitively more difficult to understand the navigation structure with negative effects on both usability and accessibility. They also require additional user actions for closing unwanted windows.", "label": "BOTH"}
+{"text": "The information regarding lowering and raising of the pantograph and opening/closing of the circuit breaker shall be provided separately and in combinations.", "label": "NONE"}
+{"text": "During a Cancel Last Purchase transaction, the CEP card is authenticated by the PSAM in the POS device", "label": "BOTH"}
+{"text": "The Application Provider is responsible for Providing load file data block signatures according to its own security policy for integrity and source authenticity,", "label": "NONE"}
+{"text": "The Train emergency call shall be sent to all drivers and controller within an area, which is pre-defined to meet operational requirements. The predefined areas for emergency calls shall include, where necessary, parts of one or more network.", "label": "NONE"}
+{"text": "Multiple public identities on the same terminal shall be supported.", "label": "NONE"}
+{"text": "The card issuer determines whether to allow the load to complete, and generates S2, which secures the issuer's decision and that the issuer received the same data used by the card", "label": "BOTH"}
+{"text": "Additional information may also be provided if available from external systems.", "label": "BOTH"}
+{"text": "The co-operative revocation of the MA shall be possible to a new target location, proposed from RBC.", "label": "BOTH"}
+{"text": "Once a game is initiated the product shall allow each player to position their 5 ships on their respective defensive grids.", "label": "BOTH"}
+{"text": "The system must exhibit each of the help pages using the same color scheme andbackground as specified.", "label": "NONE"}
+{"text": "The CPN (trough CNDs and/or CNG) shall support manual configuration to insert information to access IMS network (e.g. IMPU, IMPI, Shared keys, Home Network Domain or P-CSCF IP Address, etc.).", "label": "NONE"}
+{"text": "The solution should provide detailed context-sensitive help material for all the possible actions and scenarios on all user interfaces in the application.", "label": "NONE"}
+{"text": "When streaming a movie the buffering time should take no longer than 10 seconds (plus any latency on the users connection.)", "label": "BOTH"}
+{"text": "It shall be possible to present radio related prompts and information in a number of different languages.", "label": "NONE"}
+{"text": "The driver shall be able to select Train Data Entry on the DMI.", "label": "NONE"}
+{"text": "The planned downtime for the System must not exceed <xx> hours per <rolling three month period>.", "label": "NONE"}
+{"text": "It shall be possible for the user to display a list of available languages and select the language in which radio related prompts and information are displayed both at turn on and during a journey (eg where a change of drivers may occur).", "label": "NONE"}
+{"text": "The estimator shall search for available recycled parts using a list of preferred parts suppliers.", "label": "NONE"}
+{"text": "Countermeasures that have been administered must be linked to the entity that was administered the countermeasures.", "label": "NONE"}
+{"text": "The transport of a VCD package MUST be confidential.", "label": "NONE"}
+{"text": "The application shall have a downtime of at most 10 minutes per year.", "label": "NONE"}
+{"text": "POS transactions that were rejected for payment by the merchant acquirer are flagged with an error code indicating the type of validation failure and are forwarded to the card issuer for CEP card history information only", "label": "NONE"}
+{"text": "Radio equipment installed in a drivers Cab shall not obstruct the drivers vision or otherwise hinder the safe driving of the train.", "label": "NONE"}
+{"text": "In order to meet other call priorities, established calls shall be able to be either put on hold or cleared down (pre-empted).", "label": "BOTH"}
+{"text": "The appropriate Security Domain may generate Receipts during Delegated Management.", "label": "NONE"}
+{"text": "Interfaces MUST be defined to retrieve context specific data from issuing bodies either automatically or semi-automatically.", "label": "NONE"}
+{"text": "If no full or partial match is found at all, the currently selected Application on the Supplementary Logical Channel shall remain the selected Application and - If the SELECT [by name] command has the [first or only occurrence] parameter set, the SELECT command is dispatched to the Application, - If the SELECT [by name] command has the [next occurrence] parameter set, the OPEN shall return the appropriate error to the off-card entity.", "label": "BOTH"}
+{"text": "When changing to a higher speed level the rear end of the train shall respect the static train speed profile.", "label": "BOTH"}
+{"text": "Program Administrators/Nursing Staff Members shall have the ability to modify information relating to a Clinical Site including the clinical site name site contact person contact information and address.", "label": "NONE"}
+{"text": "Where it is necessary for a CEPS system component to distinguish between on-line and off-line cardholder PIN verification, a flag must be set in the transaction", "label": "BOTH"}
+{"text": "The CNG may support mechanisms supporting nomadism of the users and their subscribed services from one physical customer environment to another.", "label": "NONE"}
+{"text": "The CNG shall implement an authentication failure handling policy.", "label": "NONE"}
+{"text": "Where fixed network users are involved in a group or broadcast call, fixed network users will be pre-defined and will not change during the course of the call.", "label": "BOTH"}
+{"text": "Systems supporting OM must be able to receive, parse and process messages for laboratory results. This requirement is identified as a key performance measure for assessing preparedness as described in PHIN Preparedness Key Performance Measures, available at www.cdc.gov/phin.", "label": "NONE"}
+{"text": "The product shall ensure that the databases data corresponds to the data entered by the user. Each conference room reservation in the system will contain the same information as was entered by the user.", "label": "NONE"}
+{"text": "The CNG and the CPN shall implement mechanisms to limit the visibility of the WAN side network and resources to authorized entities.", "label": "NONE"}
+{"text": "It should be possible, as a maintenance function, to enable/disable the emergency call function.", "label": "BOTH"}
+{"text": "The driver shall have the possibility to select the language, this does not concern non pre-defined texts sent from the trackside.", "label": "NONE"}
+{"text": "Maintenance releases will be offered to customers once a year. The releases shall take no longer than 5 minutes for 80% of the customer base to install.", "label": "NONE"}
+{"text": "On-train mobiles shall provide a standardised interface to ERTMS/ETCS.", "label": "NONE"}
+{"text": "DSD alarm information shall be transmitted to the primary controller.", "label": "NONE"}
+{"text": "The realtor shall be able to retrieve a map showing property locations for a specified area", "label": "NONE"}
+{"text": "It shall be possible to send plain text messages from track to train.", "label": "NONE"}
+{"text": "The terminal must authenticate the card and the transaction at the point of sale, ensuring that they are genuine and valid", "label": "NONE"}
+{"text": "If the PSAM has insufficient space to create a new aggregation record for the card issuer, the transaction must not be aggregated", "label": "BOTH"}
+{"text": "Network interconnection is subject to a bilateral agreement between network operators. The interconnection between the networks must, as a minimum, be compliant with applicable open specifications.", "label": "NONE"}
+{"text": "Case data about the entity should include: a case identifier (i.e., Case ID) that is unique within the jurisdiction being reported, the suspected agent, case diagnosis, health status (e.g., no symptoms, acute illness), case status (e.g., confirmed, probable, suspect), investigation dates, clinical history, symptom onset date and time, epidemiological links to other cases, and priority (e.g., high, medium, low).", "label": "NONE"}
+{"text": "System shall automatically update the main page of the website every Friday and show the 4 latest movies that have been added to the website.", "label": "NONE"}
+{"text": "The DPU-1553 CSC shall address hardware modules as defined in document 1400, Company X Specification for the Company X Communication/Memory Module.", "label": "NONE"}
